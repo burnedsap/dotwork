@@ -26,7 +26,7 @@ src: url('fonts/Optician-Sans.otf') format("opentype");
 			width: 90%;
 	}
 	.intro-container .intro-text {
-		width: 80%;
+		width: 90%;
 	}
 	
 	.project-header .project-header-text-container {
@@ -37,8 +37,11 @@ src: url('fonts/Optician-Sans.otf') format("opentype");
 		width: 90%;
 	}
 	
-	.about-section .about-container {
+	.contact-section .contact-container {
 		width: 90%;
+	}
+	.contact-container .contact-text {
+	width: 90%;
 	}
 }
 
@@ -233,14 +236,14 @@ span.reg {
 	display: none;
 }
 
-.about-section {
+.contact-section {
 	margin: 0;
 	height: 100vh;
 	width: 100%;
 	/*background-color: rgba(40, 104, 75, 0.63);*/
 }
 
-.about-container {
+.contact-container {
 	height: 100%;
 	width: 80%;
 	margin-left: auto;
@@ -251,7 +254,7 @@ span.reg {
 	justify-content: space-around;
 }
 
-.about-text {
+.contact-text {
 	/*background-color: rgba(240, 233, 233, 0.45);*/
 	width: 60%;
 	/*height: 60%;*/
@@ -260,13 +263,13 @@ span.reg {
 	justify-content: space-between;
 }
 
-.about-text h2 {
+.contact-text h2 {
 	font-family: OpticianSans;
 	font-size: 40px;
 	color: white;
 }
 
-.about-text p {
+.contact-text p {
 	font-family: IBMRegular;
 	font-size: 15px;
 	color: white;
