@@ -1,0 +1,314 @@
+@font-face {
+font-family: 'IBMExtraLight';
+src: url('fonts/IBMPlexSans-ExtraLight.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+font-family: 'IBMRegular';
+src: url('fonts/IBMPlexSans-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+font-family: 'IBMBold';
+src: url('fonts/IBMPlexSans-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+font-family: "OpticianSans";
+src: url('fonts/Optician-Sans.otf') format("opentype");
+}
+
+@media only screen and (max-width: 600px) {
+	.project-container .project-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.intro-section .intro-container {
+			width: 90%;
+	}
+	.intro-container .intro-text {
+		width: 80%;
+	}
+	
+	.project-header .project-header-text-container {
+		width: 90%;
+	}
+	
+	.project-section .project-container {
+		width: 90%;
+	}
+	
+	.about-section .about-container {
+		width: 90%;
+	}
+}
+
+body {
+	width: 100%;
+	background-color: black;
+	margin: 0;
+}
+
+.header-section {
+	top: 0;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	/*display: inline;*/
+	/*background-color: rgba(248, 247, 247, 0.42);*/
+}
+
+#sketch-holder {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	z-index: -100;
+	position: absolute;
+}
+
+.header-container {
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: rgba(240, 233, 233, 0.15);*/
+	display: flex;
+	align-items: center;
+	z-index: 100;
+	/*position: absolute;*/
+}
+
+.header-text {
+	/*background-color: rgba(240, 233, 233, 0.45);*/
+	width: 80%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	z-index: 112;
+	justify-content: flex-end;
+}
+
+.header-text h1 {
+	font-family: IBMExtraLight;
+	font-size: 70px;
+	color: white;
+	margin: 0;
+}
+
+span.reg {
+	font-family: IBMRegular;
+}
+
+.header-text p {
+	font-family: IBMExtraLight;
+	font-size: 24px;
+	color: white;
+	margin: 0;
+}
+
+.intro-section {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	/*background: rgba(97, 84, 224, 0.7);*/
+}
+
+.intro-container {
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: rgba(240, 233, 233, 0.15);*/
+	display: flex;
+	align-items: center;
+}
+
+.intro-text {
+	/*background-color: rgba(240, 233, 233, 0.45);*/
+	width: 60%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.hello h2 {
+	font-family: OpticianSans;
+	font-size: 40px;
+	color: white;
+}
+
+.hello p {
+	font-family: IBMRegular;
+	font-size: 15px;
+	color: white;
+}
+
+.disclaimer p {
+	font-family: IBMExtraLight;
+	font-size: 15px;
+	color: white;
+}
+
+.project-section {
+	width: 100%;
+	/*background-color: rgba(237, 109, 109, 0.71);*/
+	/*	padding-bottom: 50px;*/
+}
+
+.project-header {
+	width: 100%;
+	height: 15vh;
+}
+
+.project-header-text-container {
+	/*background-color: rgba(240, 233, 233, 0.45);*/
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+}
+
+.project-header-text-container h2 {
+	font-family: OpticianSans;
+	font-size: 40px;
+	color: white;
+}
+
+.project-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: 150px;
+	padding: 0px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.project-container {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.project {
+	border-radius: 0px;
+	margin: 0px;
+	padding: 15px;
+	outline: 2px;
+	background-color: black;
+	outline-color: white;
+	border-style: solid;
+	border-color: white;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project:hover {
+	background-color: salmon;
+}
+
+.project:hover .project-desc {
+	display: block;
+}
+
+.project:hover .project-name {
+	display: none;
+}
+
+.project-name {
+	font-family: IBMRegular;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+.project-desc {
+	font-family: IBMExtraLight;
+	font-size: 12px;
+	color: white;
+	display: none;
+}
+
+.about-section {
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	/*background-color: rgba(40, 104, 75, 0.63);*/
+}
+
+.about-container {
+	height: 100%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: rgba( 240, 233, 233, 0.15);*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.about-text {
+	/*background-color: rgba(240, 233, 233, 0.45);*/
+	width: 60%;
+	/*height: 60%;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.about-text h2 {
+	font-family: OpticianSans;
+	font-size: 40px;
+	color: white;
+}
+
+.about-text p {
+	font-family: IBMRegular;
+	font-size: 15px;
+	color: white;
+}
+
+button {
+	background-color: white; /* Green */
+	border: none;
+	font-family: IBMBold;
+	font-size: 15px;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	 /*width: 20%;*/
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
