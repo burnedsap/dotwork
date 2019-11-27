@@ -1,28 +1,42 @@
 @font-face {
-font-family: "CircularBook";
-src: url('fonts/CircularStd-Book.otf') format("opentype");
+font-family: SpaceGrotesk-Light;
+src: url("fonts/SpaceGrotesk-Light.woff") format("woff");
 }
 
 @font-face {
-font-family: "CircularBold";
-src: url('fonts/CircularStd-Bold.otf') format("opentype");
+font-family: SpaceGrotesk-Regular;
+src: url("fonts/SpaceGrotesk-Regular.woff") format("woff");
 }
 
-@media only screen and (max-width: 600px) {
-	.work .project-grid {
-		grid-template-columns: repeat(1, 1fr);
-	}
+@font-face {
+font-family: SpaceGrotesk-Medium;
+src: url("fonts/SpaceGrotesk-Medium.woff") format("woff");
 }
 
+@font-face {
+font-family: Wremena-Regular;
+src: url("fonts/Wremena-Regular.woff") format("woff");
+}
+
+@font-face {
+font-family: Wremena-Bold;
+src: url("fonts/Wremena-Bold.woff") format("woff");
+}
+
+:root {
+	--w: 70%;
+	--mw:1080px;
+}
 body {
 	width: 100%;
-
+	background-color: white;
+	margin: 0;
 }
+
 .navigation {
 	width: 100%;
 	top: 0;
 	left: 0;
-	/*position: fixed;*/
 	background-color: rgba(0, 0, 0, 0.0);
 	height: 40px;
 	display: flex;
@@ -33,8 +47,11 @@ body {
 
 .navigation-container {
 	height: 100%;
-	width: 90%;
-	padding: 20px 50px 20px 50px;
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 5px 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -47,6 +64,7 @@ body {
 }
 
 .navbar {
+	
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -57,7 +75,94 @@ body {
 	display: flex;
 	align-items: center;
 }
+.w-nav-link {
+	font: 15px/19px SpaceGrotesk-Regular;
+}
+.header img {
+	width: 75px;
+}
+.header-section {
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
 
+.header-container {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-name {
+	font-family: SpaceGrotesk-Bold;
+	font-size: 50px;
+	color: black;
+	margin-bottom: 10px;
+}
+
+.project-client {
+	font-family: SpaceGrotesk-Light;
+	font-size: 20px;
+	color: black;
+		margin-bottom: 10px;
+	
+}
+
+.project-theme {
+	font-family: SpaceGrotesk-Light;
+	font-size: 15px;
+	color: grey;
+		margin-bottom: 10px;
+	
+}
+
+.content-section {
+	width: 100%;
+}
+
+.content-container {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-text {
+	font: 18px/25px SpaceGrotesk-Regular;
+	color: black;
+}
+
+.content-image {
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.content-image img {
+	  width: 100%;
+	  object-fit: cover;
+}
+
+.footer-section {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.footer-container {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer-container a {
+			font: 15px/19px SpaceGrotesk-Regular;
+	
+}
+
+/*
 .temp {
 	display: flex;
 	align-items: center;
