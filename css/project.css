@@ -1,11 +1,11 @@
 @font-face {
 font-family: HKRegular;
-src: url("fonts/HKGrotesk-Regular.woff") format("woff");
+src: url("../fonts/HKGrotesk-Regular.woff") format("woff");
 }
 
 @font-face {
 font-family: HKLight;
-src: url("fonts/HKGrotesk-Light.woff") format("woff");
+src: url("../fonts/HKGrotesk-Light.woff") format("woff");
 }
 
 
