@@ -1,74 +1,27 @@
-/*@font-face {
-font-family: BluuBold;
-src: url("fonts/bluuNext-bold-webfont.woff") format("woff");
+@font-face {
+font-family: HKRegular;
+src: url("fonts/HKGrotesk-Regular.woff") format("woff");
 }
 
 @font-face {
-font-family: BluuBoldItalic;
-src: url("fonts/bluuNext-bolditalic-webfont.woff") format("woff");
-}*/
-
-/*@font-face {
-font-family: MetropolisReg;
-src: url("fonts/Metropolis-Regular.woff") format("woff");
+font-family: HKLight;
+src: url("fonts/HKGrotesk-Light.woff") format("woff");
 }
 
 @font-face {
-font-family: MetropolisMed;
-src: url("fonts/Metropolis-Medium.woff") format("woff");
-}*/
-
-/*@font-face {
-font-family: SpaceMono-Regular;
-src: url('fonts/SpaceMono-Regular.ttf') format('truetype');
+font-family: HKBold;
+src: url("fonts/HKGrotesk-Bold.woff") format("woff");
 }
 
 @font-face {
-font-family: 'SpaceMono-Ital';
-src: url('fonts/SpaceMono-Italic.ttf')  format('truetype');
-}
-
-@font-face {
-font-family: 'SpaceMono-Bold';
-src: url('fonts/SpaceMono-Bold.ttf')  format('truetype');
-}
-
-@font-face {
-font-family: 'SpaceMono-BoldItal';
-src: url('fonts/SpaceMono-BoldItalic.ttf')  format('truetype');
-}*/
-
-@font-face {
-font-family: SpaceGrotesk-Light;
-src: url("fonts/SpaceGrotesk-Light.woff") format("woff");
-}
-
-@font-face {
-font-family: SpaceGrotesk-Regular;
-src: url("fonts/SpaceGrotesk-Regular.woff") format("woff");
-}
-
-@font-face {
-font-family: SpaceGrotesk-Medium;
-src: url("fonts/SpaceGrotesk-Medium.woff") format("woff");
-}
-
-@font-face {
-font-family: Wremena-Regular;
-src: url("fonts/Wremena-Regular.woff") format("woff");
-}
-
-@font-face {
-font-family: Wremena-Bold;
-src: url("fonts/Wremena-Bold.woff") format("woff");
+font-family: HKExtraBold;
+src: url("fonts/HKGrotesk-ExtraBold.woff") format("woff");
 }
 
 :root {
 	--w: 70%;
-	--mw:1080px;
+	--mw: 1080px;
 }
-
-
 
 @media only screen and (max-width: 600px) {
 	.project-container .project-grid {
@@ -123,7 +76,6 @@ body {
 	/* WIDTH */
 	width: var(--w);
 	max-width: var(--mw);
-	
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -134,8 +86,7 @@ body {
 
 .header-text {
 	/*background-color: rgba(240, 233, 233, 0.45);*/
-		font-family: BluuBold;
-	
+	font-family: HKRegular;
 	width: 100%;
 	height: 70%;
 	display: flex;
@@ -146,19 +97,18 @@ body {
 }
 
 .header-text h1 {
-	font-family: BluuBold;
+	font-family: HKRegular;
 	font-size: 70px;
 	color: black;
 	margin: 0;
 }
 
 .header-text p span {
-	font-family: Wremena-Bold;
+	font-family: HKRegular;
 }
 
-
 .header-text p {
-	font: 22px/28px Wremena-Regular;
+	font: 22px/28px HKRegular;
 	color: black;
 	margin: 0;
 }
@@ -170,10 +120,10 @@ body {
 }
 
 .intro-container {
-/* WIDTH */
-width: var(--w);
-max-width: var(--mw);	
-height: 100%;
+	/* WIDTH */
+	width: var(--w);
+	max-width: var(--mw);
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	/*background-color: rgba(240, 233, 233, 0.15);*/
@@ -191,19 +141,19 @@ height: 100%;
 }
 
 .hello h2 {
-	font-family: BluuBold;
+	font-family: HKRegular;
 	font-size: 40px;
 	color: white;
 }
 
 .hello p {
-	font-family: BluuBold;
+	font-family: HKRegular;
 	font-size: 15px;
 	color: white;
 }
 
 .disclaimer p {
-	font-family: BluuBold;
+	font-family: HKRegular;
 	font-size: 15px;
 	color: white;
 }
@@ -219,11 +169,10 @@ height: 100%;
 
 .project-header-text-container {
 	/*background-color: rgba(240, 233, 233, 0.45);*/
-/* WIDTH */
-width: var(--w);
-max-width: var(--mw);
-
-height: 100%;
+	/* WIDTH */
+	width: var(--w);
+	max-width: var(--mw);
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -231,7 +180,7 @@ height: 100%;
 }
 
 .project-header-text-container h2 {
-	font-family: SpaceGrotesk-Bold;
+	font-family: HKRegular;
 	font-size: 40px;
 	color: black;
 }
@@ -239,7 +188,7 @@ height: 100%;
 .project-grid {
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(1, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	/*grid-auto-rows: 150px;*/
 	padding: 0px;
 	padding-bottom: 40px;
@@ -247,78 +196,74 @@ height: 100%;
 }
 
 .project-container {
-/* WIDTH */
-width: var(--w);
-max-width: var(--mw);
-margin-right: auto;
+	/* WIDTH */
+	width: var(--w);
+	max-width: var(--mw);
+	margin-right: auto;
 	margin-left: auto;
 }
 
 .project {
-	border-radius: 0px;
+	margin: 10px;
 	margin-bottom: 20px;
 	padding: 5px;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	justify-content: center;
-	align-items: center;
+	grid-template-columns: repeat(1, 1fr);
+	height: 300px;
+	justify-content: space-around;
+	align-items: space-around;
 	background: white;
+	border-top: 1px solid #333;
 }
 
-
 .project-text {
-	width: 80%;
+	/*width: 80%;*/
 }
 
 .project-image {
 	grid-column-start: 1;
 	grid-column-end: 3;
-width: 100%;
-height: 200px;
-/*background: green;*/
+	width: 100%;
+	height: 200px;
+	/*background: green;*/
 }
 
 .project-image img {
 	width: 100%;
 	height: 100%;
-	  object-fit: cover;
-	
+	object-fit: cover;
 }
 
 .project-name {
-	font-family: SpaceGrotesk-Medium;
-	font-size: 15px;
+	font-family: HKRegular;
+	font-size: 23px;
 	color: black;
 	margin-bottom: 10px;
 }
 
 .project-client {
-	font-family: SpaceGrotesk-Light;
+	font-family: HKRegular;
 	font-size: 15px;
 	color: black;
-		margin-bottom: 10px;
-	
+	margin-bottom: 10px;
 }
 
 .project-theme {
-	font-family: SpaceGrotesk-Light;
+	font-family: HKLight;
 	font-size: 12px;
 	color: grey;
-		margin-bottom: 10px;
-	
+	margin-bottom: 10px;
 }
 
 .project-desc {
-	font: 15px/19px SpaceGrotesk-Regular;
+	font: 15px/19px HKRegular;
 	color: gray;
 	padding: 15px;
 }
+
 .project-more {
-		font: 15px/19px SpaceGrotesk-Regular;
-	
+	font: 15px/19px HKRegular;
 }
-
-
 
 .about-section {
 	margin: 0;
@@ -339,15 +284,14 @@ height: 200px;
 }
 
 .about-header {
-		width: 100%;
-	
+	width: 100%;
 }
-.about-header-text-container {
-/* WIDTH */
-width: var(--w);
-max-width: var(--mw);
 
-height: 100%;
+.about-header-text-container {
+	/* WIDTH */
+	width: var(--w);
+	max-width: var(--mw);
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -355,13 +299,13 @@ height: 100%;
 }
 
 .about-header-text-container h2 {
-	font-family: SpaceGrotesk-Bold;
+	font-family: HKRegular;
 	font-size: 40px;
 	color: black;
 }
 
 .about-text p {
-	font-family: BluuBold;
+	font-family: HKRegular;
 	font-size: 15px;
 	color: white;
 }
@@ -371,7 +315,7 @@ height: 100%;
 	width: var(--w);
 	max-width: var(--mw);
 	margin-right: auto;
-		margin-left: auto;
+	margin-left: auto;
 }
 
 .about-grid {
@@ -385,14 +329,14 @@ height: 100%;
 }
 
 .about-grid h3 {
-		font: 15px/19px SpaceGrotesk-Bold;
-	
+	font: 20px/22px HKBold;
 }
 
 .about-grid p {
-		font: 15px/19px SpaceGrotesk-Regular;
-margin: 0;	
+	font: 20px/22px HKRegular;
+	margin: 0;
 }
+
 button {
 	background-color: white; /* Green */
 	border: none;
@@ -431,5 +375,9 @@ button {
 .button:hover span:after {
 	opacity: 1;
 	right: 0;
+}
+
+a {
+	text-decoration: none;
 }
 

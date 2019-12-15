@@ -1,27 +1,13 @@
 @font-face {
-font-family: SpaceGrotesk-Light;
-src: url("fonts/SpaceGrotesk-Light.woff") format("woff");
+font-family: HKRegular;
+src: url("fonts/HKGrotesk-Regular.woff") format("woff");
 }
 
 @font-face {
-font-family: SpaceGrotesk-Regular;
-src: url("fonts/SpaceGrotesk-Regular.woff") format("woff");
+font-family: HKLight;
+src: url("fonts/HKGrotesk-Light.woff") format("woff");
 }
 
-@font-face {
-font-family: SpaceGrotesk-Medium;
-src: url("fonts/SpaceGrotesk-Medium.woff") format("woff");
-}
-
-@font-face {
-font-family: Wremena-Regular;
-src: url("fonts/Wremena-Regular.woff") format("woff");
-}
-
-@font-face {
-font-family: Wremena-Bold;
-src: url("fonts/Wremena-Bold.woff") format("woff");
-}
 
 :root {
 	--w: 70%;
@@ -76,7 +62,7 @@ body {
 	align-items: center;
 }
 .w-nav-link {
-	font: 15px/19px SpaceGrotesk-Regular;
+	font: 15px/19px HKRegular;
 }
 .header img {
 	width: 75px;
@@ -95,14 +81,14 @@ body {
 }
 
 .project-name {
-	font-family: SpaceGrotesk-Bold;
+	font-family: HKRegular;
 	font-size: 50px;
 	color: black;
 	margin-bottom: 10px;
 }
 
 .project-client {
-	font-family: SpaceGrotesk-Light;
+	font-family: HKRegular;
 	font-size: 20px;
 	color: black;
 		margin-bottom: 10px;
@@ -110,7 +96,7 @@ body {
 }
 
 .project-theme {
-	font-family: SpaceGrotesk-Light;
+	font-family: HKRegular;
 	font-size: 15px;
 	color: grey;
 		margin-bottom: 10px;
@@ -129,7 +115,7 @@ body {
 }
 
 .content-text {
-	font: 18px/25px SpaceGrotesk-Regular;
+	font: 18px/25px HKLight;
 	color: black;
 }
 
@@ -158,7 +144,7 @@ body {
 }
 
 .footer-container a {
-			font: 15px/19px SpaceGrotesk-Regular;
+			font: 15px/19px HKRegular;
 	
 }
 
