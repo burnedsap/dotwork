@@ -6,7 +6,7 @@
 	
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	
-	<title>Stealing Headlines</title>
+	<title>Stealing Headlines from the internet</title>
 	
 	<meta name="description" content="">
 	
@@ -17,21 +17,28 @@
 <body>
 	<div class="header-section">
 		<div class="header-container">
-			<div class="project-name">Stealing Headlines</div>
+			<div class="project-name">Stealing Headlines from the internet</div>
 		</div>
 	</div>
 	
 	<div class="content-section">
 		<div class="content-container">
 			<div class="content-text">
-				<p>For the Conspiracy Creation Workshop, I created fake headlines from an openly available Tensorflow LSTM machine learning algorithm. But perhaps the most difficult part of this process was collecting a corpus of headlines for the machine learning algorithm to train on!</p>
+				<p>For the <a href="../Projects/Conspiracy.html">Conspiracy Creation Workshop</a>, I created fake headlines from an openly available Tensorflow LSTM machine learning algorithm. But perhaps the most difficult part of this process was collecting a corpus of headlines for the machine learning algorithm to train on!</p>
 				
 				<p>News websites are now quite complex, with highly intricate content management systems to store all the news on the website. With my limited skills, I was looking for a simple html based news provider, which would be easy prey for my algorithm. There aren't too many credible news providers in India, but luckily The Hindu was the perfect source for me.</p>
 				
+				<p>I created a <a href="https://github.com/burnedsap/headLine-ripper">small python script</a>, which would cycle through all the days in the year of 2018, and only remove and store the headlines from every page from the website of The Hindu. After a few rounds of trial and error, I uploaded the script to an Amazon web server, and let it run for a few hours. It worked well, and I now had ~46MB of headlines in a .txt file.</p>
+			</div>
+				<div class="content-image">
+					<img src="../Images/Conspiracy Creation/Conspiracy 10.png" alt="" />
+				</div>
+				<div class="content-text">
+				<p>Next, I fired up the <a href="https://github.com/sherjilozair/char-rnn-tensorflow">Tensorflow LSTM algorithm</a>, and ran it on a GCP instance with some beefy GPU's to quicken the training process. LSTM doesn't perform really well on GPU's so it did take quite a bit of time, even on with a Tesla. Anyhow, I now had a well trained algorithm, which could spit out headlines on command! I downloaded the save files to my Mac, and used Tensorflow via Terminal to collect the newly generated headlines. </p>
 			</div>
 			
 			<div class="content-image">
-				<img src="../Images/Writings/data 1.png" alt="" />
+				<img src="../Images/Conspiracy Creation/Conspiracy 9.jpg" alt="" />
 			</div>
 		</div>
 	</div>
