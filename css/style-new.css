@@ -1,0 +1,232 @@
+@font-face {
+font-family: HKRegular;
+src: url("../fonts/HKGrotesk-Regular.woff") format("woff");
+}
+
+@font-face {
+font-family: HKLight;
+src: url("../fonts/HKGrotesk-Light.woff") format("woff");
+}
+
+@font-face {
+font-family: HKBold;
+src: url("../fonts/HKGrotesk-Bold.woff") format("woff");
+}
+
+@font-face {
+font-family: HKExtraBold;
+src: url("../fonts/HKGrotesk-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+font-family: SGLight;
+src: url("../fonts/SpaceGrotesk-Light.woff") format("woff");
+}
+
+@font-face {
+font-family: SGRegular;
+src: url("../fonts/SpaceGrotesk-Regular.woff") format("woff");
+}
+
+@font-face {
+font-family: SGBold;
+src: url("../fonts/SpaceGrotesk-Bold.woff") format("woff");
+}
+
+@font-face {
+font-family: SGSemiBold;
+src: url("../fonts/SpaceGrotesk-SemiBold.woff") format("woff");
+}
+
+@font-face {
+font-family: SGMedium;
+src: url("../fonts/SpaceGrotesk-Medium.woff") format("woff");
+}
+
+@font-face {
+font-family: ARegular;
+src: url("../fonts/AndersonGrotesk.otf") format("opentype");
+}
+
+@font-face {
+font-family: ALight;
+src: url("../fonts/AndersonGrotesk-Light.otf") format("opentype");
+}
+
+@font-face {
+font-family: ABold;
+src: url("../fonts/AndersonGrotesk-Bold.otf") format("opentype");
+}
+
+@font-face {
+font-family: AUBold;
+src: url("../fonts/AndersonGrotesk-Ultrabold.otf") format("opentype");
+}
+
+:root {
+	--w: 80%;
+	--mw: 1080px;
+}
+hr {
+	margin: 0;
+		margin-bottom: 20px;
+
+}
+.header-section {
+	margin-left: auto;
+	margin-right: auto;
+	width: var(--w);
+	max-width: var(--mw);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 3%;
+	margin-bottom: 75px;
+}
+
+.header-section h3 {
+	/*font: 20px/24px ABold;*/
+	font: 20px/24px SGBold;
+}
+
+.header-section p {
+	font: 14px/20px ALight;
+	/*font: 14px/20px SGLight;*/
+	/*font: 14px/18px HKLight;*/
+}
+
+.work-section {
+	margin-left: auto;
+	margin-right: auto;
+	width: var(--w);
+	max-width: var(--mw);
+}
+
+.work-section h3 {
+	/*font: 20px/24px ALight;*/
+	font: 20px/24px SGLight;
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+
+.work-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 3%;
+}
+
+.work img {
+	height: 130px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.work-section a {
+	text-decoration: none;
+}
+
+.work h4 {
+	font: 16px/20px SGRegular;
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+.work-grid a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.writing-section {
+	margin-left: auto;
+	margin-right: auto;
+	width: var(--w);
+	max-width: var(--mw);
+}
+
+.writing-section h3 {
+	/*font: 20px/24px ALight;*/
+	font: 20px/24px SGLight;
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+
+.writing-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 3%;
+}
+
+.writing img {
+	height: 130px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.writing-section a {
+	text-decoration: none;
+}
+
+.writing h4 {
+	font: 16px/20px SGRegular;
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+.writing-grid a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.about-section {
+	margin-left: auto;
+	margin-right: auto;
+	width: var(--w);
+	max-width: var(--mw);
+	margin-bottom: 50px;
+}
+.about-section h3 {
+	/*font: 20px/24px ALight;*/
+	font: 20px/24px SGLight;
+	margin: 0;
+	
+}
+
+.about-section h4 {
+	/*font: 20px/24px ALight;*/
+	font: 16px/20px SGBold;
+}
+
+.about-section p {
+	/*font: 20px/24px ALight;*/
+	font: 14px/20px ALight;
+}
+
+.about-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 3%;
+}
+
+.contact-section {
+	margin-left: auto;
+	margin-right: auto;
+	width: var(--w);
+	max-width: var(--mw);
+}
+.contact-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 3%;
+}
+.contact-section h3 {
+	/*font: 20px/24px ALight;*/
+	font: 20px/24px SGLight;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+.contact-section p {
+	/*font: 20px/24px ALight;*/
+	font: 14px/20px ALight;
+}
