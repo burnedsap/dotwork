@@ -67,11 +67,38 @@ src: url("../fonts/AndersonGrotesk-Ultrabold.otf") format("opentype");
 	--w: 80%;
 	--mw: 1080px;
 }
+
+@media only screen and (max-width: 960px) {
+	:root {
+		--w: 90%;
+	}
+	
+	.body .header-section {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-column-gap: 3%;
+		/*display: block;*/
+	}
+	
+	.work-section .work-grid {
+		display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 3%;
+
+		}
+		
+		.writing-section .writing-grid {
+					display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 3%;
+			}
+}
+
 hr {
 	margin: 0;
-		margin-bottom: 20px;
-
+	margin-bottom: 20px;
 }
+
 .header-section {
 	margin-left: auto;
 	margin-right: auto;
@@ -185,11 +212,11 @@ hr {
 	max-width: var(--mw);
 	margin-bottom: 50px;
 }
+
 .about-section h3 {
 	/*font: 20px/24px ALight;*/
 	font: 20px/24px SGLight;
 	margin: 0;
-	
 }
 
 .about-section h4 {
@@ -214,11 +241,13 @@ hr {
 	width: var(--w);
 	max-width: var(--mw);
 }
+
 .contact-grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 3%;
 }
+
 .contact-section h3 {
 	/*font: 20px/24px ALight;*/
 	font: 20px/24px SGLight;
