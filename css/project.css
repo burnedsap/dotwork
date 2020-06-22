@@ -13,6 +13,15 @@ src: url("../fonts/HKGrotesk-Light.woff") format("woff");
 	--w: 70%;
 	--mw:1080px;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+:root {
+	--w: 90%;
+}
+}
+
 body {
 	width: 100%;
 	background-color: white;
