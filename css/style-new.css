@@ -73,11 +73,11 @@ src: url("../fonts/AndersonGrotesk-Ultrabold.otf") format("opentype");
 		--w: 90%;
 	}
 	
-	.body .header-section {
+	 .header-section .header-grid{
 			display: grid;
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: repeat(1, 1fr);
 			grid-column-gap: 3%;
-		/*display: block;*/
+		/*display: flex;*/
 	}
 	
 	.work-section .work-grid {
@@ -89,6 +89,12 @@ src: url("../fonts/AndersonGrotesk-Ultrabold.otf") format("opentype");
 		
 		.writing-section .writing-grid {
 					display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 3%;
+			}
+			
+			.about-section .about-grid {
+				display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-column-gap: 3%;
 			}
@@ -104,10 +110,15 @@ hr {
 	margin-right: auto;
 	width: var(--w);
 	max-width: var(--mw);
+	
+	margin-bottom: 75px;
+}
+
+.header-grid {
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 3%;
-	margin-bottom: 75px;
 }
 
 .header-section h3 {
