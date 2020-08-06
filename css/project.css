@@ -1,4 +1,31 @@
 @font-face {
+font-family: 'InterBold';
+src: url("../fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'InterMed';
+src: url("../fonts/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'InterReg';
+src: url("../fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'InterLight';
+src: url("../fonts/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'InterThin';
+src: url("../fonts/Inter-Thin.ttf") format("truetype");
+}
+
+
+
+@font-face {
 font-family: HKRegular;
 src: url("../fonts/HKGrotesk-Regular.woff") format("woff");
 }
@@ -71,7 +98,7 @@ body {
 	align-items: center;
 }
 .w-nav-link {
-	font: 15px/19px HKRegular;
+	font: 15px/19px InterReg;
 }
 .header img {
 	width: 75px;
@@ -90,14 +117,14 @@ body {
 }
 
 .project-name {
-	font-family: HKRegular;
+	font-family: InterReg;
 	font-size: 50px;
 	color: black;
 	margin-bottom: 10px;
 }
 
 .project-client {
-	font-family: HKRegular;
+	font-family: InterReg;
 	font-size: 20px;
 	color: black;
 		margin-bottom: 10px;
@@ -105,7 +132,7 @@ body {
 }
 
 .project-theme {
-	font-family: HKRegular;
+	font-family: InterReg;
 	font-size: 15px;
 	color: grey;
 		margin-bottom: 10px;
@@ -124,7 +151,7 @@ body {
 }
 
 .content-text {
-	font: 18px/25px HKLight;
+	font: 15px/22px InterLight;
 	color: black;
 }
 
@@ -153,7 +180,7 @@ body {
 }
 
 .footer-container a {
-			font: 15px/19px HKRegular;
+			font: 15px/19px InterReg;
 	
 }
 
