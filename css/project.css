@@ -1,52 +1,10 @@
-@font-face {
-font-family: 'InterBold';
-src: url("../fonts/Inter-Bold.ttf") format("truetype");
-}
-
-@font-face {
-font-family: 'InterMed';
-src: url("../fonts/Inter-Medium.ttf") format("truetype");
-}
-
-@font-face {
-font-family: 'InterReg';
-src: url("../fonts/Inter-Regular.ttf") format("truetype");
-}
-
-@font-face {
-font-family: 'InterLight';
-src: url("../fonts/Inter-Light.ttf") format("truetype");
-}
-
-@font-face {
-font-family: 'InterThin';
-src: url("../fonts/Inter-Thin.ttf") format("truetype");
-}
-
-
-
-@font-face {
-font-family: HKRegular;
-src: url("../fonts/HKGrotesk-Regular.woff") format("woff");
-}
-
-@font-face {
-font-family: HKLight;
-src: url("../fonts/HKGrotesk-Light.woff") format("woff");
-}
-
-
 :root {
-	--w: 70%;
-	--mw:1080px;
+	--mw: 37rem;
 }
 
 
-@media only screen and (max-width: 600px) {
-
-:root {
-	--w: 90%;
-}
+html {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -69,8 +27,6 @@ body {
 
 .navigation-container {
 	height: 100%;
-	width: var(--w);
-	max-width: var(--mw);
 	margin-left: auto;
 	margin-right: auto;
 	padding: 50px 5px 20px;
@@ -86,7 +42,6 @@ body {
 }
 
 .navbar {
-	
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -97,62 +52,71 @@ body {
 	display: flex;
 	align-items: center;
 }
+
 .w-nav-link {
-	font: 15px/19px InterReg;
+	font: 15px;
 }
+
 .header img {
 	width: 75px;
 }
+
 .header-section {
-	width: 100%;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	max-width: var(--mw);
+	margin-top: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2rem;
+	margin-bottom: 0.5rem;
+	border-bottom: 1px solid #eee;
 }
 
 .header-container {
-	width: var(--w);
-	max-width: var(--mw);
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .project-name {
-	font-family: InterReg;
-	font-size: 50px;
+	font-size: 24px;
+	font-weight: 600;
 	color: black;
 	margin-bottom: 10px;
 }
 
 .project-client {
-	font-family: InterReg;
-	font-size: 20px;
+	font-size: 16px;
 	color: black;
-		margin-bottom: 10px;
-	
+	margin-bottom: 10px;
 }
 
 .project-theme {
-	font-family: InterReg;
-	font-size: 15px;
+	font-size: 14px;
 	color: grey;
-		margin-bottom: 10px;
-	
+	margin-bottom: 10px;
 }
 
 .content-section {
-	width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #eee;
 }
 
 .content-container {
-	width: var(--w);
-	max-width: var(--mw);
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .content-text {
-	font: 15px/22px InterLight;
-	color: black;
+	color: #515151;
+	font: 15px;
+	line-height: 1.6;
 }
 
 .content-image {
@@ -162,87 +126,27 @@ body {
 }
 
 .content-image img {
-	  width: 100%;
-	  object-fit: cover;
+	width: 100%;
+	object-fit: cover;
 }
 
 .footer-section {
-	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 .footer-container {
-	width: var(--w);
-	max-width: var(--mw);
+
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .footer-container a {
-			font: 15px/19px InterReg;
-	
+	font: 15px;
 }
 
-/*
-.temp {
-	display: flex;
-	align-items: center;
-}
-
-.temp a {
-	text-decoration: underline;
-}
-
-a {
-	padding: 30px;
-	font-family: CircularBook;
-	color: black;
-	text-decoration: underline;
-}
-
-.header h1 {
-	font-family: CircularBold;
-	font-size: 30px;
-	margin: 0px;
-}
-
-.main-container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 70px;
-}
-
-.main-container .header {
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 80px;
-	text-align: center;
-}
-
-.main-container .header h1 {
-	font-family: CircularBold;
-	font-size: 56px;
-	margin: 0;
-}
-
-.main-container .header p {
-	font-family: CircularBook;
-	font-size: 18px;
-	letter-spacing: 2.36px;
-}
-
-.main-container img {
-	width: 100%;
-}
-
-.content {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	font: 18px/25px CircularBook;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}

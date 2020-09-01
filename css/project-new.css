@@ -1,0 +1,248 @@
+@font-face {
+font-family: 'InterBold';
+src: url("../fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'InterMed';
+src: url("../fonts/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'InterReg';
+src: url("../fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'InterLight';
+src: url("../fonts/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'InterThin';
+src: url("../fonts/Inter-Thin.ttf") format("truetype");
+}
+
+
+
+@font-face {
+font-family: HKRegular;
+src: url("../fonts/HKGrotesk-Regular.woff") format("woff");
+}
+
+@font-face {
+font-family: HKLight;
+src: url("../fonts/HKGrotesk-Light.woff") format("woff");
+}
+
+
+:root {
+	--w: 70%;
+	--mw:1080px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+:root {
+	--w: 90%;
+}
+}
+
+body {
+	width: 100%;
+	background-color: white;
+	margin: 0;
+}
+
+.navigation {
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.0);
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.navigation-container {
+	height: 100%;
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 5px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.logo {
+	height: 100%;
+}
+
+.navbar {
+	
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-link {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.w-nav-link {
+	font: 15px/19px InterReg;
+}
+.header img {
+	width: 75px;
+}
+.header-section {
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.header-container {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-name {
+	font-family: InterReg;
+	font-size: 50px;
+	color: black;
+	margin-bottom: 10px;
+}
+
+.project-client {
+	font-family: InterReg;
+	font-size: 20px;
+	color: black;
+		margin-bottom: 10px;
+	
+}
+
+.project-theme {
+	font-family: InterReg;
+	font-size: 15px;
+	color: grey;
+		margin-bottom: 10px;
+	
+}
+
+.content-section {
+	width: 100%;
+}
+
+.content-container {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-text {
+	font: 15px/22px InterLight;
+	color: black;
+}
+
+.content-image {
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.content-image img {
+	  width: 100%;
+	  object-fit: cover;
+}
+
+.footer-section {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.footer-container {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer-container a {
+			font: 15px/19px InterReg;
+	
+}
+
+/*
+.temp {
+	display: flex;
+	align-items: center;
+}
+
+.temp a {
+	text-decoration: underline;
+}
+
+a {
+	padding: 30px;
+	font-family: CircularBook;
+	color: black;
+	text-decoration: underline;
+}
+
+.header h1 {
+	font-family: CircularBold;
+	font-size: 30px;
+	margin: 0px;
+}
+
+.main-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+
+.main-container .header {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.main-container .header h1 {
+	font-family: CircularBold;
+	font-size: 56px;
+	margin: 0;
+}
+
+.main-container .header p {
+	font-family: CircularBook;
+	font-size: 18px;
+	letter-spacing: 2.36px;
+}
+
+.main-container img {
+	width: 100%;
+}
+
+.content {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	font: 18px/25px CircularBook;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
