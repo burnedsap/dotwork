@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900');
+
 :root {
 	--mw: 37rem;
 }
 
 
 html {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: Inter;
 }
 
 body {
@@ -86,7 +89,7 @@ body {
 }
 
 .project-client {
-	font-size: 16px;
+	font-size: 15px;
 	color: black;
 	margin-bottom: 10px;
 }
@@ -116,6 +119,7 @@ body {
 .content-text {
 	color: #515151;
 	font: 15px;
+	font-weight: 350;
 	line-height: 1.6;
 }
 
@@ -148,5 +152,12 @@ body {
 
 .footer-container a {
 	font: 15px;
+	color: #515151;
 }
 
+.footer-container a:hover {
+	font: 15px;
+	color: white;
+	background: black;
+	text-decoration: none;
+}
