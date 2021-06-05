@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900');
 
+	@font-face {
+		font-family: 'CB';
+		src: url("../fonts/GeneralSans-Variable.ttf") format("truetype");
+		}
+
 :root {
-	--mw: 37rem;
+	--mw: 40rem;
 }
 
 html {
 	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	font-family: Inter;
+}
+
+body {
+	width: 100%;
+	background-color: white;
+	margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -20,21 +31,15 @@ html {
 	}
 }
 
+/* Masthead */
+
 .masthead {
 	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-bottom: 0.3rem;
 	margin-bottom: 1rem;
 	border-bottom: 1px solid #eee;
 	box-sizing: border-box;
 	display: block;
-}
-
-small {
-	font-size: 80%;
-	font-weight: 200;
-	color: #c0c0c0;
-	letter-spacing: 0;
-	box-sizing: border-box;
 }
 
 .masthead-container {
@@ -49,6 +54,8 @@ small {
 	margin-bottom: 0;
 	color: #505050;
 	text-rendering: optimizeLegibility;
+	font-family: 'CB';
+	font-size: 20px;
 }
 
 .masthead-container a {
@@ -57,61 +64,101 @@ small {
 	color: black;
 }
 
+.masthead-container a:hover {
+	text-decoration: none;
+	background: linear-gradient(120deg, rgb(81, 77, 165) 0%, rgba(9,9,121,1) 27%, rgba(175,5,83,1) 72%, rgba(0,212,255,1) 100%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	transition:  300ms ease-in;
+}
+
+
+/* Content Section */
+
 .main-section {
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: 0 1rem;
 	max-width: var(--mw);
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 2rem;
-	margin-bottom: 2rem;
+	margin: 2rem auto;
 	border-bottom: 1px solid #eee;
 }
 
-.links-section {
-	padding-left: 1rem;
-	padding-right: 1rem;
+
+
+.content-section {
 	font-size: 15px;
-	max-width: var(--mw);
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 3rem;
+	line-height: 1.7;
 }
 
-.links-section a {
-	color: #505050;
-	font-weight: 350;
-	text-decoration: none;
-}
-
-.links-section a:hover {
-	text-decoration: none;
-	color: white;
-	background: black;
+.work h4,
+.writing h4,
+.about-section h4,
+.workshop h4,
+.contact h4 {
+	font-family: 'CB';
 	font-weight: 500;
+	font-size: 28px;
 }
 
-.main-section a {
+/* Work Section */
+
+.work {
+	margin-top: 7rem;
+	padding: 0;
+}
+
+.workdesc{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 3%;
+	font-size: 11px;
+	line-height: 20px;
+	color: rgb(209, 209, 209);
+	margin: 0;
+}
+
+.plight {
+	font-weight: 300;
+}
+
+/* Writing Section */
+.worklist {
+	margin-top: 3rem;
+}
+
+.worklisting {
+	margin-bottom: 2rem;
+	border-bottom: 0.1px solid #eee;
+} 
+
+.worklisting a {
 	color: #515151;
 	font-weight: 400;
 	text-decoration: none;
-}
-
-.main-section a:hover {
-	text-decoration: none;
-	color: white;
-	background: black;
-	font-weight: 500;
-}
-
-.main-section h4 {
+	margin: 0;
 	padding: 0;
-	font-weight: 550;
-	margin: 0px;
-	margin-top: 2rem;
+	background: 
+		linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+		linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+	background-size: 0% 0.1em, 0 0.1em;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 200ms;
 }
 
-.main-section ul {
+.worklisting a:hover,
+.worklisting a:focus {
+	background-size: 0 0.1em, 100% 0.1em;
+	color: black;
+}
+
+.worklisting a:hover~.workdesc {
+	color: black;
+	transition: color 400ms;
+}
+
+/* Archive Section */
+
+.archive ul {
 	list-style-type: none;
 	color: #515151;
 	padding: 20px;
@@ -120,45 +167,128 @@ small {
 	line-height: 1.8;
 }
 
-.main-section li {
+.archive li {
 	list-style-position: inside;
 	text-indent: -2.3em;
 }
 
-.main-section li:before {
+.archive li:before {
 	content: "\2192";
 	padding: 10px;
 }
 
-.content-section {
-	font-size: 15px;
-	line-height: 1.7;
+.archive a {
+	color: #515151;
+	text-decoration: none;
+}
+.archive a:hover {
+	color: black;
+	text-decoration: underline;
 }
 
+.writing {
+	margin-top: 7rem;
+	padding: 0;
+}
+
+
+
+/* Teaching Section */
+
+.workshop {
+	margin-top: 7rem;
+	padding: 0;
+}
+
+
+/* About Section */
+
+.about-section {
+	margin-top: 7rem;
+	padding: 0;
+}
+
+
 .bio-section {
-	font-size: 15px;
-	line-height: 1.5;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-column-gap: 3%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 2%;
 	list-style-type: none;
 	color: #515151;
-	/*margin: 0;*/
+	margin-top: 2rem;
 	padding: 0;
 }
 
 .bio-section p {
-	margin: 0;
-}
-
-.bio-section h4 {
-	color: black;
-	font-weight: 550;
-}
-
-.contact h4 {
-	margin-bottom: 1rem;
-}
-.contact a{
+	margin-bottom: 3px;
+	color:rgb(71, 71, 71);
+	font-weight: 300;
 	font-size: 15px;
+}
+p.pdark {
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: black;
+	font-weight: 400;
+}
+
+/* Contact Section */
+
+.contact-section {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 2%;
+	list-style-type: none;
+	color: #000000;
+	margin-top: 8rem;
+	padding: 0;
+}
+
+.contact-section a {
+	color: #515151;
+	text-decoration: none;
+	background: 
+		linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+		linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+	background-size: 0% 0.1em, 0 0.1em;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 200ms;
+}
+
+.contact-section a:hover,
+.contact-section a:focus {
+	background-size: 0 0.1em, 100% 0.1em;
+	color: black;
+}
+
+.contact-section .plight {
+	font-size: 14px;
+	line-height: 1.7;
+	color: rgb(179, 179, 179);
+}
+
+.contact-section .plight a{
+	font-size: 14px;
+	color: rgb(77, 77, 77);
+}
+
+/* Last Updated Section */
+
+.lastupdated {
+	margin-top: 15rem;
+}
+.lastupdated p {
+	color: #515151;
+	font-size: 12px;
+}
+
+.lastupdated a {
+	color: #515151;
+	text-decoration: none;
+}
+
+.lastupdated a:hover {
+	color: black;
+	text-decoration: underline;
 }
