@@ -75,14 +75,26 @@ body {
 
 /* Content Section */
 
+.description {
+	padding: 0 1rem;
+	max-width: var(--mw);
+	margin: 4rem auto;
+}
+
+.description p{
+	color: #515151;
+	font-weight: 350;
+	width: 75%;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
 .main-section {
 	padding: 0 1rem;
 	max-width: var(--mw);
 	margin: 2rem auto;
 	border-bottom: 1px solid #eee;
 }
-
-
 
 .content-section {
 	font-size: 15px;
@@ -156,6 +168,10 @@ body {
 	transition: color 400ms;
 }
 
+.worklisting a:hover~span {
+	color: black;
+}
+
 /* Archive Section */
 
 .archive ul {
@@ -170,6 +186,7 @@ body {
 .archive li {
 	list-style-position: inside;
 	text-indent: -2.3em;
+	margin-bottom: 0.5rem;
 }
 
 .archive li:before {
@@ -184,6 +201,11 @@ body {
 .archive a:hover {
 	color: black;
 	text-decoration: underline;
+}
+
+summary {
+	font-family: 'CB';
+	font-weight: 500;
 }
 
 .writing {
@@ -215,7 +237,7 @@ body {
 	grid-column-gap: 2%;
 	list-style-type: none;
 	color: #515151;
-	margin-top: 2rem;
+	margin: 2rem 0;
 	padding: 0;
 }
 
@@ -232,6 +254,11 @@ p.pdark {
 	font-weight: 400;
 }
 
+.achieve-section {
+	color: #515151;
+}
+
+
 /* Contact Section */
 
 .contact-section {
@@ -240,7 +267,7 @@ p.pdark {
 	grid-column-gap: 2%;
 	list-style-type: none;
 	color: #000000;
-	margin-top: 8rem;
+	margin-top: 7rem;
 	padding: 0;
 }
 
@@ -260,6 +287,11 @@ p.pdark {
 .contact-section a:focus {
 	background-size: 0 0.1em, 100% 0.1em;
 	color: black;
+}
+
+.contact-section a:hover~span {
+	color: black;
+	transition: color 400ms;
 }
 
 .contact-section .plight {
@@ -292,3 +324,15 @@ p.pdark {
 	color: black;
 	text-decoration: underline;
 }
+.lastupdated a:hover~span {
+	color: black;
+	transition: color 400ms;
+}
+
+span {
+	color: #515151;
+}
+
+/* .workshop span {
+	color: ;
+} */
