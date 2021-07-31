@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900');
 
-	@font-face {
-		font-family: 'CB';
-		src: url("../fonts/GeneralSans-Variable.ttf") format("truetype");
-		}
+		@font-face {
+			font-family: 'CB';
+			src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
+				 url('../fonts/GeneralSans-Variable.woff') format('woff'),
+				 url('../fonts/GeneralSans-Variable.ttf') format('truetype');
+				 font-weight: 200 700;
+				 font-display: swap;
+				 font-style: normal;
+		  }
 
 :root {
 	--mw: 40rem;
