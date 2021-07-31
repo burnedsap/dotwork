@@ -21,13 +21,16 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-	.main-section.main-section a {
+	.main-section.main-section a {	
 		color: #515151;
 		font-weight: 400;
 		text-decoration: underline;
 	}
 	.links-section.links-section a {
 		text-decoration: underline;
+	}
+	.worklist .workdesc {
+		color: #3a3a3a;
 	}
 }
 
