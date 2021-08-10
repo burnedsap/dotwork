@@ -17,11 +17,12 @@
 html {
 	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	font-family: Inter;
+	/* background-color: white; */
+	background-color: white;
 }
 
 body {
 	width: 100%;
-	background-color: white;
 	margin: 0;
 }
 
@@ -178,6 +179,18 @@ body {
 
 .worklisting a:hover~span {
 	color: black;
+}
+
+a.nda {
+	color: #515151;
+}
+a.nda:hover,
+a.nda:focus {
+	color: #515151;
+	background: none;
+	background-size: 0%;
+	text-decoration: none;
+	cursor: not-allowed;
 }
 
 /* Archive Section */
@@ -353,7 +366,7 @@ input ~ .tab { display: none }          /* hide contents */
 #tab5:checked ~ .tab.content5 { display: block; }
 
 input + label {             /* box with rounded corner */
-    font-size: 13px;
+    font-size: 12px;
 	font-weight: 300;
     padding: 4px 12px 4px 0px;
     position: relative;
@@ -366,4 +379,29 @@ input + label {             /* box with rounded corner */
   }
   input ~ .tab {          /* grey line between tab and contents */
 
+  }
+
+
+  /* Visual Library  */
+
+  .vl-section {
+	padding: 0 1rem;
+	max-width: 60rem;
+	margin: 2rem auto;
+	border-bottom: 1px solid #eee;
+}
+  .image-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 1%;
+	row-gap: 1%;
+  }
+  .vl-image {
+	width: 100%;
+	object-fit:cover;
+}
+
+.image-grid img {
+	  width: 100%;
   }
