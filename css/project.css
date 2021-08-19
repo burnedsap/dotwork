@@ -74,10 +74,10 @@ body {
 	max-width: var(--mw);
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 4rem;
+	padding-bottom: 7rem;
 	border-bottom: 1px solid #eee;
-	margin-top: 6rem;
-	margin-bottom: 4rem;
+	margin-top: 8rem;
+	margin-bottom: 2rem;
 }
 small {
 	font-size: 13px;
@@ -88,11 +88,11 @@ small {
 
 .project-name {
 	font-family: 'CB';
-	font-size: 50px;
+	font-size: 28px;
 	line-height: 1.3;
-	font-weight: 540;
+	font-weight: 550;
 	color: black;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 	width: 95%;
 }
 
@@ -129,8 +129,8 @@ small {
 }
 
 .content-text p {
-	color: #515151;
-	font: 16px;
+	color: #303030;
+	font-size: 16px;
 	font-weight: 350;
 	line-height: 1.7;
 }

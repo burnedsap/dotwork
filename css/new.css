@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900');
+
+@font-face {
+	font-family: 'CB';
+	src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
+		 url('../fonts/GeneralSans-Variable.woff') format('woff'),
+		 url('../fonts/GeneralSans-Variable.ttf') format('truetype');
+		 font-weight: 200 700;
+		 font-display: swap;
+		 font-style: normal;
+  }
+
+:root {
+	--mw: 40rem;
+}
+
+.body {
+    width: 100%;
+    background: whitesmoke;
+    margin: 0;
+}
+
+.header-image {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+img {
+    width: 100%;
+}
+
+.main-text {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.intro {
+    background: tomato;
+    flex: 1 1 300px; /*  Stretching: */
+    margin: 5px;
+}
+
+.text {
+    background: greenyellow;
+    flex: 1 1 300px; /*  Stretching: */
+    margin: 5px;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .child {
+    flex: 0 1 300px;
+    flex: 1 1 300px;
+    border: 1px solid red;
+    background: lightpink;
+    text-align: center;
+  }
