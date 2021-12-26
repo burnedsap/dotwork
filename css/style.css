@@ -255,13 +255,19 @@ summary {
 
 
 .bio-section {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-column-gap: 2%;
+	/* display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 2%; */
 	list-style-type: none;
 	color: #717171;
 	margin: 2rem 0;
 	padding: 0;
+}
+
+.three-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 5%;
 }
 
 .bio-section p {
@@ -287,13 +293,15 @@ p.pdark {
 	font-weight: 500;
 	font-size: 16px;
 	color: #000000;
-	/* margin-bottom: 0; */
-	margin-top: 0;
+	margin-bottom: 0;
+	margin-top: 4rem;
+	border-bottom: 0.1px solid #eee;
 }
 
 .bio-section .pdark {
 	margin-bottom: 0;
 	margin-top: 2rem;
+	color: #212121;
 }
 
 .bio-section p a{
