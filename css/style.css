@@ -120,6 +120,8 @@ body {
 	font-size: 28px;
 }
 
+
+
 /* Work Section */
 
 .work {
@@ -257,7 +259,7 @@ summary {
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 2%;
 	list-style-type: none;
-	color: #515151;
+	color: #717171;
 	margin: 2rem 0;
 	padding: 0;
 }
@@ -266,7 +268,8 @@ summary {
 	margin-bottom: 3px;
 	color:rgb(71, 71, 71);
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 13px;
+	margin-top: 0;
 }
 p.pdark {
 	font-size: 15px;
@@ -279,6 +282,45 @@ p.pdark {
 	color: #515151;
 }
 
+.bio-section h5 {
+	font-family: 'CB';
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+	/* margin-bottom: 0; */
+	margin-top: 0;
+}
+
+.bio-section .pdark {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+
+.bio-section p a{
+	font-weight: 350;
+	color: #000000;
+	text-decoration: none;
+	background: 
+		linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+		linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+	background-size: 0% 0.1em, 0 0.1em;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 200ms;
+}
+.bio-section a:focus,
+.bio-section a:hover{
+	background-size: 0 0.1em, 100% 0.1em;
+	color: black;
+}
+
+.bio-section .time {
+	font-size: 13px;
+	font-style: italic;
+}
+.bio-section p a {
+	font-weight: 400;
+}
 
 /* Contact Section */
 
