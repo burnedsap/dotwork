@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stealing Headlines from the Internet</title>
+    <meta name="description" content="Committing crimes of a digital variety">
+    <link rel="stylesheet" href="/dotwork/css/index.css">
+    <link rel="stylesheet" href="/dotwork/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/dotwork/feed/feed.xml" type="application/atom+xml" title="Salil Parekh">
+    <link rel="alternate" href="/dotwork/feed/feed.json" type="application/json" title="Salil Parekh">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/dotwork/">Salil Parekh</a></h1>
+
+      <!-- -->
+      <!-- <ul class="nav">
+        <li class="nav-item"><a href="/dotwork/posts/">Archive</a></li>
+      </ul> -->
+    </header>
+
+    <main class="tmpl-post">
+      <h1>Stealing Headlines from the Internet</h1>
+
+
+<div class="tags"><a href="/dotwork/tags/writing/" class="post-tag">writing</a><a href="/dotwork/tags/machine-learning/" class="post-tag">machine learning</a><a href="/dotwork/tags/2018/" class="post-tag">2018</a>
+</div>
+
+<div class="three-grid">
+  
+  
+  
+  
+  
+  
+
+</div>
+
+<p>For the Conspiracy Creation Workshop, I created fake headlines from an openly available Tensorflow LSTM machine learning algorithm. But perhaps the most difficult part of this process was collecting a corpus of headlines for the machine learning algorithm to train on!</p>
+<p>News websites are now quite complex, with highly intricate content management systems to store all the news on the website. With my limited skills, I was looking for a simple html based news provider, which would be easy prey for my algorithm. There aren't too many credible news providers in India, but luckily The Hindu was the perfect source for me.</p>
+<p>I created a small python script, which would cycle through all the days in the year of 2018, and only remove and store the headlines from every page from the website of The Hindu. After a few rounds of trial and error, I uploaded the script to an Amazon web server, and let it run for a few hours. It worked well, and I now had ~46MB of headlines in a .txt file.</p>
+<p><img src="../../img/conspiracy-textedit.png" alt="List of real headlines printed on a TextEdit document"><br>
+<em>List of real headlines printed on a TextEdit document</em></p>
+<p>Now, to make my own headlines.</p>
+<p>I fired up the Tensorflow LSTM algorithm, and ran it on a GCP instance with some beefy GPU's to quicken the training process. LSTM doesn't perform really well on GPU's so it did take quite a bit of time, even on with a Tesla. Anyhow, I now had a well trained algorithm, which could spit out headlines on command! I downloaded the save files to my Mac, and used Tensorflow via Terminal to collect the newly generated headlines.</p>
+<p><img src="../../img/conspiracy-headlines.jpg" alt="List of generated headlines printed on an A4 sheet with a post-it on it with the the text, Conspiracy"><br>
+<em>List of generated headlines from the Machine Learning algorithm</em></p>
+<p>This collection of fake headlines was valuable–especially for the Conspiracy Creation workshop–because it presented a wealth of possibilities. As a generative ideation exercise, this is about as good as it gets. These fake, machine learning generated headlines was also the basis of the Helf and Caree zine.</p>
+
+
+    </main>
+
+    <footer>
+  ← <a href="/dotwork/">See other projects.</a>
+</footer>
+
+    <!-- Current page: /dotwork/posts/stealing-headlines/ -->
+  </body>
+</html>

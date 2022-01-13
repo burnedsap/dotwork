@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelcryption</title>
+    <meta name="description" content="Exploring the world of misinformation with new-age tactics">
+    <link rel="stylesheet" href="/dotwork/css/index.css">
+    <link rel="stylesheet" href="/dotwork/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/dotwork/feed/feed.xml" type="application/atom+xml" title="Salil Parekh">
+    <link rel="alternate" href="/dotwork/feed/feed.json" type="application/json" title="Salil Parekh">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/dotwork/">Salil Parekh</a></h1>
+
+      <!-- -->
+      <!-- <ul class="nav">
+        <li class="nav-item"><a href="/dotwork/posts/">Archive</a></li>
+      </ul> -->
+    </header>
+
+    <main class="tmpl-post">
+      <h1>Pixelcryption</h1>
+
+
+<div class="tags"><a href="/dotwork/tags/work/" class="post-tag">work</a><a href="/dotwork/tags/2020/" class="post-tag">2020</a>
+</div>
+
+<div class="three-grid">
+  
+    <div class="intro-desc">
+      <h4>Overview</h4>
+      <span>Pixel-based data encryption method to encode messages within images.</span>
+    </div>
+  
+  
+  
+  
+  
+  
+
+</div>
+
+<p>Steganography is the technique of hiding messages within plain sight. The message is usually encrypted within something ordinary to avoid detection, and is decoded by the receiver with a special set of instructions. The messages themselves are usually codified for an additional layer of security. An example of steganography is the use of invisible ink, which is used to write messages on a piece of paper which is then overlaid with a standard innocuous message in real ink. Upon exposure to heat, the hidden message is revealed.</p>
+<p>According to the UK based research firm <a href="https://www.comparitech.com/blog/vpn-privacy/surveillance-states/">Comparitech</a> ↗, India ranks third on a list of surveillance states, closely following Russia and China. This government has also passed the Unlawful Activities Prevention Act (UAPA), which allows for the arrest of anyone on mere suspicion, and without any proof or evidence. This law has been used with impunity on the leaders of the protest against the Citizenship Amendment Act and on other political opponents.</p>
+<p>India currently has no data protection laws in place, and there isn't a data protection authority in place. The government has also been accused of using an Israeli software called Pegasus to illegally obtain Whatsapp chats from Indian citizens. Although this claim has been denied, they are working with Whatsapp to track certain messages. A Social Media Communication Hub (SMCH) is being set up to collect and analyse content of social media profiles. There are concerns that the purpose of the SMCH is to <a href="https://www.financialexpress.com/india-news/does-government-want-to-tap-whatsapp-messages-create-a-surveillance-state-asks-supreme-court/1243924/">&quot;create a technology platform to collect digital media chatter from all core Social Media Platforms as well as digital platforms.&quot;</a> ↗</p>
+<p><img src="../../img/pixelcryption-4.jpg" alt="The inimitable M.P. Ranjan"><br>
+<em>A Times Now presenter perceiving &quot;Imma Bounce&quot; from leaked Whatsapp chats to be an indication of financial fraud. Source: <a href="https://www.thequint.com/neon/social-buzz/times-now-rhea-chakraborty-messages-sushant-singh-rajput-iamma-bounce">The Quint</a> ↗</em></p>
+<p>There is a need for a secure, yet easily accessible steganographic system which can leverage existing networks to communicate and share information without detection from the government.</p>
+<p>Whatsapp is the most widely used messaging app in India, with about 400 million users as of 2019. A popular method of keeping in touch with each other and larger groups is with the help of 'Good Morning messages', in the form of both images and text. The images usually contain a cheery message with colourful visuals of flowers, babies, mountains, and lakes. These messages are sent so frequently that they are often the cause of many phones filling up their memory. On the eve of 2018, users in India sent about 20 billion messages, causing slowdowns and server outages.</p>
+<p><img src="../../img/pixelcryption-2.jpg" alt="The inimitable M.P. Ranjan"><br>
+<em>A standard 'good morning' message</em></p>
+<p>Although usually innocuous, some messages contain xenophobic, casteist, and sexist content. These images are forwarded hundreds of times, causing them to be shared exponentially. Some of these Whatsapp forwards and messages have incited mob lynchings which have led to deaths of several innocent people. To combat the spread of misinformation, Whatsapp has imposed limits on the number of message forwards.</p>
+<p><img src="../../img/pixelcryption-1.jpeg" alt="The inimitable M.P. Ranjan"><br>
+<em>Example of fake news widely shared across Whatsapp</em></p>
+<p>In an effort to subvert the medium of good morning messages on Whatsapp, the Instagram account @sodonechilling (now defunct) collects and creates good morning messages with positive and socially aware messaging, using the same aesthetic and visual look. People often don't read or scrutinise the content of the images they share and forward, which makes this medium a great way to share positive messaging.</p>
+<p><img src="../../img/pixelcryption-3.jpeg" alt="The inimitable M.P. Ranjan"><br>
+<em>An image from @sodonechilling's Instagram page</em></p>
+<h2 id="pixel-based-encryption" tabindex="-1">Pixel Based Encryption <a class="direct-link" href="#pixel-based-encryption" aria-hidden="true">#</a></h2>
+<p>Hiding messages within the source code of image files is a commonly used technique, and as such would be detected with easily accessible software and decryption algorithms. This method involves editing the bits of an image to encrypt messages, with minimal change to the image itself.</p>
+<p>I took a simpler approach toward this problem, and decided to use the pixels themselves as a way to encode messages. Each pixel has 3 channels—Red, Green, and Blue–each with a capacity of 256 (0-255) spaces. By assigning the value of each space, or a combination of spaces to a particular character, data can be stored. Although this will lead to a change in colour of the pixels of the image, the colour channels can be adjusted for each image to ensure that there are minimal changes in the visual. Most images shared on Whatsapp are usually of poor quality, with plenty of artefacts such as colour shifting and fringing. The length of the message and the complexity of encryption can also be adjusted to ensure that the changes made are minimal.</p>
+<p>The pixels on the outer edges of the image are usually not as prominently seen, and are ideal spaces to edit pixels and encrypt information. Additional layers of encryption can also be added by using multiple channels to encrypt characters, which can be further encrypted to hide the real message.</p>
+<p>The encryption and decryption process is very simple. Upload the image, type in your message, and hit the encrypt button to download. Similarly, to decrypt, upload the image and hit the decrypt button to see the message. The length of the message and the contents of the cipher can be adjusted within the code, and potentially be shared as a key to decrypt the base message, which itself can be further encrypted for increased security.</p>
+<iframe width="605" height="605" src="https://burnedsap.github.io/pixelcryption/v1/">"</iframe>
+<p><em>Try encrypting an image for yourself!</em></p>
+
+
+    </main>
+
+    <footer>
+  ← <a href="/dotwork/">See other projects.</a>
+</footer>
+
+    <!-- Current page: /dotwork/posts/pixelcryption/ -->
+  </body>
+</html>
