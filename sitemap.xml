@@ -217,11 +217,6 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/writing/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salilparekh.work/tags/experiential-design/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
@@ -232,12 +227,22 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/machine-learning/</loc>
+    <loc>https://salilparekh.work/tags/experiential/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/experiential/</loc>
+    <loc>https://salilparekh.work/tags/writing/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/tags/generative-art/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/tags/machine-learning/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -262,17 +267,12 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/generative-art/</loc>
+    <loc>https://salilparekh.work/tags/digital-heritage/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
     <loc>https://salilparekh.work/tags/games/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/tags/digital-heritage/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
 </urlset>

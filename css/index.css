@@ -83,7 +83,7 @@ main {
   max-width: var(--maxw);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5rem;
+  margin-bottom: 12rem;
 }
 
 main :first-child {
@@ -717,4 +717,9 @@ summary {
   font-family: var(--headerText);
   font-weight: 500;
   font-size: 18px;
+}
+
+address {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
