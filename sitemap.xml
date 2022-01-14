@@ -157,6 +157,11 @@
   </url>
   
   <url>
+    <loc>https://salilparekh.work/posts/simulated-life/</loc>
+    <lastmod>2021-03-02</lastmod>
+  </url>
+  
+  <url>
     <loc>https://salilparekh.work/about/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
@@ -232,6 +237,11 @@
   </url>
   
   <url>
+    <loc>https://salilparekh.work/tags/experiential/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://salilparekh.work/tags/experiential-design/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
@@ -242,17 +252,7 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/experiential/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salilparekh.work/tags/generative-art/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/tags/machine-learning/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -262,12 +262,17 @@
   </url>
   
   <url>
+    <loc>https://salilparekh.work/tags/machine-learning/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://salilparekh.work/tags/data/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/design-thinking/</loc>
+    <loc>https://salilparekh.work/tags/digital-heritage/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -277,12 +282,12 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/games/</loc>
+    <loc>https://salilparekh.work/tags/design-thinking/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/digital-heritage/</loc>
+    <loc>https://salilparekh.work/tags/games/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
 </urlset>
