@@ -56,11 +56,11 @@ img[src*="#fullwidth"] {
   /* height: 600px; */
   margin: 0 calc(50% - 50vw);
   object-fit: cover;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 img {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 em {
@@ -90,6 +90,9 @@ main :first-child {
   /* margin-top: 0; */
 }
 
+main p {
+  margin-top: 1rem;
+}
 .postlist-item a {
   color: black;
 }
@@ -493,6 +496,15 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 3%;
   margin-bottom: 3rem;
+}
+
+.three-grid-into {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 3%;
+  padding-bottom: 3rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
 }
 
 .two-grid {

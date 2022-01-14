@@ -92,6 +92,16 @@
   </url>
   
   <url>
+    <loc>https://salilparekh.work/posts/fig/</loc>
+    <lastmod>2019-12-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/posts/speculative-sunday/</loc>
+    <lastmod>2019-12-02</lastmod>
+  </url>
+  
+  <url>
     <loc>https://salilparekh.work/posts/accessible-financial-planning/</loc>
     <lastmod>2020-02-01</lastmod>
   </url>
@@ -217,12 +227,7 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/experiential-design/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/tags/extended-reality/</loc>
+    <loc>https://salilparekh.work/tags/writing/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -232,7 +237,12 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/writing/</loc>
+    <loc>https://salilparekh.work/tags/experiential-design/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/tags/extended-reality/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -262,17 +272,17 @@
   </url>
   
   <url>
+    <loc>https://salilparekh.work/tags/games/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://salilparekh.work/tags/design-thinking/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
     <loc>https://salilparekh.work/tags/digital-heritage/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/tags/games/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
 </urlset>
