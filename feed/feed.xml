@@ -5,12 +5,21 @@
 	
 	<link href="https://salilparekh.work/feed/feed.xml" rel="self"/>
 	<link href="https://salilparekh.work"/>
-	<updated>2021-03-02T00:00:00Z</updated>
+	<updated>2021-09-01T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Salil Parekh</name>
 		<email>salil458@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Media Arts A11y</title>
+		<link href="https://salilparekh.work/posts/media-arts-a11y/"/>
+		<updated>2021-09-01T00:00:00Z</updated>
+		<id>https://salilparekh.work/posts/media-arts-a11y/</id>
+		<content type="html">&lt;p&gt;Media Arts A11y is a&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Simulated Life</title>
