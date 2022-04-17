@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Muslin</title>
+    <meta name="description" content="Reactive textiles created with electronics and e-textiles to explore interactivity with muslin">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Salil Parekh">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Salil Parekh">
+  </head>
+  <body>
+   <header>
+    <h1 class="home">
+      <a href="/">Salil Parekh</a>
+    </h1>
+       <nav>
+         <a href="/about">About</a>
+       </nav>
+     </header>
+
+   <main class="tmpl-post">
+   <hr>
+     
+<div class="post-wrapper">
+  <div class="post-info">
+    
+    <h2 class="post-main-title">Responsive Muslin</h2>
+
+    
+      <div class="post-desc">
+        <h4>Overview</h4>
+        <p>Muslin is a material which is nice to touch and feels warms when held on to. How would muslin respond to being touched? This experimental e-textile project explores the feeling of textiles responding to being interacted with.</p>
+      </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="post-tags"><a href="/tags/work/" class="tags">work</a><a href="/tags/recent/" class="tags">recent</a><a href="/tags/2022/" class="tags">2022</a>
+    </div>
+</div>
+<div class="post-main">
+  <p>I wanted to create a piece which would respond to my touch. I love muslin and the way it feels. It's soft, yet has a rough tactile quality which makes it nice and warm to hold. I wonder what muslin feels like when it is touched. Does it like being held? Does it be held firmly or caressed softly?</p>
+<p>In an attempt to answer this question, I created a piece made of muslin which actively responds to being interacted with.</p>
+<video controls width="100% muted">
+    <source src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Muslin%20Touch%20Video.mp4" type="video/mp4">
+            type="video/mp4">
+<pre><code>Sorry, your browser doesn't support embedded videos.
+</code></pre>
+</video>
+<p><em>Short video showing the piece in its passive mode and being interacted with</em></p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3449%400.25.jpg?v=1648230061777" alt="the final piece, a square piece of muslin with a laser engraved logo on it"></p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3467.jpg?v=1648230292540" alt="the same image, but with a grid of 8 leds below the muslin lit up"></p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3471.jpg?v=1648230475408" alt="close up on the logo with leds lit up"></p>
+<h3 id="process" tabindex="-1">Process <a class="direct-link" href="#process" aria-hidden="true">#</a></h3>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Computational%20Craft%20Midterm%20Proposal%20Sketches-02.jpg" alt="illustration of different layers of the sensor"><br>
+<em>The piece is split into individual layers–sensor, reactor, and the cover.</em></p>
+<p>The first step was to create the sensor, which would take in user input and enable the piece to 'feel'. I created a plan of the sensor which included the location of the micro-controller, sensor positions. Everything was precisely measure out and sized. In order to accurately translate the plan into a working model, I laser cut and etched muslin.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/midterm-lasercut-plan.jpg?v=1648231031954" alt="the laser cut plan of the sensor"><br>
+<em>The file sent to the laser cutter. The light blue lines cut, the black fills engraves/etches</em></p>
+<h4 id="sensor" tabindex="-1">Sensor <a class="direct-link" href="#sensor" aria-hidden="true">#</a></h4>
+<p>The sensor is a 6x6 pressure sensitive sensor, which uses a grid of copper thread and velostat to work. Heavily inspired (read: copied) from <a href="https://www.kobakant.at/DIY/?p=7443">Kobakant</a>, it can detect where pressure is applied on a 2D X-Y area. The velostat can help detect the intensity of pressure as well. With a 6x6 sensor, it has 36 individual 'sensors'.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/PXL_20220317_193146935.jpg?v=1647669829272" alt="laser etched muslin"><br>
+<em>Laser etched muslin to accurately sew in the sensors</em></p>
+<p>The effect was exactly what I wanted. Light markings to help me position the components and accurately sew the sensor.</p>
+<p>I wanted to hand sew everything as it felt like the right thing to do with muslin. The material feels analogue and machine sewing wouldn't feel appropriate. However, I did want to sew well, which meant good spacing, and straight lines. The laser etched guides allowed me to do just that. I cut and etched three pieces of muslin, 2 for the sensor, and 1 for the SMD LEDs.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3416.jpg?v=1648232852305" alt=""></p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3422.jpg?v=1648232970855" alt=""><br>
+<em>All neatly lined up, as it should be</em></p>
+<h4 id="teensy-lc" tabindex="-1">Teensy LC <a class="direct-link" href="#teensy-lc" aria-hidden="true">#</a></h4>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3417.jpg?v=1648239537317" alt="Close up of the Teensy LC"></p>
+<p><em>The Teensy LC is a suitable fit for this piece as it has 13 analog pins and 10 PWM pins, a bargain for a retail price of $11.65</em></p>
+<h4 id="interactions" tabindex="-1">Interactions <a class="direct-link" href="#interactions" aria-hidden="true">#</a></h4>
+<p>I wanted to use machine learning to detect different kinds of interactions, and translate them to different patterns for the LEDs. However, I couldn't get the machine learning pipeline to work out. I used CreateML to train the machine learning model, but couldn't figure out how to use Serial communication with the model. Frustrating, but I moved on to replicating the same effect using rudimentary conditionals.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Screenshot%202022-03-25%20at%203.54.45%20PM.png?v=1648238099796" alt=""><br>
+<em>Using CreateML to detect whether the piece is being touched or not</em></p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Screenshot%202022-03-25%20at%203.58.49%20PM.png?v=1648238348049" alt=""><br>
+<em>pseudocode for interactions</em></p>
+<p>By detecting pressure applied to sensor, and how many points are being pressed, I can somewhat determine the way the piece is being touched or interacted with. If only a few points are being touched with lots of pressure, the piece is being poked. If many points are being touched softly, then I can determine that my palm is on the surface. With 36 individual sensor points, the sensor is of a fairly high fidelity and does a good job of determining the kind of touch being applied.</p>
+<video controls width="100%">
+    <source src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/CC-midterm-processing.mp4"
+            type="video/mp4">
+<pre><code>Sorry, your browser doesn't support embedded videos.
+</code></pre>
+</video>
+<p><em>Visualisation how the piece detects touches</em></p>
+<p>This software only allows for a limited number of interactions, but I do have a more complex version that I'm currently working on which includes more advanced interaction detection.</p>
+<h4 id="assembly" tabindex="-1">Assembly <a class="direct-link" href="#assembly" aria-hidden="true">#</a></h4>
+<p>To make the piece look nicer, I enveloped the 'sandwich' within two layers of laser etched muslin. The etches also indicate the center of the sensor, which makes it easier for the viewer to know where to touch. I chose a slightly finer type of muslin which felt nicer to touch.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3451.jpg?v=1648240005026" alt=""><br>
+<em>Laser etch at the center of the sensor</em></p>
+<p>I didn't want the piece to be tight or tense, so I used four cross stitches to attach the outer layers to the inner sandwich. It also kept the micro-controller and coin cell battery holder easily accessible incase I needed to make some changes.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3449.jpg?v=1648240311363" alt=""><br>
+<em>Cross-stitched the outer layers</em></p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3457.jpg?v=1648240653661" alt=""><br>
+<em>Easy to replace coin cell battery</em></p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3458.jpg?v=1648240653662" alt=""><br>
+<em>Can be plugged in to change software or make plug in additional hardware</em></p>
+<p>I tried etching a more complex pattern, but the etched surface had a rough surface, which didn't feel as nice to touch, so I reverted back to a smaller etched pattern.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3476.jpg?v=1648241537690" alt="complex laser etch pattern experiment"><br>
+<em>Trying a larger pattern</em></p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3478.jpg?v=1648241666013" alt=""><br>
+<em>The roughness can be seen visually</em></p>
+
+</div>
+
+   </main>
+
+    <footer>
+  ← <a href="/">See other projects.</a>
+</footer>
+
+    <!-- Current page: /posts/responsive-muslin/ -->
+  </body>
+</html>
