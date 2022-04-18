@@ -5,118 +5,12 @@
 	
 	<link href="https://salilparekh.work/feed/feed.xml" rel="self"/>
 	<link href="https://salilparekh.work"/>
-	<updated>2022-12-01T00:00:00Z</updated>
+	<updated>2021-09-01T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Salil Parekh</name>
 		<email>salil458@gmail.com</email>
 	</author>
-	
-	<entry>
-		<title>FIG, a GIF Festival</title>
-		<link href="https://salilparekh.work/posts/fig/"/>
-		<updated>2022-12-01T00:00:00Z</updated>
-		<id>https://salilparekh.work/posts/fig/</id>
-		<content type="html">&lt;p&gt;FIG is an ONLINE + OFFLINE exhibit celebrating the power of the GIF. It is a small part of a larger study on the evolving internet expressions of our age – incubated at the EyeMyth Festival 2019.&lt;/p&gt;
-&lt;p&gt;Back for 2022, it&#39;s more feature packed than ever.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;New year, new website&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;For this year, the theme is: &lt;strong&gt;Loss of Time&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Time is a deeply personal experience and a highly unpredictable medium. As we strive to conquer time, there are moments when we find ourselves running behind it, and others when we are surprised at an unexpected route it has taken — stretching and compressing on its own whims and fancies. This year, FIG invites you to use the medium of a looping GIF to visualise your experiences with the cycle of losing time and regaining control.&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;FIG was launched in early March 2022 with an open call on the theme, with cash prizes for the top 3 submissions. Along with the new cash prizes, we also held a panel discussion wtih &lt;a href=&quot;http://meetamalhotra.com/&quot;&gt;Meeta Malhotra&lt;/a&gt; and &lt;a href=&quot;http://mojoko.net/&quot;&gt;Steve Lawler&lt;/a&gt; to discuss the future of GIFs and the evolution of the short form storytelling medium.&lt;/p&gt;
-&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/eK9N5kBUvh8&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-6.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Winners of FIG 2022!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A small selection from the submissions:&lt;/p&gt;
-&lt;video controls=&quot;&quot; width=&quot;100% muted&quot;&gt;
-    &lt;source src=&quot;https://salilparekh.work/img/fig-website-video-record.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            type=&quot;video/mp4&quot;&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/video&gt;
-&lt;p&gt;FIG will be back soon!&lt;/p&gt;
-&lt;h3 id=&quot;2019-edition&quot; tabindex=&quot;-1&quot;&gt;2019 Edition &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/fig/#2019-edition&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-5.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;The FIG website&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;As a part of the EyeMyth Media Arts Festival, FIG was a showcase of GIF&#39;s from artists around the world on the theme: &lt;strong&gt;The Loss of Creativity.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-2.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;An open call for submissions was received with enthusiasm from the GIF community, with submissions on display on all digital screens at the Festival and online. The &lt;a href=&quot;https://burnedsap.github.io/fig/&quot;&gt;website&lt;/a&gt;, just like a GIF, loops infinitely!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-4.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;The online gallery&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-3.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;A submission from Anisha Thampy&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A small excerpt from a piece I wrote for the &lt;a href=&quot;https://thehardcopy.co/indian-gifs-time-to-take-centre-stage/&quot;&gt;HardCopy.co&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;&amp;quot;It is for this reason that a few of us within Quicksand, decided to create a space for Gif creators to showcase their work. The platform is called FIG, and was launched a few months ago. FIG’s mission is to celebrate the creation of Gifs by designers, illustrators, artists, writers and creators of all kinds. We opened up calls for submissions on the theme of ‘The Loss of Creativity’ and we received around forty amazing entries. This is just the beginning for the platform, and we hope to do a lot more for Gif creators. The team behind FIG are creators who love making Gifs using diverse digital and analogue techniques, and we wish to reach out to other creators who feel equally passionate about them.&amp;quot;&amp;quot;&lt;/span&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Responsive Muslin</title>
-		<link href="https://salilparekh.work/posts/responsive-muslin/"/>
-		<updated>2022-02-14T00:00:00Z</updated>
-		<id>https://salilparekh.work/posts/responsive-muslin/</id>
-		<content type="html">&lt;p&gt;I wanted to create a piece which would respond to my touch. I love muslin and the way it feels. It&#39;s soft, yet has a rough tactile quality which makes it nice and warm to hold. I wonder what muslin feels like when it is touched. Does it like being held? Does it be held firmly or caressed softly?&lt;/p&gt;
-&lt;p&gt;In an attempt to answer this question, I created a piece made of muslin which actively responds to being interacted with.&lt;/p&gt;
-&lt;video controls=&quot;&quot; width=&quot;100% muted&quot;&gt;
-    &lt;source src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Muslin%20Touch%20Video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            type=&quot;video/mp4&quot;&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/video&gt;
-&lt;p&gt;&lt;em&gt;Short video showing the piece in its passive mode and being interacted with&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3449%400.25.jpg?v=1648230061777&quot; alt=&quot;the final piece, a square piece of muslin with a laser engraved logo on it&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3467.jpg?v=1648230292540&quot; alt=&quot;the same image, but with a grid of 8 leds below the muslin lit up&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3471.jpg?v=1648230475408&quot; alt=&quot;close up on the logo with leds lit up&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;process&quot; tabindex=&quot;-1&quot;&gt;Process &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/responsive-muslin/#process&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Computational%20Craft%20Midterm%20Proposal%20Sketches-02.jpg&quot; alt=&quot;illustration of different layers of the sensor&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;The piece is split into individual layers–sensor, reactor, and the cover.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The first step was to create the sensor, which would take in user input and enable the piece to &#39;feel&#39;. I created a plan of the sensor which included the location of the micro-controller, sensor positions. Everything was precisely measure out and sized. In order to accurately translate the plan into a working model, I laser cut and etched muslin.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/midterm-lasercut-plan.jpg?v=1648231031954&quot; alt=&quot;the laser cut plan of the sensor&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;The file sent to the laser cutter. The light blue lines cut, the black fills engraves/etches&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&quot;sensor&quot; tabindex=&quot;-1&quot;&gt;Sensor &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/responsive-muslin/#sensor&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;The sensor is a 6x6 pressure sensitive sensor, which uses a grid of copper thread and velostat to work. Heavily inspired (read: copied) from &lt;a href=&quot;https://www.kobakant.at/DIY/?p=7443&quot;&gt;Kobakant&lt;/a&gt;, it can detect where pressure is applied on a 2D X-Y area. The velostat can help detect the intensity of pressure as well. With a 6x6 sensor, it has 36 individual &#39;sensors&#39;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/PXL_20220317_193146935.jpg?v=1647669829272&quot; alt=&quot;laser etched muslin&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Laser etched muslin to accurately sew in the sensors&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The effect was exactly what I wanted. Light markings to help me position the components and accurately sew the sensor.&lt;/p&gt;
-&lt;p&gt;I wanted to hand sew everything as it felt like the right thing to do with muslin. The material feels analogue and machine sewing wouldn&#39;t feel appropriate. However, I did want to sew well, which meant good spacing, and straight lines. The laser etched guides allowed me to do just that. I cut and etched three pieces of muslin, 2 for the sensor, and 1 for the SMD LEDs.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3416.jpg?v=1648232852305&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3422.jpg?v=1648232970855&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;All neatly lined up, as it should be&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&quot;teensy-lc&quot; tabindex=&quot;-1&quot;&gt;Teensy LC &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/responsive-muslin/#teensy-lc&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3417.jpg?v=1648239537317&quot; alt=&quot;Close up of the Teensy LC&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The Teensy LC is a suitable fit for this piece as it has 13 analog pins and 10 PWM pins, a bargain for a retail price of $11.65&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&quot;interactions&quot; tabindex=&quot;-1&quot;&gt;Interactions &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/responsive-muslin/#interactions&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;I wanted to use machine learning to detect different kinds of interactions, and translate them to different patterns for the LEDs. However, I couldn&#39;t get the machine learning pipeline to work out. I used CreateML to train the machine learning model, but couldn&#39;t figure out how to use Serial communication with the model. Frustrating, but I moved on to replicating the same effect using rudimentary conditionals.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Screenshot%202022-03-25%20at%203.54.45%20PM.png?v=1648238099796&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Using CreateML to detect whether the piece is being touched or not&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Screenshot%202022-03-25%20at%203.58.49%20PM.png?v=1648238348049&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;pseudocode for interactions&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;By detecting pressure applied to sensor, and how many points are being pressed, I can somewhat determine the way the piece is being touched or interacted with. If only a few points are being touched with lots of pressure, the piece is being poked. If many points are being touched softly, then I can determine that my palm is on the surface. With 36 individual sensor points, the sensor is of a fairly high fidelity and does a good job of determining the kind of touch being applied.&lt;/p&gt;
-&lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
-    &lt;source src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/CC-midterm-processing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/video&gt;
-&lt;p&gt;&lt;em&gt;Visualisation how the piece detects touches&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;This software only allows for a limited number of interactions, but I do have a more complex version that I&#39;m currently working on which includes more advanced interaction detection.&lt;/p&gt;
-&lt;h4 id=&quot;assembly&quot; tabindex=&quot;-1&quot;&gt;Assembly &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/responsive-muslin/#assembly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;To make the piece look nicer, I enveloped the &#39;sandwich&#39; within two layers of laser etched muslin. The etches also indicate the center of the sensor, which makes it easier for the viewer to know where to touch. I chose a slightly finer type of muslin which felt nicer to touch.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3451.jpg?v=1648240005026&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Laser etch at the center of the sensor&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I didn&#39;t want the piece to be tight or tense, so I used four cross stitches to attach the outer layers to the inner sandwich. It also kept the micro-controller and coin cell battery holder easily accessible incase I needed to make some changes.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3449.jpg?v=1648240311363&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Cross-stitched the outer layers&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3457.jpg?v=1648240653661&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Easy to replace coin cell battery&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3458.jpg?v=1648240653662&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Can be plugged in to change software or make plug in additional hardware&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I tried etching a more complex pattern, but the etched surface had a rough surface, which didn&#39;t feel as nice to touch, so I reverted back to a smaller etched pattern.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3476.jpg?v=1648241537690&quot; alt=&quot;complex laser etch pattern experiment&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Trying a larger pattern&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3478.jpg?v=1648241666013&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;The roughness can be seen visually&lt;/em&gt;&lt;/p&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>Media Arts A11y</title>
@@ -403,7 +297,21 @@
 		<link href="https://salilparekh.work/posts/helf-and-caree/"/>
 		<updated>2020-05-01T00:00:00Z</updated>
 		<id>https://salilparekh.work/posts/helf-and-caree/</id>
-		<content type="html">&lt;p&gt;Over the course of a few weeks, 78 artists, illustrators, writers and first-time makers collaborated in a unique digital program to make 16 zines. As an attempt to combat the loneliness and creative isolation resulting from the lockdown, Pulp Society x TIRAF created two digital games - Exquizine and Blind Date — in hope of energising the creative community through the power of collective action. The participating artists along with Pulp Society x The Irregulars Art Fair donated the proceeds of this collaboration to the COVID-19 relief work.&lt;/p&gt;
+		<content type="html">&lt;div class=&quot;three-grid&quot;&gt;
+&lt;div class=&quot;intro-desc&quot;&gt;
+&lt;h4&gt;Introduction&lt;/h4&gt;
+&lt;span&gt;This is (now) online is a collaborative zine-making game conceptualised by Pulp Society and The Irregulars Art Fair during the COVID-19 lockdown. Nirmal Ravisyam and I were paired up to create a zine together with the theme &quot;Water wets and fire burns&quot;. I worked with a machine learning algorithm to generate speculative headlines, which were used as prompts to write articles. Nirmal created visuals for the generated headlines and the resulting articles.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;h4&gt;Role&lt;/h4&gt;
+&lt;span&gt;Writer&lt;/span&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;h4&gt;Collaborator&lt;/h4&gt;
+&lt;span&gt;Nirmal Ravisyam&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Over the course of a few weeks, 78 artists, illustrators, writers and first-time makers collaborated in a unique digital program to make 16 zines. As an attempt to combat the loneliness and creative isolation resulting from the lockdown, Pulp Society x TIRAF created two digital games - Exquizine and Blind Date — in hope of energising the creative community through the power of collective action. The participating artists along with Pulp Society x The Irregulars Art Fair donated the proceeds of this collaboration to the COVID-19 relief work.&lt;/p&gt;
 &lt;div class=&quot;two-grid&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/helf-and-caree-1.png&quot; alt=&quot;Generative visual with random unicode characters&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/helf-and-caree-2.png&quot; alt=&quot;Generative visual with random unicode characters&quot; /&gt;&lt;/p&gt;
@@ -468,6 +376,26 @@
 &lt;p&gt;The day started with ‘Bhavishya Bhojanalaya’ - a futuristic brunch curated by India’s leading food provocateur and chef Gresham Fernandes in collaboration with ‘The Good Slice’.&lt;/p&gt;
 &lt;p&gt;Next up, a unique, fast-paced co-creation workshop on ‘Speculative Design’ - an increasingly in-demand global skillset for creatives. 20 groups led by expert facilitators on a hands-on, co-creation journeys into the future of Mumbai and India in 2040.&lt;/p&gt;
 &lt;p&gt;Supported by : British Council, Pro Helvetia Swiss Arts Council, Social&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>FIG, a GIF Festival</title>
+		<link href="https://salilparekh.work/posts/fig/"/>
+		<updated>2019-12-01T00:00:00Z</updated>
+		<id>https://salilparekh.work/posts/fig/</id>
+		<content type="html">&lt;p&gt;FIG is an ONLINE + OFFLINE exhibit celebrating the power of the GIF. It is a small part of a larger study on the evolving internet expressions of our age – freshly incubated at the Eyemyth Festival 2019.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-5.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;The FIG website&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As a part of the EyeMyth Media Arts Festival, FIG was a showcase of GIF&#39;s from artists around the world on the theme: &lt;strong&gt;The Loss of Creativity.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-2.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;An open call for submissions was received with enthusiasm from the GIF community, with submissions on display on all digital screens at the Festival and online. The &lt;a href=&quot;https://burnedsap.github.io/fig/&quot;&gt;website&lt;/a&gt;, just like a GIF, loops infinitely!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-4.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;The online gallery&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-3.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;A submission from Anisha Thampy&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A small excerpt from a piece I wrote for the &lt;a href=&quot;https://thehardcopy.co/indian-gifs-time-to-take-centre-stage/&quot;&gt;HardCopy.co&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&amp;quot;It is for this reason that a few of us within Quicksand, decided to create a space for Gif creators to showcase their work. The platform is called FIG, and was launched a few months ago. FIG’s mission is to celebrate the creation of Gifs by designers, illustrators, artists, writers and creators of all kinds. We opened up calls for submissions on the theme of ‘The Loss of Creativity’ and we received around forty amazing entries. This is just the beginning for the platform, and we hope to do a lot more for Gif creators.  The team behind FIG are creators who love making Gifs using diverse digital and analogue techniques, and we wish to reach out to other creators who feel equally passionate about them.&amp;quot;&amp;quot;&lt;/span&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -721,9 +649,9 @@
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-14.jpg&quot; alt=&quot;One of many comics created to highlight Goa&#39;s natural diversity&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;One of many comics created to highlight Goa&#39;s natural diversity&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Initial research started with a deep-dive into the world of Goan crafts. The research on Goan crafts led to the idea of using mediums such as Augmented Reality and Virtual Reality to document and disseminate the heritage and culture of Goa. The next step was to further understand the capabilities of the mediums we would be working with, and exploring the possibilities of what could be created. An in-depth exploration of the mediums was carried out, to understand the workflow of not only documenting and digitising physical artefacts, but also creating immersive and interactive outputs for our target audience to engage with. During this stage, the the process of photogrammetry was discovered, which was quickly mastered and a few sample outputs were created through which the workflow was tested.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-13.png&quot; alt=&quot;One of the numerous Goan artefacts photogrammetried during the project&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-13.png#fullwidth&quot; alt=&quot;One of the numerous Goan artefacts photogrammetried during the project&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;One of the numerous Goan artefacts photogrammetried during the project&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-7.png&quot; alt=&quot;Photogrammetry of a Portugese-era church&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-7.png#fullwidth&quot; alt=&quot;Photogrammetry of a Portugese-era church&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Photogrammetry of a Portugese-era church&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We also realised that mediums such as Augmented Reality and Virtual Reality were not ideal for all project outputs, and simpler mediums such as comics, films, mobile apps and music videos. Although Extended Reality Mediums of Augmented Reality and Virtual Reality did have their place, it was important to recognise that all mediums have a particular time and place for their ideal use.&lt;/p&gt;
 &lt;p&gt;One of the key aspects of our research stage was to build new relationships and leverage existing partnerships. We realised that it was very important to have local experts inform the content and direction of our projects. These partners would also ensure that the project we collaboratively work on would have an audience, or a conduit through which to reach the audience through. Although not all collaborations directly led to a project output, the conversations and work from those relationships either contributed to some existing projects, or led to the creation of tangential projects through which we acquired further funding to continue work on specific inquiries.&lt;/p&gt;
@@ -822,7 +750,7 @@
 		<updated>2017-02-01T00:00:00Z</updated>
 		<id>https://salilparekh.work/posts/honeywell-aerospace-design-challenge/</id>
 		<content type="html">&lt;p&gt;The Honeywell Aerospace Design Challenge is an annual competition hosted by Honeywell Aerospace India. My collaborator, Harshika Jain and I have been participating for 3 years now, and in 2017 we got to the final round of the competition after previously being named as a special mention. I’ve always loved airplanes, and I really appreciated the chance to participate in a competition to see if my ideas have potential to make an impact.&lt;/p&gt;
-&lt;iframe width=&quot;100%&quot; height=&quot;420&quot; src=&quot;https://www.youtube.com/embed/cQ3R25_1jiw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;320&quot; src=&quot;https://www.youtube.com/embed/cQ3R25_1jiw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;em&gt;Project proposal video&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The theme for the 2017 edition was to come up with solutions to increase situational awareness of both pilots and ATC controllers. To understand the status quo, and the solutions currently being used, we interviewed multiple pilots and visited ATC controllers in the tower at the Ahmedabad Airport and the International Airport in Delhi. After our research, we designed two solutions to help increase situational awareness. The first part of the solution was to enhance the visualisation capabilities of ATC controllers, reducing their cognitive workload, stress levels, and give them the ability to make smarter decisions. Area ATC controllers (who control general airspace) would use a gesture controlled 3D map of the airspace to accurately determine distances and spot conflicts long before they occur. Tower and Ground ATC controllers (who control the airspace around the airport and on the airport) would have access to infrared capable cameras for better visualisation of the spaces they control. These solutions were driven from studying reports of various incidents and accidents to understand how a lack of situational awareness lead to these events taking place.&lt;/p&gt;
 &lt;p&gt;The second part of the solution proposed a rapid voice-text-speech solution which would reduce the chances of miscommunication on radio frequencies. When we pored over hours of ATC-Pilot communications, and listened to tens of hours of conversations on frequency, along with pilot testaments, we narrowed in on the problem of radio interference, accents, and grammar affecting communication, which often led to close calls or accidents. Building on current technologies and projecting into the future of voice-text-speech solutions to propose a concept which would dramatically reduce miscommunication on radio. When the pilot, or ATC controller would make a statement on their radio, the onboard computer would transcribe their messages to text via a highly adaptable machine learning algorithm. This text would be sent to the recipient and be heard as a voice message. The transcription would not only transcribe the message, but attempt to normalise the message to a standardised format easily recognisable world over. This helps in situations where foreign pilots interact with ATC controllers in different country. Even though the format of communicating over radio is highly standardised, strong accents combined with radio interference can lead to miscommunication. Some areas have also evolved and adapted different ways of communicating the same messages, especially in areas with extreme terrain, and this may differ from the standardised message format. This solution hopes to reduce the adverse impact of these factors.&lt;/p&gt;
@@ -913,27 +841,27 @@
 		<id>https://salilparekh.work/posts/bubbles%E2%80%93connecting-pols/</id>
 		<content type="html">&lt;p&gt;The UnBox Caravan is a breakaway festival of the UnBox Festival, one of India’s few design festivals. The Caravan, supported by the Mozilla Foundation, brought together designers, technologists, digital activists, creative coders and craftspeople for two weeks in Ahmedabad. The senior Product Design and Exhibition Design batches worked together with the professional to learn how to work with Internet of Things (IoT) devices and create installations which would be exhibited at the Conflictorium, a museum which explores human conflicts.&lt;/p&gt;
 &lt;div class=&quot;two-grid&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-19.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-17.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-19.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-17.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-13.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-10.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Initial ideation&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We wanted to try and design an experience which could, if only for a moment masks these tensions, and get people to come together and enjoy their time together, however brief it may be for. The idea was simple. We wanted to get the children of these five communities to come together and interact with each other, for a brief moment. The children of these communities were discouraged from interacting with each other by their parents, and often led disparate lives, even though they were neighbours. We created a simple installation which would produce bubbles, yes, soap bubbles every time the viewers would interact with each other.&lt;/p&gt;
 &lt;div class=&quot;two-grid&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-9.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-6.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-9.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Bubbles making experiments&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;To accomplish this, we created a simple bubble making machine attached to two foil balls. When the children would hold the foil balls and hold each others hands to complete the circuit, the bubble making machine would spin up and start creating bubbles! If any person broke the connection, the bubbles would stop. We weren’t sure if this would work, or if this would have any sort of impact. But to our surprise, we had children coming in by droves to see our installation and play with the bubbles. When they figured out that they had to hold hands to enjoy the bubbles, they started communicating, and interacting with one another to ensure the bubbles would keep coming. We saw some moments through day where the children worked together for those brief moments, before dispersing and going their separate ways.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-1.jpg#fullwidth&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The bubble maker in action&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-2.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Happy outcomes&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A crash course in working with IoT and electronics quickly evolved into bubbles. The goal was to use our new tools to find ways to make an intervention in the community. Using quick and dirty prototypes we thought of an installation which would only activate when everyone would hold hands. The human circuit would then switch on the installations. Presenting the installations to children from deeply divided communities posed a challenge. To unite them, we got the children to hold hands with each other which would then activate the installations to produce bubbles! The kids, forgetting community divides, even for that brief moment, communicated and helped each other to hold hands to enjoy the bubbles.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-5.jpg#fullwidth&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The results were perhaps unexpected, but very welcome&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-8.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bubbles-connecting-pols-8.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The team&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>

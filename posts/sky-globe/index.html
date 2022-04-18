@@ -10,35 +10,32 @@
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Salil Parekh">
   </head>
   <body>
-   <header>
-    <h1 class="home">
-      <a href="/">Salil Parekh</a>
-    </h1>
-       <nav>
-         <a href="/about">About</a>
-       </nav>
-     </header>
+    <header>
+      <h1 class="home"><a href="/">Salil Parekh</a></h1>
 
-   <main class="tmpl-post">
-   <hr>
-     
-<div class="post-wrapper">
-  <div class="post-info">
-    
-    <h2 class="post-main-title">Sky Globe</h2>
+      <!-- -->
+      <!-- <ul class="nav">
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+      </ul> -->
+    </header>
 
-    
-    
-    
-    
-    
-    
+    <main class="tmpl-post">
+      <h1>Sky Globe</h1>
 
-    <div class="post-tags"><a href="/tags/play/" class="tags">play</a><a href="/tags/data/" class="tags">data</a><a href="/tags/2020/" class="tags">2020</a>
-    </div>
+
+<div class="tags"><a href="/tags/play/" class="post-tag">play</a><a href="/tags/data/" class="post-tag">data</a><a href="/tags/2020/" class="post-tag">2020</a>
 </div>
-<div class="post-main">
-  <p>When I look up at the sky, I might see an airplane or two, but apart from a few rare sightings, the sky seems relatively empty. However, a quick glance at a (pre-COVID) flight schedule says anything but. Our skies are quite literally filled with airplanes, especially in a city with an airport. However, this data is quite difficult to visualise, let alone see even. Taking data from <a href="http://opensky-network.org">opensky-network.org</a> ↗, I created a Sky Globe which allows you to see the airplanes in the skies above your location.</p>
+
+<div class="three-grid-into">
+  
+  
+  
+  
+  
+  
+</div>
+
+<p>When I look up at the sky, I might see an airplane or two, but apart from a few rare sightings, the sky seems relatively empty. However, a quick glance at a (pre-COVID) flight schedule says anything but. Our skies are quite literally filled with airplanes, especially in a city with an airport. However, this data is quite difficult to visualise, let alone see even. Taking data from <a href="http://opensky-network.org">opensky-network.org</a> ↗, I created a Sky Globe which allows you to see the airplanes in the skies above your location.</p>
 <iframe width="610px" height="610px" src="https://burnedsap.github.io/sky-globe/"></iframe>
 <p><em>See what's above you</em></p>
 <p>Sky Globe takes your location, and visualises the aircraft flying above you in real time. It shows all aircraft within an area of 295km around your location. Airplanes do fly awfully quickly, and a wider catchment area allows us to see aircraft that might be passing on the periphery of your location. The sketch also shows the visualisation of the altitude and traces the path of the aircraft as it passes through the sky. The position of the aircraft updates every 5.5 seconds. Each aircraft is marked with it's callsign and the country of origin. The information on display has been kept to a minimum to allows viewers to have a clear and unimpeded view of the visualisation.</p>
@@ -55,9 +52,8 @@
 <em>Aircraft over NYC</em></p>
 <p>Having figured out the data structures of the aircraft lists, I had to figure out how to create the trails for each aircraft, which would extend from the coordinates. I used a slightly complicated solution of creating two PVectors which would extend from the 3D coordinates to create each edge of the trail. This was needed as it would adapt to the rotation of the aircraft (another maths challenge to solve!) as it turned. Along the journey, I even made a case for, and advocated a <a href="https://github.com/processing/p5.js/issues/4767">contribution</a> ↗ to p5.js!</p>
 
-</div>
 
-   </main>
+    </main>
 
     <footer>
   ← <a href="/">See other projects.</a>

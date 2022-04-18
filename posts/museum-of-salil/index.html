@@ -10,35 +10,32 @@
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Salil Parekh">
   </head>
   <body>
-   <header>
-    <h1 class="home">
-      <a href="/">Salil Parekh</a>
-    </h1>
-       <nav>
-         <a href="/about">About</a>
-       </nav>
-     </header>
+    <header>
+      <h1 class="home"><a href="/">Salil Parekh</a></h1>
 
-   <main class="tmpl-post">
-   <hr>
-     
-<div class="post-wrapper">
-  <div class="post-info">
-    
-    <h2 class="post-main-title">Museum of Salil</h2>
+      <!-- -->
+      <!-- <ul class="nav">
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+      </ul> -->
+    </header>
 
-    
-    
-    
-    
-    
-    
+    <main class="tmpl-post">
+      <h1>Museum of Salil</h1>
 
-    <div class="post-tags"><a href="/tags/play/" class="tags">play</a><a href="/tags/games/" class="tags">games</a><a href="/tags/2020/" class="tags">2020</a>
-    </div>
+
+<div class="tags"><a href="/tags/play/" class="post-tag">play</a><a href="/tags/games/" class="post-tag">games</a><a href="/tags/2020/" class="post-tag">2020</a>
 </div>
-<div class="post-main">
-  <p>Games are objectively a wonderful medium, and video games especially are a great way to tell stories. The interactivity, and immersiveness make it a compelling method to communicate narratives, and I was very excited, and nervous about making a game. In the past I have used Unity, although primarily as an interactive 3D viewing tool, using camera controller prefabs. The programming component of Unity is immensely frightening, and I've seen enough to know how complex game programming can get. So, I approached this project with a fair bit of nervous energy, although still very excited to finally create a game of my own.</p>
+
+<div class="three-grid-into">
+  
+  
+  
+  
+  
+  
+</div>
+
+<p>Games are objectively a wonderful medium, and video games especially are a great way to tell stories. The interactivity, and immersiveness make it a compelling method to communicate narratives, and I was very excited, and nervous about making a game. In the past I have used Unity, although primarily as an interactive 3D viewing tool, using camera controller prefabs. The programming component of Unity is immensely frightening, and I've seen enough to know how complex game programming can get. So, I approached this project with a fair bit of nervous energy, although still very excited to finally create a game of my own.</p>
 <p>After much work, and even more to work on, I present, Museum of Salil! This is an autobiographical game which lets players get to know me as they wander through the museum. Play the game to find out more!</p>
 <iframe width="400px" height="500px" src="https://burnedsap.github.io/bitmap-game/"></iframe>
 <p><em>Play the game here!</em></p>
@@ -62,9 +59,8 @@
 <p>Every new challenge or difficulty presented me with an opportunity to refactor my code, and clean it up. Iteration by iteration, the game started to take shape, with new features being added, and old ones removed. This process got me to do some more research on p5js and the p5 play library–which helped me simplify the code and make it more efficient. I did run into a bizarre problem, in which the frame rate of the game would drop from a constant 30fps to 1fps within half a minute. After having studied the performance logs, I spotted the culprit. I was drawing the collider sprites for the walls every frame, which was causing the brutal slowdown. I implemented a system which would behave as a pseudo-setup() function by checking for NPC sprites. If there weren't any, the that block of code would run, before populating the scene with NPC sprites. This helped me create the wall sprites one, and thus resolving the performance issue.</p>
 <p>As the game development concluded, I shared a copy of the game with a few of my friends to playtest it and get some feedback. From this feedback, I implemented a more efficient interaction strategy, improved readability, added new dialogues, and added interactive elements. This was an important part of the process as it helped me verify the narrative strategy, and helped improve the playability of the game.</p>
 
-</div>
 
-   </main>
+    </main>
 
     <footer>
   ← <a href="/">See other projects.</a>

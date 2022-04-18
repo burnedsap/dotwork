@@ -1,20 +1,19 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900");
-@import url("clash-grotesk.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900');
+@import url('clash-grotesk.css');
 
 /* ClashGrotesk-Variable */
 /* Colors */
 :root {
   --lightgray: #e0e0e0;
-  --gray: #c0c0c0;
+  --gray: #C0C0C0;
   --darkgray: #333;
-  --navy: #17050f;
+  --navy: #17050F;
   --blue: #082840;
   --white: #fff;
   --lightblack: rgb(51, 51, 51);
-  --maxw: 1280px;
-  --maxpw: 1280px;
-  --headerText: "ClashGrotesk-Variable";
+  --maxw: 43rem;
+  --headerText: 'ClashGrotesk-Variable';
   --bodyText: -apple-system, system-ui, sans-serif;
 }
 
@@ -33,18 +32,6 @@ body {
   overflow-x: hidden;
 }
 
-main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 3%;
-}
-
-.main-metadata {
-}
-.main-content {
-  grid-column-start: 2;
-  grid-column-end: 4;
-}
 p:last-child {
   margin-bottom: 0;
 }
@@ -160,26 +147,14 @@ h1 {
 
 h1 a:hover {
   text-decoration: none;
-  background: linear-gradient(
-    120deg,
-    rgb(81, 77, 165) 0%,
-    rgba(9, 9, 121, 1) 27%,
-    rgba(175, 5, 83, 1) 72%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(120deg, rgb(81, 77, 165) 0%, rgba(9, 9, 121, 1) 27%, rgba(175, 5, 83, 1) 72%, rgba(0, 212, 255, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: 300ms ease-in;
 }
 
 .tmpl-post h1 {
-  background: linear-gradient(
-    120deg,
-    rgb(81, 77, 165) 0%,
-    rgba(9, 9, 121, 1) 27%,
-    rgba(175, 5, 83, 1) 72%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(120deg, rgb(81, 77, 165) 0%, rgba(9, 9, 121, 1) 27%, rgba(175, 5, 83, 1) 72%, rgba(0, 212, 255, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -236,7 +211,7 @@ blockquote {
   padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
-  letter-spacing: -0.025rem;
+  letter-spacing: -.025rem;
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
@@ -259,10 +234,7 @@ table th {
 
 pre,
 code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono",
-    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
-    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
-    "Courier New", Courier, monospace;
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   line-height: 1.5;
 }
 
@@ -282,7 +254,7 @@ pre {
   -ms-hyphens: none;
   hyphens: none;
   padding: 1em;
-  margin: 0.5em 0;
+  margin: .5em 0;
   background-color: #f6f6f6;
 }
 
@@ -305,7 +277,7 @@ code {
 }
 
 /* avoid double line breaks when using display: block; */
-.highlight-line + br {
+.highlight-line+br {
   display: none;
 }
 
@@ -316,7 +288,7 @@ code {
 
 .highlight-line-active {
   background-color: #444;
-  background-color: hsla(0, 0%, 27%, 0.8);
+  background-color: hsla(0, 0%, 27%, .8);
 }
 
 .highlight-line-add {
@@ -377,7 +349,7 @@ code {
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
-  content: "" counter(start-from, decimal-leading-zero) ". ";
+  content: ""counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
 }
@@ -394,8 +366,8 @@ code {
 }
 
 .postlist-link {
-  padding-left: 0.25em;
-  padding-right: 0.25em;
+  padding-left: .25em;
+  padding-right: .25em;
   text-underline-position: from-font;
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
@@ -471,7 +443,7 @@ a[href].post-tag:focus {
   background-color: var(--lightgray);
 }
 
-.postlist-item > .post-tag {
+.postlist-item>.post-tag {
   align-self: center;
 }
 
@@ -491,7 +463,7 @@ a[href].post-tag:focus {
   font-family: sans-serif;
   text-decoration: none;
   font-style: normal;
-  margin-left: 0.1em;
+  margin-left: .1em;
 }
 
 a[href].direct-link,
@@ -501,8 +473,8 @@ a[href].direct-link:visited {
 
 a[href].direct-link:focus,
 a[href].direct-link:focus:visited,
-:hover > a[href].direct-link,
-:hover > a[href].direct-link:visited {
+:hover>a[href].direct-link,
+:hover>a[href].direct-link:visited {
   color: #aaa;
 }
 
@@ -517,6 +489,8 @@ section {
   border-bottom: 1px solid #eee;
 }
 
+
+
 .three-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -526,7 +500,7 @@ section {
 
 .three-grid-into {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 3%;
   padding-bottom: 3rem;
   margin-bottom: 1rem;
@@ -542,11 +516,12 @@ section {
   margin-top: 2rem;
 }
 
-.two-grid img,
-p {
+
+.two-grid img, p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 
 .bio-two-grid {
   display: grid;
@@ -576,26 +551,26 @@ input {
 }
 
 /* hide radio buttons */
-input + label {
-  display: inline-block;
+input+label {
+  display: inline-block
 }
 
 /* show labels in line */
-input ~ .tab {
-  display: none;
+input~.tab {
+  display: none
 }
 
 /* hide contents */
 /* show contents only for selected tab */
-#tab1:checked ~ .tab.content1,
-#tab2:checked ~ .tab.content2,
-#tab3:checked ~ .tab.content3,
-#tab4:checked ~ .tab.content4,
-#tab5:checked ~ .tab.content5 {
+#tab1:checked~.tab.content1,
+#tab2:checked~.tab.content2,
+#tab3:checked~.tab.content3,
+#tab4:checked~.tab.content4,
+#tab5:checked~.tab.content5 {
   display: block;
 }
 
-input + label {
+input+label {
   /* box with rounded corner */
   font-size: 12px;
   font-weight: 300;
@@ -605,19 +580,18 @@ input + label {
   color: #858484;
 }
 
-input:checked + label {
+input:checked+label {
   font-weight: 500;
   /* white background for selected tab */
   text-decoration: underline;
   color: black;
 }
 
-input ~ .tab {
+input~.tab {
   /* grey line between tab and contents */
 }
 
-input,
-label {
+input, label {
   margin-bottom: 2rem;
 }
 
@@ -737,13 +711,7 @@ summary {
 }
 
 .intro {
-  background: linear-gradient(
-    120deg,
-    rgb(81, 77, 165) 0%,
-    rgba(9, 9, 121, 1) 27%,
-    rgba(175, 5, 83, 1) 72%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(120deg, rgb(81, 77, 165) 0%, rgba(9, 9, 121, 1) 27%, rgba(175, 5, 83, 1) 72%, rgba(0, 212, 255, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-rendering: auto;
@@ -766,17 +734,4 @@ summary {
 address {
   margin-bottom: 2rem;
   margin-top: 2rem;
-}
-
-.new-post-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 3%;
-  font-size: 24px;
-}
-
-.new-post-content {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  line-height: 1.4;
 }
