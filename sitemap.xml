@@ -167,17 +167,17 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/index-old/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salilparekh.work/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
     <loc>https://salilparekh.work/page-list/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/retrospective/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -222,27 +222,22 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/work/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/tags/experiential/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salilparekh.work/tags/writing/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/generative-art/</loc>
+    <loc>https://salilparekh.work/tags/work/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
     <loc>https://salilparekh.work/tags/design-research/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/tags/generative-art/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -262,12 +257,22 @@
   </url>
   
   <url>
+    <loc>https://salilparekh.work/tags/recent/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/tags/experiential/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://salilparekh.work/tags/speculative-design/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/recent/</loc>
+    <loc>https://salilparekh.work/tags/machine-learning/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -287,17 +292,12 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/mfadt/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salilparekh.work/tags/games/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/machine-learning/</loc>
+    <loc>https://salilparekh.work/tags/mfadt/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
