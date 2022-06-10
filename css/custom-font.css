@@ -54,6 +54,27 @@
 }
 
 @font-face {
+  font-family: "PPNeueMontreal";
+  src: url("fonts/PPNeueMontreal-Italic.woff2") format("woff2"),
+    url("fonts/PPNeueMontreal-Italic.woff") format("woff"),
+    url("fonts/PPNeueMontreal-Italic.eot") format("eot"),
+    url("fonts/PPNeueMontreal-Italic.ttf") format("truetype");
+  font-display: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: url("fonts/PPNeueMontreal-ThinItalic.woff2") format("woff2"),
+    url("fonts/PPNeueMontreal-ThinItalic.woff") format("woff"),
+    url("fonts/PPNeueMontreal-ThinItalic.eot") format("eot"),
+    url("fonts/PPNeueMontreal-ThinItalic.ttf") format("truetype");
+  font-display: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
   font-family: "PPEiko";
   src: url("fonts/PPEiko-Regular.woff2") format("woff2"),
     url("fonts/PPEiko-Regular.woff") format("woff"),

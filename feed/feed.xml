@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Salil Parekh</title>
-	<subtitle>Salil Parekh is a design researcher and creative technologist. He is currently working on creating a planet-centered machine intelligence at The New School, New York.</subtitle>
+	<subtitle>Salil Parekh is a design researcher and creative technologist. He is currently working on creating The Planetary Bureau at The New School, New York.</subtitle>
 	
 	<link href="https://salilparekh.work/feed/feed.xml" rel="self"/>
 	<link href="https://salilparekh.work"/>
@@ -47,6 +47,90 @@
 &lt;em&gt;A submission from Anisha Thampy&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A small excerpt from a piece I wrote for the &lt;a href=&quot;https://thehardcopy.co/indian-gifs-time-to-take-centre-stage/&quot;&gt;HardCopy.co&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;&amp;quot;It is for this reason that a few of us within Quicksand, decided to create a space for Gif creators to showcase their work. The platform is called FIG, and was launched a few months ago. FIG’s mission is to celebrate the creation of Gifs by designers, illustrators, artists, writers and creators of all kinds. We opened up calls for submissions on the theme of ‘The Loss of Creativity’ and we received around forty amazing entries. This is just the beginning for the platform, and we hope to do a lot more for Gif creators. The team behind FIG are creators who love making Gifs using diverse digital and analogue techniques, and we wish to reach out to other creators who feel equally passionate about them.&amp;quot;&amp;quot;&lt;/span&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Do Curtains Dream at Night?</title>
+		<link href="https://salilparekh.work/posts/do-curtains-dream-at-night/"/>
+		<updated>2022-05-24T00:00:00Z</updated>
+		<id>https://salilparekh.work/posts/do-curtains-dream-at-night/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/curtains-3.jpg&quot; alt=&quot;curtain in the morning&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/curtain-1.jpg?v=1652660845175&quot; alt=&quot;curtain in the morning&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/curtain-6.jpg?v=1652661415074&quot; alt=&quot;curtains at night&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/curtain-3.jpg?v=1652661498256&quot; alt=&quot;close up of leds&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/curtain-7.jpg?v=1652661529068&quot; alt=&quot;curtains in my room&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Curtains shining away at night&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/curtains-1.jpg&quot; alt=&quot;curtain in the morning&quot; /&gt;&lt;/p&gt;
+&lt;video controls=&quot;&quot; muted=&quot;&quot; width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Curtain%20proj-HD%201080p.mp4?v=1652667136070&quot; type=&quot;video/mp4&quot; /&gt;
+            type=&quot;video/mp4&quot;&gt;
+&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/video&gt;
+&lt;p&gt;&lt;em&gt;Short video showing the curtain dreaming at night&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/breakout%20used%20in%20curtain.jpg?v=1652572076187&quot; alt=&quot;soft breakout board&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Custom soft breakout board with Teensy LC powering the curtain&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My house is ill!</title>
+		<link href="https://salilparekh.work/posts/my-house-is-ill/"/>
+		<updated>2022-05-14T00:00:00Z</updated>
+		<id>https://salilparekh.work/posts/my-house-is-ill/</id>
+		<content type="html">&lt;p&gt;Very little is known about how pollution alters the safety of spaces we inhabit every day. While status updates about outdoor air are available through public information boards and hand-held apps, how we might protect ourselves in our own homes is far less obvious. The house imagines a very-near reality of how our domestic environments could evolve in response to persistent pollution outside the window — prompting visitors to think about everyday questions about the air in our homes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-6.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-7.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-8.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-9.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;video muted=&quot;&quot; controls=&quot;&quot; width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;https://salilparekh.work/img/myhouseisill_web.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/video&gt;
+&lt;p&gt;The project is conceived by Architecture for Dialogue in collaboration with Salil Parekh. The current iteration of the project is supported by Khoj and forms a part of “Does a Blue Sky Lie? : Testimonies of Air’s Toxicities,” a project undertaken to explore the troubled ecology of Delhi’s air. The month-long texhibition is a satellite event to the 13th India Art Fair.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Heliotropic Horology</title>
+		<link href="https://salilparekh.work/posts/heliotropic-horology/"/>
+		<updated>2022-04-14T00:00:00Z</updated>
+		<id>https://salilparekh.work/posts/heliotropic-horology/</id>
+		<content type="html">&lt;video muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;https://salilparekh.work/img/sunflower.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/video&gt;
+&lt;p&gt;&lt;strong&gt;Heliotropism&lt;/strong&gt; cause the sunflower to face the sun to aid pollination. During they day the flower changes its position to face the sun, and moves back into position during the night.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-2.png&quot; alt=&quot;how the sunflower time works&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In order to build out a timekeeping infrastructure, the people behind this idea, who call themselves &lt;strong&gt;The Heliotropes&lt;/strong&gt;, created a series of prototypes for a new standard called Sunflower Standard Time (SST).&lt;/p&gt;
+&lt;p&gt;Using simple computer vision methods, Prototype 3b.1 was the first successful working prototype which could accurately report SST. By tracking the position of the sunflower as it moved during the day, the prototype could tell the time of day, and night.&lt;/p&gt;
+&lt;video controls=&quot;&quot; muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;https://salilparekh.work/img/heliotropic-video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/video&gt;
+&lt;p&gt;As the Heliotropes transitioned away from human time, they found it difficult to create a whole new time standard. Thus, they decided to create a Transitionary Time Practice (TTP), using other types of plants to substitute for seconds, minutes and hours. In areas where the sunflower couldn’t be grown, they used other species of daisies.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-3.png&quot; alt=&quot;different plants&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Although Transitionary Time Practice would serve as a good stop-gap, the Heliotropes wanted to move away from traditional notions of timekeeping, and so, they proposed many different kinds of clock designs. The time data is sent to the watches by the computer vision prototype.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-4.png&quot; alt=&quot;standard looking plant&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-5.png&quot; alt=&quot;clock which uses angles of sunflower&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-6.png&quot; alt=&quot;uses the fermat pattern in the sunflower&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The intent of using sunflowers is to not only peg time to a notion which is connected to the planet, but to also slow time down and live a healthier and more meaningful life. Each Heliotrope has their own personal time, which is set by the sunflower they are paired with.&lt;/p&gt;
+&lt;p&gt;Not all are lucky to have a sunflower of their own, which is where sunflower farms are used to rent out, or share sunflowers over the internet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-7.png&quot; alt=&quot;different time models&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The creation of personal time doesn’t mean that standardised time cannot exist. Neighbourhoods, cities, countries, and the entire world can have different time zones. A moving average of personal times is used to define the different scales of time.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-8.png&quot; alt=&quot;different time standards&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As the sunflower grows older, it eventually loses its heliotropic ability to face the sun during the day, and by extension, its affordance as a timekeeping device. When it reaches a certain vintage, a sunflower will always point east, which makes it an excellent compass.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-9.png&quot; alt=&quot;clock to compass transition&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
