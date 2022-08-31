@@ -20,6 +20,7 @@
   font-style: normal;
 }
 
+/* Light */
 @font-face {
   font-family: "PPNeueMontreal";
   src: url("fonts/PPNeueMontreal-Light.woff2") format("woff2"),
@@ -31,6 +32,7 @@
   font-style: normal;
 }
 
+/* Book */
 @font-face {
   font-family: "PPNeueMontreal";
   src: url("fonts/PPNeueMontreal-Book.woff2") format("woff2"),
@@ -42,6 +44,7 @@
   font-style: normal;
 }
 
+/* Medium */
 @font-face {
   font-family: "PPNeueMontreal";
   src: url("fonts/PPNeueMontreal-Medium.woff2") format("woff2"),

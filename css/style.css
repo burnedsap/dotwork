@@ -60,6 +60,19 @@ a {
   vertical-align: baseline;
 }
 
+.post-main h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+.post-main .direct-link a {
+  display: none;
+  color: white;
+}
+html {
+  scroll-padding-top: 5.9rem;
+}
 body {
   line-height: 1;
   background: var(--bg);
@@ -127,7 +140,7 @@ nav {
 @media (min-width: 1800px) {
   nav {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: var(--spacer);
   }
 }
@@ -197,6 +210,10 @@ nav p a:hover:after {
   grid-template-columns: 100%;
   border-radius: 3px;
   margin-bottom: 4rem;
+}
+
+#radio-posts-wrapper {
+  padding: 0.5rem 0;
 }
 
 @media (min-width: 750px) {
@@ -331,15 +348,31 @@ a {
 video {
   margin-bottom: 1rem;
 }
+.tag-container {
+  padding: var(--spacer);
+  margin-bottom: 2rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
+
+.post-main ul li a {
+  font-size: 14px;
+  width: 100%;
+  word-break: break-all;
+  font-weight: 300;
+  display: block;
+}
 
 /* TABOOS */
 
-input {
+.tag-container input {
   display: none;
 }
 
 .firsttab {
-  margin-left: var(--spacer);
+  /* margin-left: var(--spacer); */
 }
 /* hide radio buttons */
 input + label {
@@ -348,32 +381,33 @@ input + label {
   transition: 0.4s;
 }
 
-label:hover {
+.tag-container label:hover {
   color: black;
   border: 1px solid rgb(0, 0, 0);
   background: rgb(235, 235, 235);
 }
 
 /* show labels in line */
-input ~ .tab {
+.tag-container input ~ .tab {
   display: none;
 }
 
 /* hide contents */
 /* show contents only for selected tab */
-#tab1:checked ~ .tab.content1,
+.tag-container #tab1:checked ~ .tab.content1,
 #tab2:checked ~ .tab.content2,
 #tab3:checked ~ .tab.content3,
 #tab4:checked ~ .tab.content4,
-#tab5:checked ~ .tab.content5 {
+#tab5:checked ~ .tab.content5,
+#tab6:checked ~ .tab.content6 {
   display: block;
 }
 
-.tab {
+.tag-container .tab {
   margin-bottom: 2rem;
 }
 
-input + label {
+.tag-container input + label {
   border: 1px solid rgb(47, 47, 47);
   border-radius: 20px;
   text-align: center;
@@ -382,15 +416,15 @@ input + label {
   font-size: 14px;
 }
 
-input:checked + label {
+.tag-container input:checked + label {
   background: black;
   color: white;
 }
 
-input,
+.tag-container input,
 label {
   margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 /* Project section */
@@ -453,13 +487,14 @@ label {
   margin-bottom: 1rem;
 }
 
-.post-main em {
+.post-main p em {
+  display: block;
   font-style: normal;
   color: rgb(74, 74, 74);
   font-weight: 200;
   line-height: 1.6;
-  font-size: 17px;
-  margin-top: 0;
+  font-size: 16px;
+  margin-top: -0.2rem;
   margin-bottom: 1rem;
 }
 
@@ -475,7 +510,7 @@ label {
 .post-main blockquote {
   font-family: "PPEiko";
   font-size: 22px;
-  line-height: 1.6;
+  line-height: 1.7;
   max-width: 95%;
   font-weight: 500;
   padding: 1rem 0;
@@ -490,7 +525,18 @@ label {
   margin-top: 0;
   /* margin-top: 2rem; */
 }
+iframe {
+  margin-bottom: 1rem;
+}
+.nda {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
 
+.nda:hover {
+  color: black;
+  text-shadow: none;
+}
 .post-desc {
   margin-bottom: 1rem;
   line-height: 1.5;
@@ -509,7 +555,7 @@ label {
 
 /* tags section */
 .post-tags {
-  margin-top: 0;
+  margin-top: 2rem;
 }
 .tags {
   display: inline-block;
@@ -549,9 +595,20 @@ label {
   background: rgb(69, 69, 69);
 }
 
+.tag-image-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-start: span 2;
+  grid-gap: var(--spacer);
+  width: 100%;
+
+  padding-right: var(--spacer);
+}
+
 /* About Section */
 
 .about-main {
+  display: grid;
   grid-column-start: span 2;
   /* grid-column-end: 4; */
   line-height: 1.5;
@@ -837,4 +894,16 @@ strong {
 
 .retrospective-text-image img {
   width: 100%;
+}
+
+.retrospective-text-text .thread {
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: grey;
+  margin-bottom: 0.3rem;
+}
+
+.anchor {
 }
