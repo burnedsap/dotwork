@@ -175,7 +175,7 @@ nav p a:hover:after {
 }
 
 .intro {
-  padding: 3rem var(--spacer) 0;
+  padding: 1.5rem var(--spacer) 0;
   font-family: "PPEiko";
   font-size: 40px;
   line-height: 1.5;

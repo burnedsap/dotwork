@@ -12,6 +12,7 @@
      <meta property="og:title" content="Salil Parekh">
       <meta name="twitter:title" content="Salil Parekh">
 
+
     <link rel="preload" href="/css/fonts/PPNeueMontreal-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/css/fonts/PPNeueMontreal-Thin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/css/fonts/PPNeueMontreal-Light.woff2" as="font" type="font/woff2" crossorigin>
@@ -21,8 +22,10 @@
 <script async defer src="https://scripts.withcabin.com/hello.js"></script>
 
     <link rel="stylesheet" href="/css/style.css">
+    <!-- <script src="/script/script.js"></script> -->
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Salil Parekh">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Salil Parekh">
+
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "667454df3d3e435497c2aeb5927528fd"}'></script><!-- End Cloudflare Web Analytics -->
   </head>
   <body>
@@ -36,11 +39,20 @@
 
     <main>
     <hr>
-      <p class="intro">
-  Salil Parekh is a design researcher and creative technologist. He is
-  currently working on creating <a href="https://theplanetarybureau.com">The Planetary Bureau</a> at The New
-  School, New York.
+      <p class="intro" id="intro">
 </p>
+<script>
+let intro = [
+  "He is currently doing some terrible embroidery.",
+  "He is currently working at EY wavespace.",
+  "He is currently working on Haboob, a VR film.",
+  "He is currently creating a wall-clock.",
+  "He is currently working on this website.",
+  'He is currently working on creating <a href="https://theplanetarybureau.com">The Planetary Bureau</a>.',
+];
+document.getElementById("intro").innerHTML =
+"Salil Parekh is a design researcher and creative technologist. " + intro[Math.floor(Math.random() * intro.length)];
+</script>
 
 <h2 class="post-headers">Work</h2>
 <section class="tag-container">
@@ -918,6 +930,31 @@
       </p>
       <p class="posts-desc">
         Custom tool to detect EMF disturbances in the environment
+      </p>
+    </a>
+</figure>
+
+  
+    <!-- <div > -->
+
+
+
+
+
+
+<figure class="posts">
+    <a href='/posts/media-arts-a11y/'>
+      <div class="posts-link">
+        <img
+          class="posts-image"
+          src ="../img/media-arts-a11y-2.png"
+        />
+      </div>
+      <p class="posts-title">
+        <span>Media Arts A11y</span> / 2021 / work
+      </p>
+      <p class="posts-desc">
+        Accessible website template for media art educators
       </p>
     </a>
 </figure>
@@ -1832,4 +1869,5 @@
 
     <!-- Current page: / -->
   </body>
+
 </html>
