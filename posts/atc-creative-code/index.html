@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salil Parekh / Visualisation of Air Traffic through Creative Coding</title>
+    <meta name="description" content="Using creative coding to create dynamic views of air traffic">
+    <meta name="author" content="Salil Parekh">
+
+    <meta property="og:description" content="Salil Parekh is a design researcher and creative technologist. He is currently working on creating The Planetary Bureau at The New School, New York.">
+     <meta property="og:title" content="Visualisation of Air Traffic through Creative Coding">
+     <meta property="og:image" content="https://salilparekh.work/img/sky-globe-3.png">
+    <meta name="twitter:title" content="Visualisation of Air Traffic through Creative Coding">
+    <meta name="twitter:card" content="summary_large_image"/>
+
+    <link rel="preload" href="/css/fonts/PPNeueMontreal-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Thin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Book.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/fonts/PPEiko-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<script async defer src="https://scripts.withcabin.com/hello.js"></script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Salil Parekh">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Salil Parekh">
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "667454df3d3e435497c2aeb5927528fd"}'></script><!-- End Cloudflare Web Analytics -->
+  </head>
+  <body>
+   <header>
+     <nav>
+       <h1><a href="/">Salil Parekh</a></h1>
+       <p><a href="/about">About</a></p>
+       <p><a href="/retrospective">Retrospective</a></p>
+     </nav>
+   </header>
+
+   <main class="tmpl-post">
+   <hr>
+     
+<div class="posts-page-wrapper">
+  <div class="post-info">
+    
+    <h2 class="post-main-title">Visualisation of Air Traffic through Creative Coding</h2>
+
+    
+      <div class="post-desc">
+        <h4>Overview</h4>
+        <p>Using creative coding to create dynamic visualisations of air traffic in the skies to help with situational awareness</p>
+      </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="post-tags"><a href="/tags/writing/" class="tags">writing</a><a href="/tags/2022/" class="tags">2022</a>
+    </div>
+</div>
+<div class="post-main">
+  <h3 id="abstract" tabindex="-1">Abstract <a class="direct-link" href="#abstract" aria-hidden="true"></a></h3>
+<p>The skies above us often seem empty, but they are often filled with aircraft, too far above to be seen by the naked eye. Open source APIs like the opensky-network allow us to paint a picture of what is flying above us at any given point of time. The ease of use of the opensky-network API makes it relatively simple to obtain various data-points of the aircraft flying in the skies at any location on the planet. The lowered barrier of entry to this dataset allows for people from different backgrounds and sectors to not only visualise the data but also draw meaningful insights from it. Websites like <a href="https://flightradar24.com">FlightRadar24.com</a> use similar data-points and create 2D visual representations for anyone on the internet to freely access. The data obtained by opensky-network is community sourced, and as such isn’t restricted or censored by those looking to obfuscate the data. This data can be of great value for journalists, researchers, and activists looking to monitor air traffic. The emergence of easily accessible creative coding libraries such as p5JS and ThreeJS has enabled such people to quickly access the opensky-network API to visualise air traffic data at any location of their choosing.</p>
+<p><a href="/posts/sky-globe">Sky Globe</a> is one such visualisation built with p5JS with the intent of identifying anomalous activity. It uses the opensky-network API to visualise air traffic using the users current location or a set of coordinates. The data is visualised using an interactive 3D interface which can be panned and zoomed into. Each aircraft is marked with its flight number, country of origin as well as a trail indicating its general direction of travel. This visualisation allows the viewer to see aircraft on a 3D canvas, which is useful as it shows the altitude of the aircraft. When a location with an airport in the vicinity is chosen, the departure and arrival patterns can clearly be seen. It shows all aircraft within an area of 295 km2 of the chosen location. The position of the aircraft is refreshed every 5.5 seconds. FlightAware and FlightRadar24 do not freely show a 3D visualisation of the skies, which makes it difficult to discern the relative position of the aircraft unless the viewer is well versed in reading the 2D maps. The visuals are simple and clean, with the intent of making it easy to see the traffic in the skies for those who might be unfamiliar or new to such visualisations.</p>
+<p>By making the opensky-network API more accessible, the network will be of far more value to a larger audience and go a long way toward improving the efficacy of various kinds of research. The development of Sky Globe was inspired by the incident of an unidentified cargo plane which trespassed into Indian airspace and cleared to land at New Delhi under mysterious circumstances with little to no clarification by the <a href="https://thewire.in/political-economy/the-unfinished-india-story-of-a-ukraine-plane-and-a-bribery-investigation">Indian Government</a>. Creative coding libraries offer a fairly low bar of entry into coding and manipulation of API sourced data.</p>
+<p><img src="../../img/sky-globe-0.png" alt=""><br>
+<em>Main Interface of Sky Globe</em></p>
+<p><img src="../../img/sky-globe-3.png" alt=""><br>
+<em>Sky Globe Interactive 3D View</em></p>
+
+</div>
+
+   </main>
+
+    <footer>
+  ← <a href="/">See other projects.</a>
+  </footer>
+
+    <!-- Current page: /posts/atc-creative-code/ -->
+  </body>
+</html>

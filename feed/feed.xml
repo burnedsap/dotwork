@@ -5,7 +5,7 @@
 	
 	<link href="https://salilparekh.work/feed/feed.xml" rel="self"/>
 	<link href="https://salilparekh.work"/>
-	<updated>2022-12-01T00:00:00Z</updated>
+	<updated>2022-11-01T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Salil Parekh</name>
@@ -13,40 +13,48 @@
 	</author>
 	
 	<entry>
-		<title>FIG, a GIF Festival</title>
-		<link href="https://salilparekh.work/posts/fig/"/>
-		<updated>2022-12-01T00:00:00Z</updated>
-		<id>https://salilparekh.work/posts/fig/</id>
-		<content type="html">&lt;p&gt;FIG is an ONLINE + OFFLINE exhibit celebrating the power of the GIF. It is a small part of a larger study on the evolving internet expressions of our age – incubated at the EyeMyth Festival 2019.&lt;/p&gt;
-&lt;p&gt;Back for 2022, it&#39;s more feature packed than ever.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;New year, new website&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;For this year, the theme is: &lt;strong&gt;Loss of Time&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Time is a deeply personal experience and a highly unpredictable medium. As we strive to conquer time, there are moments when we find ourselves running behind it, and others when we are surprised at an unexpected route it has taken — stretching and compressing on its own whims and fancies. This year, FIG invites you to use the medium of a looping GIF to visualise your experiences with the cycle of losing time and regaining control.&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;FIG was launched in early March 2022 with an open call on the theme, with cash prizes for the top 3 submissions. Along with the new cash prizes, we also held a panel discussion with &lt;a href=&quot;http://meetamalhotra.com/&quot;&gt;Meeta Malhotra&lt;/a&gt; and &lt;a href=&quot;http://mojoko.net/&quot;&gt;Steve Lawler&lt;/a&gt; to discuss the future of GIFs and the evolution of the short form storytelling medium.&lt;/p&gt;
-&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/eK9N5kBUvh8&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-6.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Winners of FIG 2022!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A small selection from the submissions:&lt;/p&gt;
-&lt;video controls=&quot;&quot; width=&quot;100% muted&quot;&gt;
-    &lt;source src=&quot;https://salilparekh.work/img/fig-website-video-record.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            type=&quot;video/mp4&quot;&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/video&gt;
-&lt;p&gt;FIG will be back soon!&lt;/p&gt;
-&lt;h3 id=&quot;2019-edition&quot; tabindex=&quot;-1&quot;&gt;2019 Edition &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/fig/#2019-edition&quot; aria-hidden=&quot;true&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-5.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;The FIG website&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;As a part of the EyeMyth Media Arts Festival, FIG was a showcase of GIF&#39;s from artists around the world on the theme: &lt;strong&gt;The Loss of Creativity.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-2.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;An open call for submissions was received with enthusiasm from the GIF community, with submissions on display on all digital screens at the Festival and online. The &lt;a href=&quot;https://burnedsap.github.io/fig/&quot;&gt;website&lt;/a&gt;, just like a GIF, loops infinitely!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-4.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;The online gallery&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-3.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;A submission from Anisha Thampy&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A small excerpt from a piece I wrote for the &lt;a href=&quot;https://thehardcopy.co/indian-gifs-time-to-take-centre-stage/&quot;&gt;HardCopy.co&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;&amp;quot;It is for this reason that a few of us within Quicksand, decided to create a space for Gif creators to showcase their work. The platform is called FIG, and was launched a few months ago. FIG’s mission is to celebrate the creation of Gifs by designers, illustrators, artists, writers and creators of all kinds. We opened up calls for submissions on the theme of ‘The Loss of Creativity’ and we received around forty amazing entries. This is just the beginning for the platform, and we hope to do a lot more for Gif creators. The team behind FIG are creators who love making Gifs using diverse digital and analogue techniques, and we wish to reach out to other creators who feel equally passionate about them.&amp;quot;&amp;quot;&lt;/span&gt;&lt;/p&gt;
+		<title>Haboob</title>
+		<link href="https://salilparekh.work/posts/haboob/"/>
+		<updated>2022-11-01T00:00:00Z</updated>
+		<id>https://salilparekh.work/posts/haboob/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/haboob-0.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/haboob-3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/haboob-14.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/haboob-6.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Sand is the material that matters most to what it means for us to be human — socially, culturally, technologically, politically. It is plentiful, and yet our demand for it and extraction methods are creating irreversible damage. Sand geographies, from beaches and deserts, to ocean floors and sandstorm tracks, shape how we live in and engage our environments. Sand provides material with which we can — almost — grasp and start to make sense of what it means to be human during this time of ecological crisis. Examining our relationships with sand can, perhaps, guide us to a more just, equitable and environmentally conscious future.&lt;/p&gt;
+&lt;p&gt;Haboob is a re-telling of the earliest body-memory of sand from the author, Nehal El-Hadi.&lt;/p&gt;
+&lt;p&gt;This work-in-progress experiment is the first iteration of a VR experience that combines haptic interactions with sand with virtual experiences of the haboob, or sandstorm. Created in partnership with New York Live Arts. Text by Nehal El-Hadi, and originally commissioned by New York Live Arts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/haboob-4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/haboob-9.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Created with Unity, Haboob is a VR film which immerses the viewer within a city in Khartoum, just before a Haboob sweeps in. Enhanced with spatial audio, the viewer finds themselves surrounded by sand, and in the company of a djinn, created with the use of motion-capture. Kendra Ross, using their incredible grace embodied the djinn.&lt;/p&gt;
+&lt;p&gt;This project uses Unity&#39;s skinned mesh and VFX Graph to create the incredible characters in the scene. The soundtrack, created by tUkU provides a moving score to the experience.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/haboob-12.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/haboob-15.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/haboob-21.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/haboob-22.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Motion capture at NYU&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/haboob-19.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Work in progress&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/haboob-20.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Experimenting with different art styles&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/haboob-23.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Early motion capture + VFX Graph tests&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Visualisation of Air Traffic through Creative Coding</title>
+		<link href="https://salilparekh.work/posts/atc-creative-code/"/>
+		<updated>2022-09-02T00:00:00Z</updated>
+		<id>https://salilparekh.work/posts/atc-creative-code/</id>
+		<content type="html">&lt;h3 id=&quot;abstract&quot; tabindex=&quot;-1&quot;&gt;Abstract &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/atc-creative-code/#abstract&quot; aria-hidden=&quot;true&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The skies above us often seem empty, but they are often filled with aircraft, too far above to be seen by the naked eye. Open source APIs like the opensky-network allow us to paint a picture of what is flying above us at any given point of time. The ease of use of the opensky-network API makes it relatively simple to obtain various data-points of the aircraft flying in the skies at any location on the planet. The lowered barrier of entry to this dataset allows for people from different backgrounds and sectors to not only visualise the data but also draw meaningful insights from it. Websites like &lt;a href=&quot;https://flightradar24.com/&quot;&gt;FlightRadar24.com&lt;/a&gt; use similar data-points and create 2D visual representations for anyone on the internet to freely access. The data obtained by opensky-network is community sourced, and as such isn’t restricted or censored by those looking to obfuscate the data. This data can be of great value for journalists, researchers, and activists looking to monitor air traffic. The emergence of easily accessible creative coding libraries such as p5JS and ThreeJS has enabled such people to quickly access the opensky-network API to visualise air traffic data at any location of their choosing.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://salilparekh.work/posts/sky-globe&quot;&gt;Sky Globe&lt;/a&gt; is one such visualisation built with p5JS with the intent of identifying anomalous activity. It uses the opensky-network API to visualise air traffic using the users current location or a set of coordinates. The data is visualised using an interactive 3D interface which can be panned and zoomed into. Each aircraft is marked with its flight number, country of origin as well as a trail indicating its general direction of travel. This visualisation allows the viewer to see aircraft on a 3D canvas, which is useful as it shows the altitude of the aircraft. When a location with an airport in the vicinity is chosen, the departure and arrival patterns can clearly be seen. It shows all aircraft within an area of 295 km2 of the chosen location. The position of the aircraft is refreshed every 5.5 seconds. FlightAware and FlightRadar24 do not freely show a 3D visualisation of the skies, which makes it difficult to discern the relative position of the aircraft unless the viewer is well versed in reading the 2D maps. The visuals are simple and clean, with the intent of making it easy to see the traffic in the skies for those who might be unfamiliar or new to such visualisations.&lt;/p&gt;
+&lt;p&gt;By making the opensky-network API more accessible, the network will be of far more value to a larger audience and go a long way toward improving the efficacy of various kinds of research. The development of Sky Globe was inspired by the incident of an unidentified cargo plane which trespassed into Indian airspace and cleared to land at New Delhi under mysterious circumstances with little to no clarification by the &lt;a href=&quot;https://thewire.in/political-economy/the-unfinished-india-story-of-a-ukraine-plane-and-a-bribery-investigation&quot;&gt;Indian Government&lt;/a&gt;. Creative coding libraries offer a fairly low bar of entry into coding and manipulation of API sourced data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/sky-globe-0.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Main Interface of Sky Globe&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/sky-globe-3.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Sky Globe Interactive 3D View&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -160,6 +168,44 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/video&gt;
 &lt;p&gt;The project is conceived by Architecture for Dialogue in collaboration with Salil Parekh. The current iteration of the project is supported by Khoj and forms a part of “Does a Blue Sky Lie? : Testimonies of Air’s Toxicities,” a project undertaken to explore the troubled ecology of Delhi’s air. The month-long texhibition is a satellite event to the 13th India Art Fair.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>FIG, a GIF Festival</title>
+		<link href="https://salilparekh.work/posts/fig/"/>
+		<updated>2022-05-01T00:00:00Z</updated>
+		<id>https://salilparekh.work/posts/fig/</id>
+		<content type="html">&lt;p&gt;FIG is an ONLINE + OFFLINE exhibit celebrating the power of the GIF. It is a small part of a larger study on the evolving internet expressions of our age – incubated at the EyeMyth Festival 2019.&lt;/p&gt;
+&lt;p&gt;Back for 2022, it&#39;s more feature packed than ever.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;New year, new website&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For this year, the theme is: &lt;strong&gt;Loss of Time&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Time is a deeply personal experience and a highly unpredictable medium. As we strive to conquer time, there are moments when we find ourselves running behind it, and others when we are surprised at an unexpected route it has taken — stretching and compressing on its own whims and fancies. This year, FIG invites you to use the medium of a looping GIF to visualise your experiences with the cycle of losing time and regaining control.&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;FIG was launched in early March 2022 with an open call on the theme, with cash prizes for the top 3 submissions. Along with the new cash prizes, we also held a panel discussion with &lt;a href=&quot;http://meetamalhotra.com/&quot;&gt;Meeta Malhotra&lt;/a&gt; and &lt;a href=&quot;http://mojoko.net/&quot;&gt;Steve Lawler&lt;/a&gt; to discuss the future of GIFs and the evolution of the short form storytelling medium.&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/eK9N5kBUvh8&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-6.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Winners of FIG 2022!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A small selection from the submissions:&lt;/p&gt;
+&lt;video controls=&quot;&quot; width=&quot;100% muted&quot;&gt;
+    &lt;source src=&quot;https://salilparekh.work/img/fig-website-video-record.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            type=&quot;video/mp4&quot;&gt;
+&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/video&gt;
+&lt;p&gt;FIG will be back soon!&lt;/p&gt;
+&lt;h3 id=&quot;2019-edition&quot; tabindex=&quot;-1&quot;&gt;2019 Edition &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/fig/#2019-edition&quot; aria-hidden=&quot;true&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-5.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;The FIG website&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As a part of the EyeMyth Media Arts Festival, FIG was a showcase of GIF&#39;s from artists around the world on the theme: &lt;strong&gt;The Loss of Creativity.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-2.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;An open call for submissions was received with enthusiasm from the GIF community, with submissions on display on all digital screens at the Festival and online. The &lt;a href=&quot;https://burnedsap.github.io/fig/&quot;&gt;website&lt;/a&gt;, just like a GIF, loops infinitely!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-4.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;The online gallery&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-3.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;A submission from Anisha Thampy&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A small excerpt from a piece I wrote for the &lt;a href=&quot;https://thehardcopy.co/indian-gifs-time-to-take-centre-stage/&quot;&gt;HardCopy.co&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&amp;quot;It is for this reason that a few of us within Quicksand, decided to create a space for Gif creators to showcase their work. The platform is called FIG, and was launched a few months ago. FIG’s mission is to celebrate the creation of Gifs by designers, illustrators, artists, writers and creators of all kinds. We opened up calls for submissions on the theme of ‘The Loss of Creativity’ and we received around forty amazing entries. This is just the beginning for the platform, and we hope to do a lot more for Gif creators. The team behind FIG are creators who love making Gifs using diverse digital and analogue techniques, and we wish to reach out to other creators who feel equally passionate about them.&amp;quot;&amp;quot;&lt;/span&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
