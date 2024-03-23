@@ -39,11 +39,19 @@
 
     <main>
     <hr>
-      <p class="intro">
-  Salil Parekh is a design researcher and creative technologist. He is
-  currently working on creating <a href="https://theplanetarybureau.com">The Planetary Bureau</a> at The New
-  School, New York.
+      <p class="intro" id="intro">
 </p>
+<script>
+let intro = [
+  "He is currently doing some terrible embroidery.",
+  "He is currently working at EY wavespace.",
+  "He is currently working on Haboob, a VR film.",
+  "He is currently creating a wall-clock.",
+  "He is currently working on this website.",
+];
+document.getElementById("intro").innerHTML =
+"Salil Parekh is a design researcher and creative technologist. " + intro[Math.floor(Math.random() * intro.length)];
+</script>
 
 
 <h2 class="post-headers">Retrospective</h2>
@@ -66,11 +74,11 @@
   </div>
   <div class="retrospective-text-image">
     <figure class="posts">
-        <a href='http://theplanetarybureau.com'>
+        <a href='https://theplanetarybureau.glitch.me'>
           <div class="posts-link">
             <img
               class="posts-image"
-              src ="https://theplanetarybureau.com/img/JellyfishCyborg-3.png"
+              src ="https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/JellyfishCyborg-3.png?v=1651554491520"
             />
           </div>
           <p class="posts-title">
