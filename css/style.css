@@ -759,9 +759,13 @@ footer a:hover:after,
   -ms-interpolation-mode: nearest-neighbor; /* IE8+                           */
 }
 
+.about-two-grid img {
+  max-width: 100%;
+}
+
 .about-contact {
   line-height: 1.5;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   max-width: 600px;
 }
 .retrospective-text-text a,
@@ -789,7 +793,7 @@ footer a:hover:after,
 }
 
 address {
-  margin: 1.2rem 0;
+  margin: 1rem 0;
   font-size: 18px;
 }
 

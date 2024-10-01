@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/2023/</loc>
+    <loc>https://salilparekh.work/tags/writing/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -242,7 +242,12 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/writing/</loc>
+    <loc>https://salilparekh.work/tags/experiential/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/tags/physical-computing/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -262,22 +267,12 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/experiential/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/tags/physical-computing/</loc>
+    <loc>https://salilparekh.work/tags/recent/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
   <url>
     <loc>https://salilparekh.work/tags/generative-art/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/tags/recent/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -297,16 +292,6 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/tags/web/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/tags/games/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salilparekh.work/tags/machine-learning/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
@@ -318,6 +303,16 @@
   
   <url>
     <loc>https://salilparekh.work/tags/digital-heritage/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/tags/web/</loc>
+    <lastmod>2021-07-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/tags/games/</loc>
     <lastmod>2021-07-28</lastmod>
   </url>
   
@@ -338,11 +333,6 @@
   
   <url>
     <loc>https://salilparekh.work/mfadt/</loc>
-    <lastmod>2022-03-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/things/</loc>
     <lastmod>2022-03-16</lastmod>
   </url>
   
@@ -379,10 +369,5 @@
   <url>
     <loc>https://salilparekh.work/posts/haboob/</loc>
     <lastmod>2022-11-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salilparekh.work/posts/modern-art/</loc>
-    <lastmod>2023-07-01</lastmod>
   </url>
 </urlset>
