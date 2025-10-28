@@ -137,8 +137,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;video controls=&quot;&quot; muted=&quot;&quot; width=&quot;100%&quot;&gt;
     &lt;source src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/Curtain%20proj-HD%201080p.mp4?v=1652667136070&quot; type=&quot;video/mp4&quot; /&gt;
             type=&quot;video/mp4&quot;&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
 &lt;p&gt;&lt;em&gt;Short video showing the curtain dreaming at night&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/breakout%20used%20in%20curtain.jpg?v=1652572076187&quot; alt=&quot;soft breakout board&quot; /&gt;&lt;br /&gt;
@@ -164,8 +163,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;video muted=&quot;&quot; controls=&quot;&quot; width=&quot;100%&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/myhouseisill_web.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
 &lt;p&gt;The project is conceived by Architecture for Dialogue in collaboration with Salil Parekh. The current iteration of the project is supported by Khoj and forms a part of “Does a Blue Sky Lie? : Testimonies of Air’s Toxicities,” a project undertaken to explore the troubled ecology of Delhi’s air. The month-long texhibition is a satellite event to the 13th India Art Fair.&lt;/p&gt;
 </content>
@@ -190,8 +188,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;video controls=&quot;&quot; width=&quot;100% muted&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/fig-website-video-record.mp4&quot; type=&quot;video/mp4&quot; /&gt;
             type=&quot;video/mp4&quot;&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
 &lt;p&gt;FIG will be back soon!&lt;/p&gt;
 &lt;h3 id=&quot;2019-edition&quot; tabindex=&quot;-1&quot;&gt;2019 Edition &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/fig/#2019-edition&quot; aria-hidden=&quot;true&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -216,8 +213,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<id>https://salilparekh.work/posts/heliotropic-horology/</id>
 		<content type="html">&lt;video muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; width=&quot;100%&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/sunflower.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
 &lt;p&gt;&lt;strong&gt;Heliotropism&lt;/strong&gt; cause the sunflower to face the sun to aid pollination. During they day the flower changes its position to face the sun, and moves back into position during the night.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-2.png&quot; alt=&quot;how the sunflower time works&quot; /&gt;&lt;/p&gt;
@@ -225,8 +221,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;Using simple computer vision methods, Prototype 3b.1 was the first successful working prototype which could accurately report SST. By tracking the position of the sunflower as it moved during the day, the prototype could tell the time of day, and night.&lt;/p&gt;
 &lt;video controls=&quot;&quot; muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; width=&quot;100%&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/heliotropic-video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
 &lt;p&gt;As the Heliotropes transitioned away from human time, they found it difficult to create a whole new time standard. Thus, they decided to create a Transitionary Time Practice (TTP), using other types of plants to substitute for seconds, minutes and hours. In areas where the sunflower couldn’t be grown, they used other species of daisies.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-3.png&quot; alt=&quot;different plants&quot; /&gt;&lt;/p&gt;
@@ -265,8 +260,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;By detecting pressure applied to sensor, and how many points are being pressed, I can somewhat determine the way the piece is being touched or interacted with. If only a few points are being touched with lots of pressure, the piece is being poked. If many points are being touched softly, then I can determine that my palm is on the surface. With 36 individual sensor points, the sensor is of a fairly high fidelity and does a good job of determining the kind of touch being applied.&lt;/p&gt;
 &lt;video controls=&quot;&quot; width=&quot;100%&quot;&gt;
     &lt;source src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/CC-midterm-processing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;pre&gt;&lt;code&gt;Sorry, your browser doesn&#39;t support embedded videos.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
 &lt;p&gt;&lt;em&gt;Visualisation how the piece detects touches&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/_DSC3451.jpg?v=1648240005026&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;

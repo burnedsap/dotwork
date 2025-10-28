@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Computational Craft | Salil Parekh" />
+    <link rel="stylesheet" type="text/css" href="../../public/style.css" />
+    <title>Week 9 | Midterm Documentation - Computational Craft | Salil Parekh</title>
+
+<meta name="description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="http://computational-craft.glitch.me/posts/week-9-midterm-doc/">
+
+<meta property="og:title" content="Week 9 | Midterm Documentation - Computational Craft | Salil Parekh">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="http://computational-craft.glitch.me/posts/week-9-midterm-doc/">
+<meta property="og:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="http://computational-craft.glitch.me/posts/week-9-midterm-doc/">
+<meta name="twitter:title" content="Week 9 | Midterm Documentation - Computational Craft | Salil Parekh">
+<meta name="twitter:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+
+  </head>
+  <body>
+  <main>
+    
+    
+  
+    
+
+
+<div class="wrapper post">
+  <div>
+    <p>
+      ← <a href="../../index.html">Computational Craft | Salil Parekh</a>
+    </p>
+    
+    <h2 class='postTitle'>Week 9 | Midterm Documentation</h2>
+
+    
+    
+    
+    <p>For the midterm, I wanted to create a piece which would respond to my touch. I love muslin and the way it feels. It's soft, yet has a rough tactile quality which makes it nice and warm to hold. I wonder what muslin feels like when it is touched. Does it like being held? Does it be held firmly or caressed softly? Read more about the technical aspects of the proposal <a href="/posts/week-6-midterm-proposal/">here</a>.</p>
+<p>In an attempt to answer this question, I created a piece made of muslin which actively responds to being interacted with.</p>
+
+  <p><video controls="true" allowfullscreen="true" muted autoplay width="100%">
+    <source src="../../assets/Muslin Touch Video.mp4" type="video/mp4">
+  </video></p>
+
+<p><em>Short video showing the piece in its passive mode and being interacted with</em></p>
+<p><img src="../../assets/_DSC3449@0.25.jpg" alt="the final piece, a square piece of muslin with a laser engraved logo on it"></p>
+<p><img src="../../assets/_DSC3467.jpg" alt="the same image, but with a grid of 8 leds below the muslin lit up"></p>
+<p><img src="../../assets/_DSC3471.jpg" alt="close up on the logo with leds lit up"></p>
+<h3>Process</h3>
+<p>Creating the <a href="/posts/week-6-midterm-proposal/">proposal</a> and the illustrations helped me structure the build and break down the process into discrete steps.</p>
+<p><img src="../../assets/Computational Craft Midterm Proposal Sketches-02.jpg" alt="illustration of different layers of the sensor">
+<em>The piece is split into individual layers–sensor, reactor, and the cover.</em></p>
+<p>The first step was to create the sensor, which would take in user input and enable the piece to 'feel'. I created a plan of the sensor which included the location of the micro-controller, sensor positions. Everything was precisely measure out and sized. In order to accurately translate the plan into a working model, I laser cut and etched muslin.</p>
+<p><img src="../../assets/midterm-lasercut-plan.jpg" alt="the laser cut plan of the sensor">
+<em>The file sent to the laser cutter. The light blue lines cut, the black fills engraves/etches</em></p>
+<p>I printed a 1:1 version paper to get a feel of the size and how it would feel in comparison to the size of my hand.</p>
+<p><img src="../../assets/_DSC3480.jpg" alt="plans printed on paper">
+<em>The print also helped me plan out which pins to use</em></p>
+<h4>Sensor</h4>
+<p>The sensor is a 6x6 pressure sensitive sensor, which uses a grid of copper thread and velostat to work. Heavily inspired (read: copied) from <a href="https://www.kobakant.at/DIY/?p=7443">Kobakant</a>, it can detect where pressure is applied on a 2D X-Y area. The velostat can help detect the intensity of pressure as well. With a 6x6 sensor, it has 36 individual 'sensors'. I <a href="/posts/week-5-sensor-swatch/">previously</a> experimented with this type of sensor and created 4 samples, each of a different size.</p>
+<p>For a 6x6, I would need 6 analog pins, 6 digital pins. With 8 LEDs, I would need 8 PWM pins, which brings the total number of pins used to 22.</p>
+<p><img src="../../assets/_DSC3409@0.5x.jpg" alt="laser cut and etched muslin">
+<em>The result</em></p>
+<p><img src="../../assets/PXL_20220317_193146935.jpg" alt="laser etched muslin"></p>
+<p>The effect was exactly what I wanted. Light markings to help me position the components and accurately sew the sensor.</p>
+<p>I wanted to hand sew everything as it felt like the right thing to do with muslin. The material feels analogue and machine sewing wouldn't feel appropriate. However, I did want to sew well, which meant good spacing, and straight lines. The laser eteched guides allowed me to do just that. I cut and etched three pieces of muslin, 2 for the sensor, and 1 for the SMD LEDs.</p>
+<p><img src="../../assets/_DSC3416.jpg" alt=""></p>
+<p><img src="../../assets/_DSC3422.jpg" alt="">
+<em>All neatly lined up, as it should be</em></p>
+<p><img src="../../assets/_DSC3423-1.jpg" alt="">
+<em>One layer done, with the micro-controller and coin cell battery holder sewed in</em></p>
+<h4>Teensy LC</h4>
+<p><img src="../../assets/_DSC3417.jpg" alt="Close up of the Teensy LC"></p>
+<p>The Teensy LC is a suitable fit for this piece as it has 13 analog pins and 10 PWM pins, a bargain for a retail price of $11.65. The diminutive footprint is handy as well. The micro-controller ships with a very useful pinout diagram which was immensely useful in planning.</p>
+<p><img src="../../assets/_DSC3428.jpg" alt="">
+<em>Second layer done, using the same pattern</em></p>
+<h4>LED</h4>
+<p>Although I always wanted to use warm white SMD LEDs, I also considered cutting up a WS2813 strip as it contained both the SMD LED and resistor. I found warm white LEDs which were rated for 3.2V, (no resistors required) so I ended up using them instead. The LEDs used are 3528 PLCC-2 warm whites.</p>
+<p><img src="../../assets/_DSC3431.jpg" alt="">
+<em>The third layer, with the SMD LED contact points</em></p>
+<p><img src="../../assets/_DSC3432.jpg" alt="">
+<em>The etch lines helped me precisely align the LEDs in a 3-2-3 formation</em></p>
+<p><img src="../../assets/_DSC3434.jpg" alt="">
+<em>All lit up!</em></p>
+<p><img src="../../assets/_DSC3440.jpg" alt="">
+<em>When diffused with muslin</em></p>
+<p>The SMD LEDs are far too bright at maximum brightness, but function far better at a lower brightness setting. The lower brightness also helps keep the power draw lower–useful when trying to power the piece with a 3.3V coin cell battery.</p>
+<p><img src="../../assets/_DSC3443.jpg" alt="">
+<em>Lowered the brightness-much nicer</em></p>
+<p>To help diffuse the LEDs more effectively, I inserted a folded up tissue paper between the LED layer and the diffusion muslin layer. This also helped smooth out the bumps of the LEDs. The layers were then stitched up with a simple running stitch to sandwich the 6 layers (sensor+velostat+sensor+LED+tissue+muslin diffusion).</p>
+<p>Now that the physical pieces were ready and working, I started working on the software side of things. The interactions would bring this piece to life.</p>
+<h4>Interactions</h4>
+<p>I wanted to use machine learning to detect different kinds of interactions, and translate them to different patterns for the LEDs. However, I couldn't get the machine learning pipeline to work out. I used CreateML to train the machine learning model, but couldn't figure out how to use Serial communication with the model. Frustrating, but I moved on to replicating the same effect using rudimentary conditionals.</p>
+<p><img src="../../assets/Screenshot 2022-03-25 at 3.54.45 PM.png" alt="">
+<em>Using CreateML to detect whether the piece is being touched or not</em></p>
+<p><img src="../../assets/Screenshot 2022-03-25 at 3.58.49 PM.png" alt="">
+<em>pseudocode for interactions</em></p>
+<p>By detecting pressure applied to sensor, and how many points are being pressed, I can somewhat determine the way the piece is being touched or interacted with. If only a few points are being touched with lots of pressure, the piece is being poked. If many points are being touched softly, then I can determine that my palm is on the surface. With 36 individual sensor points, the sensor is of a fairly high fidelity and does a good job of determining the kind of touch being applied.</p>
+
+ <p><video controls="true" allowfullscreen="true" muted autoplay width="100%">
+    <source src="../../assets/CC-midterm-processing.mp4" type="video/mp4">
+  </video></p>
+
+<p><em>Visualisation how the piece detects touches</em></p>
+<p>This is code for the piece:</p>
+<pre><code class="language-arduino">/*
+  Matrix: Kapton + Copper
+  A simple pressure sensor matrix made from two Kapton film sheets with
+  6×6 copper tape traces and a piece of Velostat or Eeonyx piezoresistive
+  material in between.
+  parsing through this grid by switching individual rows/columns to be
+  HIGH, LOW or INPUT (high impedance) to detect location and pressure.
+  &gt;&gt; http://howtogetwhatyouwant.at/
+*/
+
+
+#define numRows 6
+#define numCols 6
+#define sensorPoints numRows*numCols
+
+int rows[] = {A0, A1, A2, A3, A4, A5};
+int cols[] = {2, 5, 7, 8, 11, 12};
+int incomingValues[sensorPoints] = {};
+int leds[8] = {3, 4, 6, 9, 10, 20, 22, 23};
+
+
+int period = 1000;
+unsigned long time_now = 0;
+unsigned long timeVal = 0;
+float timecheck = 350;
+
+void setup() {
+  pinMode(13, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(20, OUTPUT);
+  pinMode(22, OUTPUT);
+  pinMode(23, OUTPUT);
+
+
+  // set all rows and columns to INPUT (high impedance):
+  for (int i = 0; i &lt; numRows; i++) {
+    pinMode(rows[i], INPUT_PULLUP);
+  } for (int i = 0; i &lt; numCols; i++) {
+    pinMode(cols[i], INPUT);
+  } Serial.begin(9600);
+}
+
+void loop() {
+  for (int colCount = 0; colCount &lt; numCols; colCount++) {
+    pinMode(cols[colCount], OUTPUT); // set as OUTPUT
+    digitalWrite(cols[colCount], LOW); // set LOW
+    for (int rowCount = 0; rowCount &lt; numRows; rowCount++)
+    {
+      incomingValues[colCount * numRows + rowCount] = analogRead(rows[rowCount]); // read INPUT
+    }// end rowCount
+    pinMode(cols[colCount], INPUT); // set back to INPUT!
+  }// end colCount
+
+  // Print the incoming values of the grid:
+  for (int i = 0; i &lt; sensorPoints; i++) {
+    Serial.print(incomingValues[i]);
+    if (i &lt; sensorPoints - 1) {
+      Serial.print(&quot;\t&quot;);
+    }
+  }
+  Serial.println();
+
+
+
+  //Hard Press Singular Check
+  //If 1–4 pins are pressed too hard then bad*1
+  int numHard1 = 0;
+  for (int i = 0; i &lt; sensorPoints; i++) {
+    if (incomingValues[i] &lt; 150) {
+      numHard1++;
+    }
+  }
+
+  //Hard Press many
+  //if more than 10 are pressed hard then good
+  int numHard2 = 0;
+  for (int i = 0; i &lt; sensorPoints; i++) {
+    if (incomingValues[i] &lt; 150) {
+      numHard2++;
+    }
+  }
+
+  //Soft Press many
+  //if more than 10 are pressed soft then good
+  int numSoft1 = 0;
+  for (int i = 0; i &lt; sensorPoints; i++) {
+    if ((incomingValues[i] &gt; 350) &amp;&amp; (incomingValues[i] &lt; 700)) {
+      numSoft1++;
+    }
+  }
+  int numSoft2 = 0;
+  for (int i = 0; i &lt; sensorPoints; i++) {
+    if ((incomingValues[i] &gt; 550) &amp;&amp; (incomingValues[i] &lt; 900)) {
+      numSoft2++;
+    }
+  }
+  if (numSoft2 &gt; 10)
+  {
+    timecheck--;
+  }
+  else {
+    timeVal = 0;
+    timecheck = 350;
+  }
+
+  if (timecheck &lt; 100) {
+    badLevelTwo();
+  }
+  if ((numHard1 &gt; 0) &amp;&amp; (numHard1 &lt; 4)) {
+    badLevelOne();
+  }
+
+  if ((numHard2 &gt; 10)) {
+    goodLevelOne();
+  }
+  if ((numSoft1 &gt; 10)) {
+    goodLevelOne();
+  }
+  else {
+    ambientMode();
+
+  }
+  //  Serial.println(numSoft1);
+  digitalWrite(13, HIGH);
+}
+
+void ambientMode() {
+  //  Serial.println(&quot;Ambient&quot;);
+  analogWrite(3, map(sin(millis() / 1000.0 * 0.1 * PI), -1, 1, 20, 120));
+  analogWrite(4, map(sin(millis() / 1000.0 * 0.2 * PI), -1, 1, 20, 120));
+  analogWrite(6, map(sin(millis() / 1000.0 * 0.3 * PI), -1, 1, 20, 120));
+  analogWrite(9, map(sin(millis() / 1000.0 * 0.4 * PI), -1, 1, 20, 120));
+  analogWrite(10, map(sin(millis() / 1000.0 * 0.5 * PI), -1, 1, 20, 120));
+  analogWrite(20, map(sin(millis() / 1000.0 * 0.6 * PI), -1, 1, 20, 120));
+  analogWrite(22, map(sin(millis() / 1000.0 * 0.7 * PI), -1, 1, 20, 120));
+  analogWrite(23, map(sin(millis() / 1000.0 * 0.8 * PI), -1, 1, 20, 120));
+}
+
+void badLevelOne() {
+  //  Serial.println(&quot;Bad 1&quot;);
+  analogWrite(3, map(sin(millis() / 50.0 * 0.1 * PI), -1, 1, 0, 220));
+  analogWrite(4, map(sin(millis() / 50.0 * 0.2 * PI), -1, 1, 0, 220));
+  analogWrite(6, map(sin(millis() / 50.0 * 0.3 * PI), -1, 1, 0, 220));
+  analogWrite(9, map(sin(millis() / 50.0 * 0.4 * PI), -1, 1, 0, 220));
+  analogWrite(10, map(sin(millis() / 100.0 * 0.5 * PI), -1, 1, 0, 220));
+  analogWrite(20, map(sin(millis() / 100.0 * 0.6 * PI), -1, 1, 0, 220));
+  analogWrite(22, map(sin(millis() / 100.0 * 0.7 * PI), -1, 1, 0, 220));
+  analogWrite(23, map(sin(millis() / 100.0 * 0.8 * PI), -1, 1, 0, 220));
+}
+
+void badLevelTwo() {
+  for (int i = 0; i &lt; 8; i++) {
+    analogWrite(leds[i], millis() % 255);
+  }
+}
+
+void goodLevelOne() {
+  //  Serial.println(&quot;Good 1&quot;);
+  analogWrite(3, map(sin(millis() / 1000.0 * 0.1 * PI), -1, 1, 20, 250));
+  analogWrite(4, map(sin(millis() / 1000.0 * 0.2 * PI), -1, 1, 20, 250));
+  analogWrite(6, map(sin(millis() / 1000.0 * 0.3 * PI), -1, 1, 20, 250));
+  analogWrite(9, map(sin(millis() / 1000.0 * 0.1 * PI), -1, 1, 20, 250));
+  analogWrite(10, map(sin(millis() / 1000.0 * 0.2 * PI), -1, 1, 20, 250));
+  analogWrite(20, map(sin(millis() / 1000.0 * 0.3 * PI), -1, 1, 20, 250));
+  analogWrite(22, map(sin(millis() / 1000.0 * 0.1 * PI), -1, 1, 20, 250));
+  analogWrite(23, map(sin(millis() / 1000.0 * 0.2 * PI), -1, 1, 20, 250));
+}
+
+
+
+/*
+  rules for led lights
+  if press too hard, bad*1
+  if many press hard then good*1
+  if press many but soft, good*1
+  if press less but very soft, good*2
+  if press many for long time, good*3
+
+*/
+</code></pre>
+<p>This software only allows for a limited number of interactions, but I do have a more complex version that I'm currently working on which includes more advanced interaction detection.</p>
+<h4>Assembly</h4>
+<p>To make the piece look nicer, I enveloped the 'sandwich' within two layers of laser etched muslin. The etches also indicate the center of the sensor, which makes it easier for the viewer to know where to touch. I chose a slightly finer type of muslin which felt nicer to touch.</p>
+<p><img src="../../assets/_DSC3451.jpg" alt="">
+<em>Laser etch at the center of the sensor</em></p>
+<p>I didn't want the piece to be tight or tense, so I used four cross stitches to attach the outer layers to the inner sandwhich. It also kept the micro-controller and coin cell battery holder easily accessible incase I needed to make some changes.</p>
+<p><img src="../../assets/_DSC3449.jpg" alt="">
+<em>Cross-stitched the outer layers</em></p>
+<p><img src="../../assets/_DSC3457.jpg" alt="">
+<em>Easy to replace coin cell battery</em></p>
+<p><img src="../../assets/_DSC3458.jpg" alt="">
+<em>Can be plugged in to change software or make plug in additional hardware</em></p>
+<p>I tried etching a more complex pattern, but the etched surface had a rough surface, which didn't feel as nice to touch, so I reverted back to a smaller etched pattern.</p>
+<p><img src="../../assets/_DSC3476.jpg" alt="complex laser etch pattern experiment">
+<em>Trying a larger pattern</em></p>
+<p><img src="../../assets/_DSC3478.jpg" alt="">
+<em>The roughness can be seen visually</em></p>
+<p><mark>I wonder if there's a process which can deposit copper or any other conductive material onto the rough patches. If that's possible, then it would be easy to create traces on muslin by etching circuit patterns. </mark></p>
+<h4>Problems</h4>
+<p>The biggest issue I face while building this was loose connections. No matter how securely I thought the wires were sewed to the micro-controller or the coin cell battery holder, something would seem to go wrong. I'd lose banks of sensors at random, and LEDs would suddenly decide not to work, before deciding that they actually did. How can I fix in the future?</p>
+<p><img src="../../assets/PXL_20220323_183704924.jpg" alt="close up of coin cell battery holder">
+<em>See this here? The connection was ever so slightly loose at the sewing point, which caused a full days worth of issues before being diagnosed</em></p>
+<p>There are still some issues with loose or iffy connections which I cannot successfully diagnose, let alone fix. But happily, it adds a lot of character to the piece, and reacts to being touched without the need for software. The occasional unintentional blinking of an LED adds to the feeling that the piece is reacting to being touched.</p>
+<p>The 3.3V coin cell battery worked, but it doesn't have enough juice to power the LEDs at full brightness. In my testing, it successfully powered 5 LEDs but I ambitiously used 8, hoping it would work out. It did not. However, the low brightness is actually a better choice as it seems to blend in with the piece. Brighter LEDs are too jarring.</p>
+
+    <div class="controls">
+    
+    
+      <p>
+        <strong>Previous post</strong>: 
+        <a class="previous" href="../../posts/week-6-midterm-proposal/">Week 6 | Midterm Proposal</a>
+      </p>
+    
+    
+      <p>
+        <strong>Next post</strong>: 
+        <a class="next" href="../../posts/week-10-soft-speaker/">Week 10 | Soft Speaker</a>
+      </p>
+    
+    </div>
+  </div>
+</div>
+
+<!--       <footer class="footer">
+        <div class="links">
+          <a href="/">Home</a>
+        </div>
+      </footer>
+     -->
+  </main>
+   <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+  </body>
+</html>

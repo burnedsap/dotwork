@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Computational Craft | Salil Parekh" />
+    <link rel="stylesheet" type="text/css" href="../../public/style.css" />
+    <title>Week 6 | Midterm Proposal - Computational Craft | Salil Parekh</title>
+
+<meta name="description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="http://computational-craft.glitch.me/posts/week-6-midterm-proposal/">
+
+<meta property="og:title" content="Week 6 | Midterm Proposal - Computational Craft | Salil Parekh">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="http://computational-craft.glitch.me/posts/week-6-midterm-proposal/">
+<meta property="og:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="http://computational-craft.glitch.me/posts/week-6-midterm-proposal/">
+<meta name="twitter:title" content="Week 6 | Midterm Proposal - Computational Craft | Salil Parekh">
+<meta name="twitter:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+
+  </head>
+  <body>
+  <main>
+    
+    
+  
+    
+
+
+<div class="wrapper post">
+  <div>
+    <p>
+      ← <a href="../../index.html">Computational Craft | Salil Parekh</a>
+    </p>
+    
+    <h2 class='postTitle'>Week 6 | Midterm Proposal</h2>
+
+    
+    
+    
+    <p>Create a textile which feels alive and reacts to touch. On touching the piece, its responds to your touch by lighting up the LEDs embedded within it, or by emitting sound or using shape memory alloy wires to change the shape of the textile itself.</p>
+<p><img src="../../assets/Screenshot%202022-03-10%20at%205.14.46%20PM.png" alt="diagram of proposed textile piece, with embedded leds, microcontrollers and coin cell battery"></p>
+<p>The interactions will be software heavy, and dependent on detecting different kinds of gestures? Maybe using an ML inference board would help?</p>
+<p>My favourite type of textile as of now is muslin. Muslin was probably the first textile I've interacted with from the standpoint of actually intending to use it as a material. I've never actually 'seen' textile as a material prior to using muslin. I went to the cloth markets of Ahmedabad where I first interacted with the material and I absolutely loved it. The whole shop had stacks and stacks of muslin, top to bottom. Nothing to see but the off white colour of muslin.</p>
+<p><img src="../../assets/IMG_4411.JPG" alt="image of a street from the old city of ahmedabad–no cloth markets here, just a representative">
+<em>I can't find an image of the market I went to, so here's a pretty courtyard from Ahmedabad. The architectural detail is incredible.</em></p>
+<p><img src="../../assets/PXL_20220311_220030305.jpg" alt="muslin cloth">
+<em>Muslin cloth</em></p>
+<p>Muslin for me is a fairly humble material, but it feels comforting and warm to hold on to. The texture of the material is wonderful to touch, with just the right amount of roughness. I wonder how muslin feels about being touched and held on to–does it like it? Or does it want to be left alone?</p>
+<p>I want to explore this by giving muslin the ability to respond to touch–either through LEDs, SMA alloys or thermocromatic colours even?</p>
+<p>Muslin feels very analogue, and I'd like to hand sew all the components. It just feels right to do so with muslin. I do plan to use laser etching to precisely place all the markers onto the cloth in order to sew it accurately.</p>
+<p>Here's a more detailed plan of the piece:</p>
+<p><img src="../../assets/Computational Craft Midterm Proposal Sketches-02.jpg" alt="">
+<em>The textile will be comprised of a sandwich of multiple layers</em></p>
+<p><img src="../../assets/Computational Craft Midterm Proposal Sketches-03.jpg" alt="">
+<em>The outer layers</em></p>
+<p><img src="../../assets/Computational Craft Midterm Proposal Sketches-04.jpg" alt="">
+<em>First layer with a grid of SMD LEDs</em></p>
+<p><img src="../../assets/Computational Craft Midterm Proposal Sketches-05.jpg" alt="">
+<em>Layer of wires for the force sensitive grid array</em></p>
+<p><img src="../../assets/Computational Craft Midterm Proposal Sketches-06.jpg" alt="">
+<em>Velostat to detect pressure and position of pressure</em></p>
+<p><img src="../../assets/Computational Craft Midterm Proposal Sketches-07.jpg" alt="">
+<em>Layer of wires for the force sensitive grid array + micro-controller and coin cell battery</em></p>
+<p><img src="../../assets/Computational Craft Midterm Proposal Sketches-08.jpg" alt="">
+<em>If I time, I can try to include a grid of nitinol or SMA wires to enable the textile to shrink itself</em></p>
+<p><img src="../../assets/Computational Craft Midterm Proposal Sketches-01.jpg" alt="">
+<em>Alternate variations of the layout, with the micro-controller arranged diagonally or right in the centre</em></p>
+<p>List of items on the R&amp;D Agenda:</p>
+<ul>
+<li>
+<p>[x] Which micro controller to use? RPi Pico or the Teensy LC?</p>
+<p><strong>Teensy all the way, thank you very much.</strong></p>
+</li>
+<li>
+<p>[x] Do SMD LEDs shine through muslin? Is there a diffusion (which would be ideal)</p>
+<p><strong>It's not great, but there is a small amount of diffusion. It needs another layer of diffusion in order to soften down.</strong></p>
+</li>
+<li>
+<p>[X] How many SMD LEDs can the micro controller support on a 3.3v coin cell?</p>
+  <p><video controls="true" allowfullscreen="true" muted autoplay width="100%">
+    <source src="../../assets/PXL_20220317_175053005.mp4" type="video/mp4">
+  </video></p>
+
+
+<strong>It does 5 comfortably, looks good for 5-7 at the very least on the PWM pins</strong></p>
+</li>
+<li>
+<p>[x] Coin cell or LiPo?</p>
+<p><strong>Coin cell isn't a bad option, as it seems to provide enough power and it's easily swappable and combining LiPo with cloth doesn't sit well with me.</strong></p>
+</li>
+<li>
+<p>[x] Laser etching on muslin–does it look good? Could be used to draw some generative art on the surface of the fabric</p>
+</li>
+</ul>
+<p><strong>Oh yes, it looks really good. The colour of the etched parts are darker and feel warm-just what I need.</strong></p>
+<p><img src="../../assets/PXL_20220317_193146935.jpg" alt="laser etched muslin">
+<em>I'm calling this LECT (Laser Etched Circuit Textile)</em></p>
+<ul>
+<li>[x] Copper traces on the SMD LED layer or copper thread? Which will be easier to solder on to?</li>
+</ul>
+<p><strong>I'm leaning towards copper thread, as I want to hand sew everything. It matches the analog feel of muslin</strong></p>
+
+    <div class="controls">
+    
+    
+      <p>
+        <strong>Previous post</strong>: 
+        <a class="previous" href="../../posts/week-6-fabricating-sensor/">Week 6 | Fabricating Sensor</a>
+      </p>
+    
+    
+      <p>
+        <strong>Next post</strong>: 
+        <a class="next" href="../../posts/week-9-midterm-doc/">Week 9 | Midterm Documentation</a>
+      </p>
+    
+    </div>
+  </div>
+</div>
+
+<!--       <footer class="footer">
+        <div class="links">
+          <a href="/">Home</a>
+        </div>
+      </footer>
+     -->
+  </main>
+   <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+  </body>
+</html>

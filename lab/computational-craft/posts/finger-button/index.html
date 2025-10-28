@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Computational Craft | Salil Parekh" />
+    <link rel="stylesheet" type="text/css" href="/public/style.css" />
+    <title>Week 3 | Finger Tap Buttons - Computational Craft | Salil Parekh</title>
+
+<meta name="description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="/posts/finger-button/">
+
+<meta property="og:title" content="Week 3 | Finger Tap Buttons - Computational Craft | Salil Parekh">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="/posts/finger-button/">
+<meta property="og:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="/posts/finger-button/">
+<meta name="twitter:title" content="Week 3 | Finger Tap Buttons - Computational Craft | Salil Parekh">
+<meta name="twitter:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+
+  </head>
+  <body>
+  <main>
+    
+    
+  
+    
+
+
+<div class="wrapper post">
+  <div>
+    <p>
+      ← <a href="/">Computational Craft | Salil Parekh</a>
+    </p>
+    
+    <h2 class='postTitle'>Week 3 | Finger Tap Buttons</h2>
+
+    
+    
+    
+    <h4>Buttons for Dramatic Plotters</h4>
+<p>Are you a villain? A person with lots of henchpeople and many meetings with said henchpeople? Are your meetings getting dull and repetitive? Do you find yourself doing this a lot ↓ ?</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/giphy.gif?v=1645031945151" alt="finger tapping"></p>
+<p>You need a finger tap button!</p>
+<p>When you tap your fingers in a scheming, plotting sort of way, you can making things happen. Switch on a light, open a trapdoor to a pool of sharks, fire a laser, release a bioweapon, and lots more.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/CC%20Exports-1-HD%201080p.mp4?v=1645068991528" alt="video of circit working"></p>
+<p>To make this button, I first needed to figure out how to make single finger gloves. I stitched a few variations to figure out the sizing (I got a fair few wrong) and how to integrate the conductive wire.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/finger-iterations%20Large.jpeg?v=1645032183414" alt="iterations of fingers created">
+<em>From left to right, first to the final</em></p>
+<p>This is how the finger was created</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/finger%20stitch%20layout.jpg?v=1645033804675" alt="layout of stitch"></p>
+<p>I tried both a running stitch and a backstitch. The backstitch definitely felt a lot more uniform with a little more even tension all the way round and more secure.</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/running%20stitch.jpg?v=1645033803577" alt="running stitch pattern"></p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/back%20stitch.jpg?v=1645033804631" alt="backstitch pattern"></p>
+<p>This the circuit when open:</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/circuit%20open%201.jpg?v=1645066909538" alt="open circuit"></p>
+<p>and when it's closed:</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/circuit%20closed%201.jpg?v=1645066907943" alt="closed circuit"></p>
+<p>The white cloth and green thread were chosen as they pair well with the copper fabric. I used fabric glue to attach the copper fabric to the cloth, and some of it spilled over the surface, which hampered the conductivity.</p>
+<p>This is the circuit:</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/circuit%201.jpg?v=1645066909460" alt="overview of circuit"></p>
+<p>and a small drawing explaining it:</p>
+<p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/CC%20week%202%20diagram.jpeg?v=1645067967559" alt="sketch of diagram"></p>
+<p>The code for the circuit:</p>
+<pre><code>int ledPin = 13;
+int buttonPin = 4;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT_PULLUP);
+}
+
+void loop() {
+  if (digitalRead(buttonPin) == HIGH) {
+    digitalWrite(ledPin, HIGH);
+  }
+  else {
+    digitalWrite(ledPin, LOW);
+  }
+}
+</code></pre>
+
+    <div class="controls">
+    
+    
+      <p>
+        <strong>Previous post</strong>: 
+        <a class="previous" href="/posts/week-2-basic-circuits/">Week 2 | Basic Circuit</a>
+      </p>
+    
+    
+      <p>
+        <strong>Next post</strong>: 
+        <a class="next" href="/posts/week-4-led-fade/">Week 4 | Sensor Knitting</a>
+      </p>
+    
+    </div>
+  </div>
+</div>
+
+      <footer class="footer">
+        <div class="links">
+          <a href="/">Home</a>
+        </div>
+      </footer>
+    
+  </main>
+   
+  </body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Computational Craft | Salil Parekh" />
+    <link rel="stylesheet" type="text/css" href="../../public/style.css" />
+    <title>Week 12 | Shape Memory Alloys - Computational Craft | Salil Parekh</title>
+
+<meta name="description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="http://computational-craft.glitch.me/posts/week-12-sma/">
+
+<meta property="og:title" content="Week 12 | Shape Memory Alloys - Computational Craft | Salil Parekh">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="http://computational-craft.glitch.me/posts/week-12-sma/">
+<meta property="og:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="http://computational-craft.glitch.me/posts/week-12-sma/">
+<meta name="twitter:title" content="Week 12 | Shape Memory Alloys - Computational Craft | Salil Parekh">
+<meta name="twitter:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+
+  </head>
+  <body>
+  <main>
+    
+    
+  
+    
+
+
+<div class="wrapper post">
+  <div>
+    <p>
+      ← <a href="../../index.html">Computational Craft | Salil Parekh</a>
+    </p>
+    
+    <h2 class='postTitle'>Week 12 | Shape Memory Alloys</h2>
+
+    
+    
+    
+    <p>Shape Memory Alloys, or SMAs are materials which change their form when heated. I created a small moth like piece which demonstrates how SMAs and thermochromic dye works. When current is applied across the SMA wire, it heats up and changes shape.</p>
+<p>To create the main body of the moth, I drew a shape of the moth on paper, cut it, and used it as a stencil to cut shapes out of muslin.</p>
+<p><img src="../../assets/moth_shape.jpg" alt="using a paper stencil to draw a moth shape">
+<em>Paper stencil to draw and cutout moth shapes</em></p>
+<p>To prevent the moth from folding onto itself, I used a small strip of thick frosted acrylic to place in the middle to anchor the SMA onto, and to provide further structural rigidity.</p>
+<p><img src="../../assets/moth_acrylic.jpg" alt="">
+<em>Thick piece of frosted acrylic used as structural frame</em></p>
+<p>The SMA wire was held into place on the wings using a simple couched stitch. When stretched the SMA wire is also a little stiff, which provides additional rigidity to the wings.</p>
+<p><img src="../../assets/moth_sma.jpg" alt="Attaching the SMA wire">
+<em>Attaching the SMA wire over the wingspan of the moth</em></p>
+<p>The bottom layer holds the SMA, and the top layer holds the thermochromic dye. When the SMA is heated, the top layer will be affected by the heat and as a result, the colour will change.</p>
+<p>In order to control the heating of the wire, I created a simple capacitive switch from copper tape. When touched, the copper tape will activate the heating and subsequent colouring and folding of the wings.</p>
+<p><img src="../../assets/moth_thermochromic.jpg" alt="Yellow thermochromic dye on top layer and copper tape at the bottom">
+<em>The thermochromic dyed layer with a copper tape as a button</em></p>
+<p>I used incredible thin and light 34AWG enamel coated copper wire, 0.0063&quot; in diameter to connect the moth to the Arduino and step up mosfet. This wire is so thin and light that it is visually near invisible, and doesn't affect the folding of the wings. These wires were sanded down on the ends to remove the enamel coating and soldered onto the patch of copper tape.</p>
+<p><img src="../../assets/moth_solder_v2.jpg" alt="underside of copper tape of the top layer, with solder connecting it to copper wire">
+<em>Copper wire soldered to underside of the copper tape</em></p>
+<p>Soldering the crimps which held the SMA was fairly tricky and required a hacky jig of a crocodile clip to prevent the heat of the soldering iron from deforming the SMA.</p>
+<p><img src="../../assets/moth_solder.jpg" alt="close up of soldering">
+<em>Soldering the SMA via crimps and the thin gauge enamel coated copper wire</em></p>
+<p><img src="../../assets/moth_frame_1.jpg" alt="the moth remaining motionless, and yellow coloured">
+<em>When left alone</em></p>
+<p><img src="../../assets/moth_frame_2.jpg" alt="finger touching the copper tape at the bottom and the wings folding in with the colour turning a ligher shade of yellow">
+<em>On being touched</em></p>
+<p><img src="../../assets/moth_frame_3.jpg" alt="finger no longer on the copper tape, and the lighter shade of yellow spreading and more pronounced">
+<em>Heat slowly spreads out from the center</em></p>
+<video controls width="100%">
+    <source src="../../assets/moth_video.mp4"
+            type="video/mp4">
+<pre><code>Sorry, your browser doesn't support embedded videos.
+</code></pre>
+</video>
+<p><em>Video of the moth in action</em></p>
+<p><img src="../../assets/moth_circuit.jpg" alt="circuit with arduino, step up mosfet, and the moth">
+<em>Complete circuit</em></p>
+<pre><code>const long interval = 1000;
+unsigned long previousMillis = 0;
+float buttonVal = 0;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(A0, INPUT);
+  pinMode(9, OUTPUT);
+}
+
+void loop() {
+  buttonVal = analogRead(A0);
+  Serial.println(buttonVal);
+
+  if ((buttonVal &lt; 300) &amp;&amp; (buttonVal &gt; 50)) {
+    unsigned long currentMillis = millis();
+
+    if (currentMillis - previousMillis &gt;= interval)
+    {
+      previousMillis = currentMillis;
+      analogWrite(9, 205);
+
+    }
+  }
+}
+</code></pre>
+<p><em>Code for the circuit</em></p>
+<h4>Response to this week's readings</h4>
+<p>The chapter, <a href="https://www.computationalcraft.io/wp-content/uploads/2022/04/woven_memory.pdf">Woven Memory</a> from Fabric of Interface: Mobile Media, Design, and Gender by Stephen Monteiro is an incredible read. As I read the text, I had a few realisations. The first of which was another reaffirmation of the power of the capitalist organisation of the economy. The economic model rewards exploitative practices and incentivises the continuation of such practices. It’s difficult to identify the exploitation in the things we interact with, such is obfuscation of the system. For the vast majority of us, it’s not even a conversation we can afford to have, as we ourselves are being exploited and it creates a cycle which is near impossible to escape out of. The text takes us backstage and gives us a glimpse into an otherwise rather <a href="https://www.youtube.com/watch?v=P12r8DKHsak">glorified and celebrated event</a>. It’s far too easy to get drawn into the seductive narrative and not question how it was created. It’s also difficult to ‘solve’ it–the very machine I’m using to type this text is the sum of layers (plural) of exploitation.</p>
+<p>This leads me to another takeaway–what is the true value of things? The iPhone is a great example to discuss. It’s an incredible device, with magnitudes more computing power than the computer which took us to the Moon. But let’s take a smaller example, a simpler micro-controller like the Teensy LC. It’s still a complex product, with lots of smaller components such as LEDs, resisters, capacitors and a processor. It costs around $11.65 to buy, but is that really the true cost? Does the asking price cover the costs of making and shipping with regard to labour, material extraction and the infinitely complex socio-political layers? Or the effect it has on the other species, abiotic entities and planetary systems?</p>
+<p>Lastly, it was fascinating to see the use of processes and tools used to create textiles used in what is usually a field devoid of such methods, at least in the way it is disseminated now. There is so much value in an interdisciplinary approach that we’re missing out on, especially in the way we’re being taught about digital technologies. The affordances of textile methods in computing are relevant for so many applications, not just the ones highlighted in the article for zero-g in outer space.</p>
+
+    <div class="controls">
+    
+    
+      <p>
+        <strong>Previous post</strong>: 
+        <a class="previous" href="../../posts/week-11-thermochromic/">Week 11 | Thermochromistry</a>
+      </p>
+    
+    
+      <p>
+        <strong>Next post</strong>: 
+        <a class="next" href="../../posts/week-14-final-proposal/">Week 14 | Final Proposal</a>
+      </p>
+    
+    </div>
+  </div>
+</div>
+
+<!--       <footer class="footer">
+        <div class="links">
+          <a href="/">Home</a>
+        </div>
+      </footer>
+     -->
+  </main>
+   <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+  </body>
+</html>

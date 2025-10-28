@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Computational Craft | Salil Parekh" />
+    <link rel="stylesheet" type="text/css" href="../../public/style.css" />
+    <title>Week 6 | Fabricating Sensor - Computational Craft | Salil Parekh</title>
+
+<meta name="description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="http://computational-craft.glitch.me/posts/week-6-fabricating-sensor/">
+
+<meta property="og:title" content="Week 6 | Fabricating Sensor - Computational Craft | Salil Parekh">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="http://computational-craft.glitch.me/posts/week-6-fabricating-sensor/">
+<meta property="og:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="http://computational-craft.glitch.me/posts/week-6-fabricating-sensor/">
+<meta name="twitter:title" content="Week 6 | Fabricating Sensor - Computational Craft | Salil Parekh">
+<meta name="twitter:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+
+  </head>
+  <body>
+  <main>
+    
+    
+  
+    
+
+
+<div class="wrapper post">
+  <div>
+    <p>
+      ← <a href="../../index.html">Computational Craft | Salil Parekh</a>
+    </p>
+    
+    <h2 class='postTitle'>Week 6 | Fabricating Sensor</h2>
+
+    
+    
+    
+    <p>Fabricating copper traces on fabric is incredible and moves us from a breadboard board to proto-board or PCB level of finish. This particular trace is created with copper fabric cut by a vinyl cutter and stuck on a piece of cotton fabric. The circuit contains 2 LEDs, one regular and one SMD–the same with the resistors. Soldering these components was tricky and it takes a considerable amount of patience to solder the SMD parts on to the copper traces.</p>
+<p><img src="../../assets/fabric traces.jpg" alt="image of copper traces on fabric">
+<em>Copper traces on fabric with iffy soldering</em></p>
+<p>Once the traces were stuck on the fabric and the components were soldered, the edges of the fabric were sewn up to for a better finish and to provide easier access to the crocodile clips.</p>
+<p>A resistive sensor was used to control the brightness of the LEDs.</p>
+<p><img src="../../assets/fabric traces circuit.jpg" alt="image the circuit connected to an arduino and resistive sensor">
+<em>The circuit connected to an Arduino Uno and a yarn sensor</em></p>
+<p><video controls="true" allowfullscreen="true" muted autoplay width="100%">
+    <source src="../../assets/PXL_20220307_232542952.mp4" type="video/mp4">
+  </video></p>
+<p>The code for the sketch, taken from Liza Stark's <a href="https://github.com/lizastark/Teaching/blob/master/Comp_Craft/Week_6_Code/softTestBoard_testSketch/softTestBoard_testSketch.ino">GitHub</a>.</p>
+<pre><code>/*
+  Week 6 Soft Testing Board - Switch sketch
+
+  Use this to test your vinyl cut or embroidered test board.
+  To simplify, we do not have a pull down resistor
+  on the switch pins, so we need to account for this in software.
+
+  You can also use this board for a sensor but will need to adapt
+  the mapping on the sketches from Week 4: https://github.com/lizastark/Teaching/tree/master/Comp_Craft/Week_4_Code
+
+  Unlike pinMode(INPUT), there is no pull-down resistor necessary. An internal
+  20K-ohm resistor is pulled to 5V. This configuration causes the input to read
+  HIGH when the switch is open, and LOW when it is closed.
+
+  created 14 Mar 2012
+  by Scott Fitzgerald
+
+  This example code is in the public domain.
+
+  https://www.arduino.cc/en/Tutorial/BuiltInExamples/InputPullupSerial
+*/
+
+int topLED = 9;
+int bottomLED = 6;
+int switchPin = A0;
+
+void setup() {
+  //start serial connection
+  Serial.begin(9600);
+  //configure pin 2 as an input and enable the internal pull-up resistor
+  pinMode(switchPin, INPUT_PULLUP);
+  pinMode(topLED, OUTPUT);
+  pinMode(bottomLED, OUTPUT);
+
+}
+
+void loop() {
+  //read the sensor value into a variable
+  int switchVal = analogRead(switchPin);
+  //print out the value of the sensor mapped to the LED brightness
+  Serial.println(map(switchVal, 670, 370, 0, 255));
+
+  analogWrite(bottomLED, map(switchVal, 670, 370, 0, 255));
+  analogWrite(topLED, map(switchVal, 670, 370, 0, 255));
+}
+</code></pre>
+
+    <div class="controls">
+    
+    
+      <p>
+        <strong>Previous post</strong>: 
+        <a class="previous" href="../../posts/week-5-sensor-swatch/">Week 5 | Sensor Swatch</a>
+      </p>
+    
+    
+      <p>
+        <strong>Next post</strong>: 
+        <a class="next" href="../../posts/week-6-midterm-proposal/">Week 6 | Midterm Proposal</a>
+      </p>
+    
+    </div>
+  </div>
+</div>
+
+<!--       <footer class="footer">
+        <div class="links">
+          <a href="/">Home</a>
+        </div>
+      </footer>
+     -->
+  </main>
+   <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+  </body>
+</html>

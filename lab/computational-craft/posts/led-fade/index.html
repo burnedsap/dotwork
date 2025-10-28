@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Computational Craft | Salil Parekh" />
+    <link rel="stylesheet" type="text/css" href="/public/style.css" />
+    <title>Week 4 | Sensor Knitting - Computational Craft | Salil Parekh</title>
+
+<meta name="description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="/posts/led-fade/">
+
+<meta property="og:title" content="Week 4 | Sensor Knitting - Computational Craft | Salil Parekh">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="/posts/led-fade/">
+<meta property="og:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="/posts/led-fade/">
+<meta name="twitter:title" content="Week 4 | Sensor Knitting - Computational Craft | Salil Parekh">
+<meta name="twitter:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+
+  </head>
+  <body>
+  <main>
+    
+    
+  
+    
+
+
+<div class="wrapper post">
+  <div>
+    <p>
+      ← <a href="/">Computational Craft | Salil Parekh</a>
+    </p>
+    
+    <h2 class='postTitle'>Week 4 | Sensor Knitting</h2>
+
+    
+    
+    
+    <p><img src="https://cdn.glitch.global/8d35d12c-72ee-4c94-8384-c61fbf24c379/cc%20week%2041.png?v=1645642688339" alt="cleaned up illustration of circuit">
+<em>cleaned up illustration of the circuit</em></p>
+<p>Code for the circuit:</p>
+<pre><code class="language-c">//Fading LED algorithm taken from Liza Stark: https://github.com/lizastark/Teaching/blob/master/Comp_Craft/Week_4_Code/Fade_PWM_cos_Example_10_16/Fade_PWM_cos_Example_10_16.ino
+
+//Smoothing variables
+#define sample 300
+int array1[sample];
+unsigned long averaging1;
+int array2[sample];
+unsigned long averaging2;
+
+//Pins
+int sensorPin = A0;
+int ledPin = 9;
+
+float sensorValue = 0;
+float pulseVal = 0;
+float ledVal = 0;
+int value;
+long timeVal = 0;
+float periode = 2000; //Change this value to change the speed of the fade
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(ledPin, OUTPUT);
+  pinMode(sensorPin, INPUT_PULLUP);
+}
+
+void loop()
+{
+  timeVal = millis();
+
+  //Resistor Read+Smoothing
+  int sensorValue = analogRead(sensorPin);
+  for (int i = 0; i &lt; sample; i++) {
+    array1[i] = analogRead(sensorPin);
+    averaging1 += array1[i];
+  }
+  sensorValue = averaging1 / sample; //Final yarn value
+
+  //LED Fade value+smoothing
+  periode = map(sensorValue, 350, 550, 1000, 4000);
+  for (int i = 0; i &lt; sample; i++) {
+    array2[i] = periode;
+    averaging2 += array2[i];
+  }
+  pulseVal = averaging2 / sample;
+
+  //Use steps to &quot;smooth&quot; out values
+  if ((pulseVal &gt; 1000) &amp;&amp; (pulseVal &lt; 1400)) {
+    ledVal = 1000;
+  }
+  else if ((pulseVal &gt; 1400) &amp;&amp; (pulseVal &lt; 1800)) {
+    ledVal = 1400;
+  }
+  else if ((pulseVal &gt; 1800) &amp;&amp; (pulseVal &lt; 2200)) {
+    ledVal = 1800;
+  }
+  else if ((pulseVal &gt; 2200) &amp;&amp; (pulseVal &lt; 2600)) {
+    ledVal = 2200;
+  }
+  else if ((pulseVal &gt; 2600) &amp;&amp; (pulseVal &lt; 3000)) {
+    ledVal = 4000;
+  }
+  else if (pulseVal &gt; 3000) {
+    ledVal = 4500;
+  }
+  
+  value = 128 + 127 * cos(2 * PI / ledVal * timeVal);
+  analogWrite(ledPin, value);
+
+  //Reset smoothing values
+  averaging1 = 0;
+  averaging2 = 0;
+
+}
+</code></pre>
+
+    <div class="controls">
+    
+    
+      <p>
+        <strong>Previous post</strong>: 
+        <a class="previous" href="/posts/finger-button/">Week 3 | Finger Tap Buttons</a>
+      </p>
+    
+    
+    </div>
+  </div>
+</div>
+
+      <footer class="footer">
+        <div class="links">
+          <a href="/">Home</a>
+        </div>
+      </footer>
+    
+  </main>
+   
+  </body>
+</html>

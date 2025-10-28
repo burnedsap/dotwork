@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Computational Craft | Salil Parekh" />
+    <link rel="stylesheet" type="text/css" href="../../public/style.css" />
+    <title>Week 4 | Sensor Knitting - Computational Craft | Salil Parekh</title>
+
+<meta name="description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="http://computational-craft.glitch.me/posts/week-4-led-fade/">
+
+<meta property="og:title" content="Week 4 | Sensor Knitting - Computational Craft | Salil Parekh">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="http://computational-craft.glitch.me/posts/week-4-led-fade/">
+<meta property="og:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="http://computational-craft.glitch.me/posts/week-4-led-fade/">
+<meta name="twitter:title" content="Week 4 | Sensor Knitting - Computational Craft | Salil Parekh">
+<meta name="twitter:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+
+  </head>
+  <body>
+  <main>
+    
+    
+  
+    
+
+
+<div class="wrapper post">
+  <div>
+    <p>
+      ← <a href="../../index.html">Computational Craft | Salil Parekh</a>
+    </p>
+    
+    <h2 class='postTitle'>Week 4 | Sensor Knitting</h2>
+
+    
+    
+    
+    <p>Knitting the conductive sensor using the Knitting Nancy was far more difficult than I anticipated. The instructions seemed simple enough, but in practice it was slightly trickier. I haven't worked much with linear material previously, and have even less experience knitting with it. I first used some regular thread to learn the process of knitting using the tool before using the conductive thread. The trick was to loosen up, and not induce too much tension. Only then could I pull the threads inside the nancy, to enable the creation of the knit and to loop the thread below.</p>
+<p>Once I understood the process, it was smooth sailing thereafter. The knitting became meditative, and I had to stop myself from knitting a sensor that was too long! I could see that the resistance was becoming fairly high by testing it on the custom knitting nancy I had created.</p>
+<p><img src="../../assets/yarn-knitting process.jpg" alt="process picture of knitting conductive yarn, connected in a circuit with an led on the knitting nancy lit up">
+<em>Knitting a sensor using conductive yarn</em></p>
+<p>I built a simple circuit which used the knitted conductive yarn a sensor. When paired with a resistor, it could be used to detect the resistance. I wanted to use the yarn to control the speed of the fading of the LED.</p>
+<p><img src="../../assets/week 4 circuit small.jpg" alt="image of circuit">
+<em>image of the circuit</em></p>
+<p><img src="../../assets/cc week 41.png" alt="cleaned up illustration of circuit">
+<em>cleaned up illustration of the circuit</em></p>
+<p>The circuit had to detect the resistance from the yarn, and use those values to control the speed of the fading of the LED. I planned to use a sin wave to control the fade of the LED, and pair it with a value which calculated from the yarn sensor. Luckily, Liza did the difficult part figuring out the correct configuration of the Sin/Cos wave in this <a href="https://github.com/lizastark/Teaching/blob/master/Comp_Craft/Week_4_Code/Fade_PWM_cos_Example_10_16/Fade_PWM_cos_Example_10_16.ino">snippet</a>.</p>
+<p>Next, I had to figure out how to change the speed of the fade using values from the conductive yarn. I wanted to create a linear correlation between the yarn being manipulated and the speed of the fade. This was far more difficult than anticipated.</p>
+<p><img src="../../assets/Screenshot 2022-02-23 at 12.05.21 PM.png" alt="glitchy graph of the values from the conductive yarn">
+<em>See those dirty, glitchy lines? This equates to a LED which can't figure out what it's being told to do</em></p>
+<p>I used two separate instances of smoothing, but I still couldn't get the values to smoothen out. Begrudgingly I used simple conditional statements to break up the values into a blocks of fade speed. This allows the LED to operate without having to deal with a constant change in instructions.</p>
+<p><img src="../../assets/Screenshot 2022-02-23 at 12.38.20 PM.png" alt="Smoother, blockier graph">
+<em>Smooth, blocky graphs make for better behaved LEDs</em></p>
+<p>See how it works on this short video:</p>
+<p><img src="../../assets/CC week 4-HD 1080p.mp4" alt="video"></p>
+<p>Code for the circuit:</p>
+<pre><code>//Fading LED algorithm taken from Liza Stark:  https://github.com/lizastark/Teaching/blob/master/Comp_Craft/Week_4_Code/Fade_PWM_cos_Example_10_16/Fade_PWM_cos_Example_10_16.ino
+
+//Smoothing variables
+#define sample 300
+int array1[sample];
+unsigned long averaging1;
+int array2[sample];
+unsigned long averaging2;
+
+//Pins
+int sensorPin = A0;
+int ledPin = 9;
+
+float sensorValue = 0;
+float pulseVal = 0;
+float ledVal = 0;
+int value;
+long timeVal = 0;
+float periode = 2000; //Change this value to change the speed of the fade
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(ledPin, OUTPUT);
+  pinMode(sensorPin, INPUT_PULLUP);
+}
+
+void loop()
+{
+  timeVal = millis();
+
+  //Resistor Read+Smoothing
+  int sensorValue = analogRead(sensorPin);
+  for (int i = 0; i &lt; sample; i++) {
+    array1[i] = analogRead(sensorPin);
+    averaging1 += array1[i];
+  }
+  sensorValue = averaging1 / sample; //Final yarn value
+
+  //LED Fade value+smoothing
+  periode = map(sensorValue, 350, 550, 1000, 4000);
+  for (int i = 0; i &lt; sample; i++) {
+    array2[i] = periode;
+    averaging2 += array2[i];
+  }
+  pulseVal = averaging2 / sample;
+
+  //Use steps to &quot;smooth&quot; out values
+  if ((pulseVal &gt; 1000) &amp;&amp; (pulseVal &lt; 1400)) {
+    ledVal = 1000;
+  }
+  else if ((pulseVal &gt; 1400) &amp;&amp; (pulseVal &lt; 1800)) {
+    ledVal = 1400;
+  }
+  else if ((pulseVal &gt; 1800) &amp;&amp; (pulseVal &lt; 2200)) {
+    ledVal = 1800;
+  }
+  else if ((pulseVal &gt; 2200) &amp;&amp; (pulseVal &lt; 2600)) {
+    ledVal = 2200;
+  }
+  else if ((pulseVal &gt; 2600) &amp;&amp; (pulseVal &lt; 3000)) {
+    ledVal = 4000;
+  }
+  else if (pulseVal &gt; 3000) {
+    ledVal = 4500;
+  }
+  
+  value = 128 + 127 * cos(2 * PI / ledVal * timeVal);
+  analogWrite(ledPin, value);
+
+  //Reset smoothing values
+  averaging1 = 0;
+  averaging2 = 0;
+
+}
+</code></pre>
+
+    <div class="controls">
+    
+    
+      <p>
+        <strong>Previous post</strong>: 
+        <a class="previous" href="../../posts/week-3-finger-button/">Week 3 | Finger Tap Buttons</a>
+      </p>
+    
+    
+      <p>
+        <strong>Next post</strong>: 
+        <a class="next" href="../../posts/week-5-sensor-swatch/">Week 5 | Sensor Swatch</a>
+      </p>
+    
+    </div>
+  </div>
+</div>
+
+<!--       <footer class="footer">
+        <div class="links">
+          <a href="/">Home</a>
+        </div>
+      </footer>
+     -->
+  </main>
+   <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+  </body>
+</html>

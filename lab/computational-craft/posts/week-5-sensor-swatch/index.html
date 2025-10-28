@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Computational Craft | Salil Parekh" />
+    <link rel="stylesheet" type="text/css" href="../../public/style.css" />
+    <title>Week 5 | Sensor Swatch - Computational Craft | Salil Parekh</title>
+
+<meta name="description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="http://computational-craft.glitch.me/posts/week-5-sensor-swatch/">
+
+<meta property="og:title" content="Week 5 | Sensor Swatch - Computational Craft | Salil Parekh">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="http://computational-craft.glitch.me/posts/week-5-sensor-swatch/">
+<meta property="og:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="http://computational-craft.glitch.me/posts/week-5-sensor-swatch/">
+<meta name="twitter:title" content="Week 5 | Sensor Swatch - Computational Craft | Salil Parekh">
+<meta name="twitter:description" content="Documentation for Computational Craft&ndash;MFADT 2022">
+
+
+
+  </head>
+  <body>
+  <main>
+    
+    
+  
+    
+
+
+<div class="wrapper post">
+  <div>
+    <p>
+      ← <a href="../../index.html">Computational Craft | Salil Parekh</a>
+    </p>
+    
+    <h2 class='postTitle'>Week 5 | Sensor Swatch</h2>
+
+    
+    
+    
+    <p>I wanted to make a pressure sensitive sensor, but I wanted something with more fidelity. I knew it was possible to make something in the form of a grid, in a X-Y grid format. After some research, I realised I wanted to make what was called a Force Sensitive Resistor (FSR) grid. There are a few ways to go about it, but there aren't many concrete solutions available online. There are many pre-built solutions ready available, but difficult to find out how it's created.</p>
+<p>My R&amp;D attempts weren't going so well, until I found a video (after much searching!) on Youtube by a creator named Plusea, who turned out to be Hannah, one of the people behind Kobakant.</p>
+<p>I made a small (2x2) prototype of the sensor and tried it out.</p>
+<p><img src="../../assets/PXL_20220226_173305397.jpg" alt="process of making sensor on"></p>
+<p>I first stencilled a grid onto the fabric and marked out where I would make a running stitch with conductive thread. The two layers, (one X-layer, and one Y-layer) would sandwich a layer of Velostat. When pressed, the conductive thread along the X-layer would make contact with a thread along the Y-layer through the Velostat, which would vary the resistivity with pressure. This meant I would get both a X-Y position as a well as a Z pressure value.</p>
+<p><img src="../../assets/PXL_20220226_190036575.jpg" alt="sensor prototype">
+<em>The threads would often touch other, thus the tape was a necessity in keeping them apart</em></p>
+<p>A video of the sensor in action!</p>
+
+<p><video controls="true" allowfullscreen="true" muted autoplay width="100%">
+    <source src="../../assets/IMG_9981.mp4" type="video/mp4">
+  </video></p>
+
+<p>The code for this is an incredibly ingenious bit of thinking, and I don't think I would've ever figured it out. As I drew out the circuit and thought of the logic to make it work, I always ended up with 2 sensor wires per contact point. It would work for sure, but at what cost?</p>
+<p>The code Hannah shared on her <a href="https://www.kobakant.at/DIY/?p=7443">website</a> is very clever and takes advantage of the different modes on the Arduino pins. It's also efficient with only one bank needing Analog input pins. Briefly, it reads values from the Analog pins, and to detect discreet values from each point of contact from the opposite axis, it uses a <code>for</code> loop to sequentially set pins from <code>pinMode(HIGH)</code> to <code>pinMode(LOW)</code>. So one pin is set to LOW, while others are set to HIGH. Once values are captured from the LOW wire, it is set to HIGH, and the next point is set to LOW. Simple but effective.</p>
+<p>Satisfied with the results, I set about making a bigger 4x2 sensor.</p>
+<p><img src="../../assets/3x2 version copy.jpg" alt="4x2 version">
+<em>Running + Blanket stitch</em></p>
+<p>This variation had solder tipped conductive thread to make it easier for crocodile clips to hitch onto the threads.</p>
+<p>But I couldn't quite leave it at that. The sensor worked well enough, but it didn't look right. Also 4x2 didn't sit well with me. Too narrow for my liking.</p>
+<p>I've always wanted to work with generative art processes and textiles and I'll take any excuse to make it happen. The sharp lines of generative art are best expressed through a precision tool such as a laser cutter.</p>
+<p><img src="../../assets/laser cut-2 copy.jpg" alt="laser cutting process"></p>
+<p><img src="../../assets/laser cut-1 copy.jpg" alt="laser cutting experiment"></p>
+<p>The first experimental cut looked great but it was far too ambitious. The fabric melted away on the slightest of pulls.</p>
+<p><img src="../../assets/laser cut-3 copy.jpg" alt="another laser cut experiment">
+<em>Much better-thanks to more surface area</em></p>
+<p><img src="../../assets/laser cut-5 copy.jpg" alt="attempt number three">
+<em>Finally stable, but cutting through the outer edges makes it difficult to work with</em></p>
+<p><img src="../../assets/laser cut-4 copy.jpg" alt="attempt number four">
+<em>Attempt no. 4 was much better. Lots of surface area, and the edges are fairly well connected</em></p>
+<p><img src="../../assets/laser cut 6 copy.jpg" alt="sewing in conductive thread">
+<em>Sewing in stainless steel thread to create a 3x3 grid</em></p>
+<p><img src="../../assets/laser cut 7 copy.jpg" alt="sensor watch 1">
+<em>First sensor swatch</em></p>
+<p><img src="../../assets/laser cut 8 copy.jpg" alt="sensor swatch 2">
+<em>Second sensor swatch</em></p>
+<p><img src="../../assets/laser cut 9 copy.jpg" alt="both sensor swatches">
+<em>Have you spotted the etched patterns which match the cuts?</em></p>
+
+  <p><video controls="true" allowfullscreen="true" muted autoplay width="100%">
+    <source src="../../assets/CC Exports-HD 1080p.mp4" type="video/mp4">
+  </video></p>
+
+
+<p>This type of sensor reminds me of MIDI controllers, primarily because this sensor can be used as a MIDI controller, but also because of the customisability of the sensor. MIDI controllers are simple, and sometimes built by the users themselves. Some are fairly standard, but some are also very pretty simply because the creator wanted them to look nice. There's no functional advantage to making them look nicer, but it feels good to use nice looking things, so why not?</p>
+<p>I chose patterned fabric and laser cut a generative pattern on to the sensors simple because they might be more fun to use, even though they don't add any functional value.</p>
+
+    <div class="controls">
+    
+    
+      <p>
+        <strong>Previous post</strong>: 
+        <a class="previous" href="../../posts/week-4-led-fade/">Week 4 | Sensor Knitting</a>
+      </p>
+    
+    
+      <p>
+        <strong>Next post</strong>: 
+        <a class="next" href="../../posts/week-6-fabricating-sensor/">Week 6 | Fabricating Sensor</a>
+      </p>
+    
+    </div>
+  </div>
+</div>
+
+<!--       <footer class="footer">
+        <div class="links">
+          <a href="/">Home</a>
+        </div>
+      </footer>
+     -->
+  </main>
+   <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+  </body>
+</html>
