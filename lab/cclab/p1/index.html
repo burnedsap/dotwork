@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nixon Watch | Salil Parekh</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1><a href="index.html">Salil Parekh</a></h1>
+      <ul class="nav-link">
+        <li><a href="p1.html">Nixon Watch</a></li>
+        <li><a href="p2.html">Coffee Cup Generator</a></li>
+        <li><a href="p3.html">The Context Clock</a></li>
+        <li><a href="p4.html">The Performance</a></li>
+        <li><a href="p5.html">Pixelcryption</a></li>
+        <li><a href="p6.html">The Questioning Camera</a></li>
+        <li><a href="p7.html">Museum of Salil</a></li>
+        <li><a href="p8.html">Consentful Interface</a></li>
+        <li><a href="p9.html">My Door</a></li>
+        <li><a href="p10.html">Sky Globe</a></li>
+      </ul>
+      <a href="about.html">About</a>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>Nixon Watch</h1>
+      <div class="bSketchW">
+        <iframe
+          width="800px"
+          height="800px"
+          src="https://editor.p5js.org/burnedsap/embed/0Vat4Ubwn"
+        ></iframe>
+      </div>
+      <h2>
+        Description
+      </h2>
+      <p>
+        Created by Salil Parekh.
+      </p>
+      <p>
+        Description provided by Olivier Brückner
+      </p>
+      <p>
+        <i
+          >I had this watch from my flatmate. It always reminded me of her and
+          the time while living together during our undergrads. It was a golden
+          watch, similar to the popular ones from Casio. Its face had an
+          octagonal shape, however, every second side was a little bit bigger.
+          Maybe it is better described as a square (approx. 40x40mm) with cut
+          off corners. The outer edges had a small bevel. With a margin to all
+          sides of approx. 4mm, the inner part of the watch face was not
+          metallic golden, but black. The bottom third has been filled with two
+          buttons. One covering two thirds on the left of the area, and the
+          other filling the rest. They were black as well, but soft rubber
+          plastic. The right one had in the center a logo engraved. It looked a
+          little bit like a teardrop. Above the buttons has been a rectangular
+          LCD display with small rounded corners, yet an inverted one (meaning
+          everything was black, except the letters). It had a small margin to
+          the left and right from the black frame edge and aligned at the top
+          with the corners of the octagon. It was a nice LCD display, not with
+          7-segment numbers, but more pixels. In very big, very rectangular
+          digits, the time was shown in the upper ⅔ of the screen. Hours,
+          minutes, and a little smaller, seconds. Below the current date: three
+          capital letters for the weekday, year, month, and day in digits. Above
+          the upper left corner of the screen, in silver/white capital letters
+          “NIXON” has been printed on. Fairly small, smaller than the letters
+          displaying the date. The watch band has been a typical metal watch
+          band. Golden like the outer octagon. A little bit wider at the hinge
+          at the octagon (to meet the corners), then becoming more narrow until
+          it follows a perfect parallel shape again. Like any metal watch band,
+          it showed its typical sideways masonry-like pattern to allow it to
+          wrap around the wrist, while having 5 columns.</i
+        >
+      </p>
+      <h2>
+        Reflections
+      </h2>
+      <p>
+        The first realisation I had was when I compared the description I gave
+        to my partner, to the one I recieved! The description I received was
+        rich in detail and very accurate (to the number!). Whereas the
+        description I gave was more about the feeling and function, and less
+        about the object itself. Was this to do with our respective
+        nationalities (German and Indian), or was it simply the nature of the
+        object itself which evoked different natures of description?
+      </p>
+      <p>
+        The description I recieved was immensely detailed, and read like a
+        production brief. In some ways, it actually read like pseudocode! As I
+        went through the description, I could visualise the different layers
+        coming together to form the visual of the wristwatch. Since the
+        description was so detailed, there wasn't much left to creative
+        interpretation. Instead the challenge lay in accurately recreating the
+        watch. My aim was to create a picture perfect representation of the
+        description.
+      </p>
+
+      <p>
+        Although I did have some previous experience in writing code
+        (Processing), I got up to speed with the various functions of p5js.
+        Although some of the language is different, I've started to figure out
+        how to work with the new language. I knew that the biggest challenge I
+        would face would be navigating around the canvas. I've never quite
+        gotten the hang of understanding the coordinates of the canvas, and so I
+        created a handly little GPS on the top-right corner which would tell me
+        the location of the mouse. Ideally I would've hidden this away in the
+        console, but it's much easier to see it on the canvas itself while
+        working. With this nifty tool, I could see the coordinates of my mouse,
+        which would help inform of me where to position objects on the screen.
+      </p>
+      <p>
+        I started off with creating a series of rectangles to 'sketch' out the
+        watch, and used modular variables to make this process faster. Here I
+        made an incorrect decision to <i>not use</i> rectMode(CENTER), and I
+        feel it would've definitely helped create the watch much faster, and in
+        a modular fashion which could allow for simple and easy resizing.
+      </p>
+      <p>
+        Once I had the basic structure in place, I used my own digital Casio
+        wristwatch to understand how LCD screens looked like, so that I could
+        replicate certain effects, such as the typeface, the faint background,
+        and the nearly imperceptible blur when the characters change. I used
+        hacky method using if/else loops to ensure that the characters would
+        render correctly when in single digits on the screen.
+      </p>
+      <p>
+        To create the strap, and accurately render it, I used the lerpColor()
+        function to enable the shading that I desired on the individual strap
+        units. After completing most of the watch, I realised that it would run
+        quite slowly. I shifted most of the code from the draw() function to the
+        setup() function so that the same elements weren't being redrawn every
+        frame. This definitely improved the rendering performance.
+      </p>
+      <p>
+        I've always been fascinated by the
+        <a href="https://css-art.com">highly detailed CSS paintings</a> and p5js
+        allows for something similar where it is possible to create something
+        that looks 'realistic' with just a few lines of code!
+      </p>
+    </div>
+  </body>
+</html>

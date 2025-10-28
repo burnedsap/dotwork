@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+  </head>
+
+  <body style="margin : 0px; overflow: hidden;">
+    <audio id="song-1" preload class="songs">
+      <source
+        src="../glitch-assets/ranjan-music-1.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <audio id="song-2" preload class="songs">
+      <source
+        src="../glitch-assets/ranjan-music-2.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <audio id="song-3" preload class="songs">
+      <source
+        src="../glitch-assets/ranjan-spoken-1.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <audio id="song-4" preload class="songs">
+      <source
+        src="../glitch-assets/ranjan-spoken-2.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <script>
+      var audioArray = document.getElementsByClassName("songs");
+      AFRAME.registerComponent("markerhandler1", {
+        init: function() {
+          this.el.sceneEl.addEventListener("markerFound", () => {
+            handleAudio();
+          });
+        }
+      });
+      AFRAME.registerComponent("markerhandler2", {
+        init: function() {
+          this.el.sceneEl.addEventListener("markerFound", () => {
+            handleAudio();
+          });
+        }
+      });
+      AFRAME.registerComponent("markerhandler3", {
+        init: function() {
+          this.el.sceneEl.addEventListener("markerFound", () => {
+            handleAudio();
+          });
+        }
+      });
+      AFRAME.registerComponent("markerhandler4", {
+        init: function() {
+          this.el.sceneEl.addEventListener("markerFound", () => {
+            handleAudio();
+          });
+        }
+      });
+      AFRAME.registerComponent("markerhandler5", {
+        init: function() {
+          this.el.sceneEl.addEventListener("markerFound", () => {
+            handleAudio();
+          });
+        }
+      });
+      AFRAME.registerComponent("markerhandler6", {
+        init: function() {
+          this.el.sceneEl.addEventListener("markerFound", () => {
+            handleAudio();
+          });
+        }
+      });
+
+      function handleAudio() {
+        console.log("detected");
+        for (a = 0; a < audioArray.length; a++) {
+          audioArray[a].pause();
+          audioArray[a].currentTime = 0;
+        }
+        var i = Math.floor(Math.random() * 4);
+        audioArray[i].play();
+      }
+    </script>
+    <a-scene
+      vr-mode-ui="enabled: false;"
+      renderer="logarithmicDepthBuffer: true;"
+      embedded
+      arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;"
+    >
+      <!--       <a-marker markerhandler preset="hiro"> -->
+      <a-marker markerhandler1 type="barcode" value="15"></a-marker>
+      <a-marker markerhandler2 type="barcode" value="16"></a-marker>
+      <a-marker markerhandler3 type="barcode" value="17"></a-marker>
+      <a-marker markerhandler4 type="barcode" value="18"></a-marker>
+      <a-marker markerhandler5 type="barcode" value="19"></a-marker>
+      <a-marker markerhandler6 type="barcode" value="20"></a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>

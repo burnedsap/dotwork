@@ -1,0 +1,117 @@
+/* CSS files add styling rules to your content */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900");
+@import url("https://fonts.googleapis.com/css2?family=Suranna&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&display=swap');
+
+@font-face {
+  font-family: "OSSLight";
+  src: url("https://github.com/marcologous/Open-Sauce-Fonts/raw/master/fonts/OpenSauceSans-Light.ttf")
+    format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "OSSBold";
+  src: url("https://github.com/marcologous/Open-Sauce-Fonts/raw/master/fonts/OpenSauceSans-Bold.ttf")
+    format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "OSOReg";
+  src: url("https://github.com/marcologous/Open-Sauce-Fonts/raw/master/fonts/OpenSauceOne-Regular.ttf")
+    format("truetype"); /* Safari, Android, iOS */
+}
+html {
+  background: #fcfcfc;
+}
+
+body {
+  max-width: 50rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 6.5rem;
+  margin-bottom: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: Suranna;
+  font-weight: 100;
+  color: black;
+  font-size: 72px;
+  line-height: 70px;
+  /*   margin: 0; */
+  padding: 0;
+}
+h3 {
+  font-family: "OSSLight";
+  font-size: 24px;
+  line-height: 40px;
+font-weight: 100;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  font-family: "OSSBold";
+  font-size: 24px;
+  line-height: 46px;
+font-weight: 100;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+p{
+  font-family: "OSSLight";
+  font-size: 17px;
+  line-height: 32px;
+font-weight: 100;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 1.5rem;
+}
+a {
+  text-decoration:underline;
+  color:black;
+}
+a:hover {
+  text-decoration:none;
+  color:white;
+  background:black;
+}
+.header {
+  margin-bottom: 3rem;
+}
+.subIndex{
+  margin-bottom: 2rem;
+}
+hr{
+  margin:0;
+}
+img {
+  width:100%;
+}
+.caption {
+  font-family: DM Mono;
+  font-weight: 300;
+  font-size: 16px;
+  color: grey;
+}
+.doublePara{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5%; 
+   margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.doubleImage{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5%; 
+   margin-top: 2rem;
+  margin-bottom: 2rem;
+}

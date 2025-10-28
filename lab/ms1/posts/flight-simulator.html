@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <title>
+      Flight Simulator &middot; MS1 Blog
+    </title>
+
+    <link rel="stylesheet" href="/css/poole.css" />
+    <link rel="stylesheet" href="/css/lanyon.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400"
+    />
+
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="https://burnedsap.github.io/public/apple-touch-icon-precomposed.png"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://burnedsap.github.io/public/favicon.ico"
+    />
+  </head>
+
+  <body>
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" />
+
+    <!-- Toggleable sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-item">
+        <p>i write here sometimes. navigate using the tabs here. :)</p>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="sidebar-nav-item" href="/index.html">Home</a>
+
+        <a class="sidebar-nav-item" href="/about.html">About</a>
+      </nav>
+
+      <div class="sidebar-item">
+        <p>
+          &copy; 2020. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">MS1 Blog</a>
+            <small>and writing space</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+          <h1 class="post-title">Flight Simulator</h1>
+          <span class="post-date">28 Oct 2020</span>
+          <p>
+            Game engines are interesting platforms to play with. Their ability
+            to create simulations of reality pushes me to experiment with
+            different models of the world. What would the world be like if
+            gravity was a little wonky? Or how would everything appear if the
+            sun emitted a very narrow spectrum of light? It plays into my
+            fascination of speculative worlds and day dreaming, and makes my
+            thoughts actionable. Game engines are also difficult to master, and
+            require a mastery over code to truly make something spectacular.
+            Unity and Unreal Engine, two of the biggest platforms require the
+            user to have an in-depth knowledge of the C# programming language,
+            which can get quite verbose. These engines are also behemoths,
+            require a minimum of 5GB of space, and oodles of compute power to
+            run smoothly. For someone who doesn't have a professional grade
+            computer, they are often inaccessible.
+          </p>
+          <p>
+            The Godot game engine is a unique alternative to the regulars in the
+            space. It only requires a total of 75MB, and not much is needed in
+            way of computing power to experiment and play with it. It uses a
+            scripting language, which is similar in structure to C#, but much
+            simpler to work with. I've been wanting to get started with this
+            game engine and understand how it works, and so I collected a few
+            tutorials, downloaded the software and got cracking. I enjoy making
+            physics simulations, primarily because its generative in nature, and
+            it's fun to work with the constraints of physics-and break them!
+            Flight simulators and racing games are my favourite genre of games.
+            I remember diving into the code of Need for Speed: Hot Pursuit 2, to
+            change gear rations, dampner rates, and modulate brake balance to
+            see the effects it would have on the character of the vehicle. I
+            could spend days doing nothing but constantantly tweaking tiny
+            values to achieve a specific goal. The iterative process of the
+            activity is meditative.
+          </p>
+          <p>
+            Flight simulators are very difficult to make, and it's no surprise
+            that there aren't made as often. The closest I could hope to get to
+            one within a span of a day is to create an arcade simulation, which
+            would look and feel similar to a flight simulator, without any of
+            the complex physics calculations. This seemed like an ideal goal to
+            start learning Godot with. Sky Rogue, one the best games I've played
+            in a long time uses a similar strategy.
+          </p>
+          <p>
+            <img
+              src="https://steamcdn-a.akamaihd.net/steam/apps/381020/ss_aa74cbdfe31bc580077d9ee8296e93172d5c1c3d.1920x1080.jpg?t=1600113672"
+              alt="sky rogue"
+            />
+          </p>
+          <p>
+            Using tutorials from
+            <a
+              gref="https://www.youtube.com/channel/UCwW5VOLhhydVpe5m6KyJ71g"
+              target="_blank"
+              >Indie Quest</a
+            >
+            I started my Godot journey. As expected, it was initially quite
+            challenging as I figured out the interface, and the structure of the
+            software. Unlike Unity, Godot is quite barebones, and requires a far
+            bit of understanding of the interface to create something very
+            basic. But before I could write a line of code, I needed a plane. So
+            I created one using Cinema4D.
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2FScreenshot%202020-10-28%20at%201.12.17%20PM.png?v=1603883706376"
+              alt="C4D Plane"
+            />
+          </p>
+          <p>
+            Although the coding part wasn't so lengthy, with only a single
+            script, the challenge was in putting everything together and
+            troubleshooting the problems I was facing. At first my plane was
+            completely skewed, with none of the controls responding. The scene
+            was far too dark, and I couldn't figure out how to place objects in
+            the scene.
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2FScreenshot%202020-10-28%20at%201.41.39%20PM.png?v=1603883705179"
+              alt="First iteration"
+            />
+          </p>
+          <p>
+            It took some time, and after a fair bit of frustration, it started
+            to come together. I figured out how to place elements, add lights,
+            and get all the elements to line up properly. The code, although
+            simple in it's logic took a bit of time to completely understand, in
+            order to fix the strange issues. But soon, I got it working as
+            intended!
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2FScreenshot%202020-10-28%20at%204.03.19%20PM.png?v=1603883703960"
+              alt="second iteration"
+            />
+          </p>
+          <p>
+            Not everything was perfect thought. I really wanted to implement a
+            keyboard and gamepad controller, but I couldn't quite figure it out.
+            The trails also don't quite work so well disconnecting when the
+            plane turns. The behaviour of the plane itself isn't as satisfying
+            as I'd have liked it to be, with inconsistent controls on the outer
+            envelopes.
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2FScreenshot%202020-10-28%20at%204.03.29%20PM.png?v=1603883708080"
+              alt="second iteration"
+            />
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2FScreenshot%202020-10-28%20at%204.03.45%20PM.png?v=1603883737657"
+              alt="final code"
+            />
+          </p>
+          <p>
+            But I'm happy to have started my journey into using Godot, and
+            hopefully creating my own flight simulator down the line.
+          </p>
+        </div>
+
+        <!--         <div class="related">
+          <h2>Related posts</h2>
+          <ul class="related-posts">
+            <li>
+              <h3>
+                <a
+                  href="/video/game/histories/2020/08/05/video-game-histories-burned-sky/"
+                >
+                  Video Game Histories: Burned Sky
+                  <small>05 Aug 2020</small>
+                </a>
+              </h3>
+            </li>
+
+            <li>
+              <h3>
+                <a
+                  href="/opinion/2019/07/30/the-mac-is-dead-long-live-the-mac/"
+                >
+                  The Mac is dead. Long live the Mac.
+                  <small>30 Jul 2019</small>
+                </a>
+              </h3>
+            </li>
+
+            <li>
+              <h3>
+                <a href="/opinion/2018/05/15/data-of-a-third-kind/">
+                  Data of a Third Kind
+                  <small>15 May 2018</small>
+                </a>
+              </h3>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

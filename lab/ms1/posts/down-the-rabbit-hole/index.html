@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <title>
+      Down the Rabbit Hole &middot; MS1 Blog
+    </title>
+
+    <link rel="stylesheet" href="/css/poole.css" />
+    <link rel="stylesheet" href="/css/lanyon.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400"
+    />
+
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="https://burnedsap.github.io/public/apple-touch-icon-precomposed.png"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://burnedsap.github.io/public/favicon.ico"
+    />
+  </head>
+
+  <body>
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" />
+
+    <!-- Toggleable sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-item">
+        <p>i write here sometimes. navigate using the tabs here. :)</p>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="sidebar-nav-item" href="/index.html">Home</a>
+
+        <a class="sidebar-nav-item" href="/about.html">About</a>
+      </nav>
+
+      <div class="sidebar-item">
+        <p>
+          &copy; 2020. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">MS1 Blog</a>
+            <small>and writing space</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+          <h1 class="post-title">Down the Rabbit Hole</h1>
+          <span class="post-date">26 Oct 2020</span>
+          <p>
+            I've always wondered how far I can travel on
+            <a href="http://youtube.com" target="_blank">Youtube</a>. If I spent
+            enough time on the platform with the intention of getting lost,
+            where would I end up? Unfortunately, I haven't had the time to spend
+            a whole doing so, and Youtube's algorithms are quite good at keeping
+            me in my content circle. I also want to document and quanitfy this
+            journey across the Youtube landscape to see the inflections points
+            within the journey. When does the content start to dramatically
+            change? Does the content ever break out of the grasp of the
+            recommendation engine? Will I encounter some strange as yet unseen
+            content? Only one way to find out.
+          </p>
+
+          <p>
+            A few years ago I had tried a similar experiment, but without the
+            pointed rigour or technical know-how. Armed with some basic Python,
+            and advanced search skills, I set about trying to figure out how I
+            would traverse across the platform, all while documenting my
+            journey. The idea was simple enough. Open a video on Youtube, and
+            then click on the video under 'Up Next' on the right side of the
+            screen. Repeat and record the metadata, and a screenshot of each
+            video. I hacked together a quick little Selenium powered Python
+            script, which would store all the data within a <i>CSV</i> file.
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2Fyoutube-pull-1.png?v=1603792433664"
+              alt="work in progress"
+            />
+          </p>
+          <p>
+            However, I immediately ran into a strange problem. For reasons I
+            don't understand the videos would either repeat or only 2 videos
+            would play one after another. I assume this has to do either do with
+            my script, or a strange behaviour of Youtube's algorithms.
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2Fyoutube-pull-2.png?v=1603792508755"
+              alt="first attempt"
+            />
+            <i>First attempt</i>
+          </p>
+
+          <p>
+            To get around this issue, I changed the code so that it would select
+            any video from the suggestions on the right hand side. This helped
+            fix the problem, and during my testing, I also figured out a way to
+            get metadata such as a title, views, tags, and the thumbnail from
+            the video. In the previous iteration, the screenshot would often
+            capture an image of the ad, and not the video. With the new
+            algorithm set up, I took another shot at travelling across the
+            internet.
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2Fyoutube-pull-3.png?v=1603793339379"
+              alt="new code"
+            />
+            <i>New code</i>
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2Fyoutube-pull-4.png?v=1603793335820"
+              alt="new progress bar"
+            />
+            <i>Added a progress bar</i>
+          </p>
+          <p>
+            The first run wasn't too spectacular, with the content of the videos
+            staying relatively within the same genre and kind of content. A 100
+            iterations doesn't appear to be enough to derail or test the
+            algorithm.
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2Fyoutube-pull-5.png?v=1603794728314"
+              alt="100 iterations"
+            />
+            <i
+              >100 iterations. See full file
+              <a
+                href="https://github.com/burnedsap/youtube-traverser/blob/main/Data/youtube-pull-new-run%201.csv"
+                target="_blank"
+                >here</a
+              >.</i
+            >
+          </p>
+          <p>
+            I tried 300 iterations on the next attempt. This time the results
+            were a little more interesting. Right towards thre end there were a
+            few videos which weren't very popular, evident by their view count.
+            Another longer run would be needed to explore this.
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2Fyoutube-pull-6.png?v=1603795236581"
+              alt="300 iterations"
+            />
+            <i
+              >300 iterations. See full file
+              <a
+                href="https://github.com/burnedsap/youtube-traverser/blob/main/Data/youtube-pull-new-run%202.csv"
+                target="_blank"
+                >here</a
+              >.</i
+            >
+          </p>
+          <p>
+            Each website visit takes about 10 seconds, which includes an induced
+            delay to make sure the website loads properly. So 500 iterations
+            would take approximately 1.5 hours, maybe more depending how the CPU
+            load.
+          </p>
+          <p>
+            <img
+              src="https://cdn.glitch.com/40187183-5e4e-484a-90d9-bebecde392bf%2Fyoutube-pull-7.png?v=1603803904326"
+              alt="500 iterations"
+            />
+            <i
+              >500 iterations. See full file
+              <a
+                href="https://github.com/burnedsap/youtube-traverser/blob/main/Data/youtube-pull-new-run%203.csv"
+                target="_blank"
+                >here</a
+              >.</i
+            >
+          </p>
+          <p>
+            The last run with 500 iterations did not produce any noteworthy results, perhaps due to the expansive nature of gaming content. Perhaps more runs are needed, with diverse topics and 
+          </p>
+          <p>
+            The results may not be as satisfying as I'd have wanted them to be,
+            but it's an interesting research process, and the <i>CSV</i> format
+            is conducive to creating an interactive website from the data.
+          </p>
+        </div>
+
+        <!--         <div class="related">
+          <h2>Related posts</h2>
+          <ul class="related-posts">
+            <li>
+              <h3>
+                <a
+                  href="/video/game/histories/2020/08/05/video-game-histories-burned-sky/"
+                >
+                  Video Game Histories: Burned Sky
+                  <small>05 Aug 2020</small>
+                </a>
+              </h3>
+            </li>
+
+            <li>
+              <h3>
+                <a
+                  href="/opinion/2019/07/30/the-mac-is-dead-long-live-the-mac/"
+                >
+                  The Mac is dead. Long live the Mac.
+                  <small>30 Jul 2019</small>
+                </a>
+              </h3>
+            </li>
+
+            <li>
+              <h3>
+                <a href="/opinion/2018/05/15/data-of-a-third-kind/">
+                  Data of a Third Kind
+                  <small>15 May 2018</small>
+                </a>
+              </h3>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

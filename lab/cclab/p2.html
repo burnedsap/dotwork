@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coffee Cup Generator | Salil Parekh</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1><a href="index.html">Salil Parekh</a></h1>
+      <ul class="nav-link">
+        <li><a href="p1.html">Nixon Watch</a></li>
+        <li><a href="p2.html">Coffee Cup Generator</a></li>
+        <li><a href="p3.html">The Context Clock</a></li>
+        <li><a href="p4.html">The Performance</a></li>
+        <li><a href="p5.html">Pixelcryption</a></li>
+        <li><a href="p6.html">The Questioning Camera</a></li>
+        <li><a href="p7.html">Museum of Salil</a></li>
+        <li><a href="p8.html">Consentful Interface</a></li>
+        <li><a href="p9.html">My Door</a></li>
+        <li><a href="p10.html">Sky Globe</a></li>
+      </ul>
+      <a href="about.html">About</a>
+    </div>
+    <!-- main content -->
+    <div class="content">
+      <h1>Coffee Cup Generator</h1>
+      <p>
+        The ability for code to generate something random and unique is very
+        exciting, and something that has a lot of potential if included in the
+        design of everyday objects. For this assignment I chose a coffee cup,
+        although any given object could probably lead to exciting explorations
+        using this process. The design of coffee cups and mugs have stagnated as
+        of late, which is a shame as there’s so much potential, given that every
+        mug can be uniquely designed to hold a particular kind of liquid, and be
+        a perfect fit for every unique hand. My hands are slightly larger than
+        normal which makes it tricky to hold my cup, and my french press holds
+        just that little bit more coffee than my cup, which means I can’t get a
+        perfect pour! Although not the biggest problem in the world, the same
+        issue becomes a lot more problematic when it comes to shoe sizes or
+        standardised clothing standards, which can be quite exclusionary.
+      </p>
+      <div class="bSketch">
+        <iframe
+          width="400px"
+          height="400px"
+          src="https://editor.p5js.org/burnedsap/embed/EqYBEosH3"
+        ></iframe>
+      </div>
+      <small>
+        <i
+          >Click to generate a new form, and press 's' on your keyboard to
+          download a screenshot! (Preferably keep the mouse out of the sketch when
+          taking the screenshot!)</i
+        ></small
+      >
+
+      <h2>
+        Design Process
+      </h2>
+      <p>
+        With the aim of generating new cups forms, I looked to the craft of
+        wheel pottery for inspiration. Pottery on the wheel affords for new
+        kinds of organic forms with every creation. The same amount of clay can
+        be used to create cups with different forms yet with the same capacity.
+        To make each cup unique, the shape and form of the cup would be defined
+        by the volume it needed to contain. I also wanted to make the sketch
+        functional, so I added a layer of coffee preparation over it. The sketch
+        would not only design new forms of cups, but also provide the amount of
+        coffee needed for various kinds of coffee preparation.
+      </p>
+      <p>
+        I started off with some drawings, laying out the various elements of the
+        sketch, and making a to-do list. The coffee preparation styles were
+        researched, and the ratio of the coffee to other parts were mapped out
+        on the vertical axis, and the volume of the coffee itself on the
+        horizontal axis. I connected the values to the <code>mouseX</code> and <code>mouseY</code>, so by
+        moving the mouse around, I could see how many grams of coffee I would
+        need to prepare a certain amount of coffee with a specific preparation
+        style.
+      </p>
+      <div class="image-four-grid">
+        <img
+          src="glitch-assets/form-generator notes 1.png"
+          alt="Result 1"
+          width="100%"
+        />
+        <img
+          src="glitch-assets/form-generator notes 4.png"
+          alt="Result 1"
+          width="100%"
+        />
+        <img
+          src="glitch-assets/form-generator notes 2.png"
+          alt="Result 1"
+          width="100%"
+        />
+        <img
+          src="glitch-assets/form-generator notes 3.png"
+          alt="Result 1"
+          width="100%"
+        />
+      </div>
+      <small><i>Initial sketches, with the needlessly complicated math, and then some simplicity to save the day</i></small>
+      <p>
+        The form and size of the cup itself would be set to two parameters:
+        volume of liquid it is to hold, and a random value. The volume would
+        define the size, and a random value would define the form itself. I
+        started off with some basic volume equations, but I soon realised that I
+        would need to solve for cubic equations and quadratic equations if I
+        wanted to create more complex forms. Although the equations were quickly
+        getting complicated, I did create a small prototype with a 3 stage
+        complication.
+      </p>
+      <iframe
+        width="400px"
+        height="400px"
+        src="https://editor.p5js.org/burnedsap/embed/KgSqhUSgR"
+      ></iframe>
+      <small><i>Click to generate the volumetrically accurate shape</i></small>
+      <p>
+        Since the equations were now quite difficult to solve, and some simple
+        assumptions were starting to create uniform shapes, I had to figure out
+        another alternative to create the cups. Till this point in the process,
+        I was quite insistent on creating accurate forms, which would be able to
+        hold the volume defined by the user. Although the forms were simple and
+        predictable, they were accurate, and on lathing would create a
+        volumetrically perfect 3D cup.
+      </p>
+      <p>
+        I realised that perhaps it wasn’t necessary to create something which is
+        volumetrically accurate, and something which gives a visual impression
+        of the same is good enough. Working with <code>curveVertex</code> driven forms
+        created uneven shapes, and so I switched to using shapes on Elena’s
+        advice. I used surface area instead of volume to create the forms, and
+        so even if the end result wasn’t accurate, it was still relatively
+        proportional. After some experimentation with shapes, I realised that I
+        might be better off creating shapes using <code>vertex</code>, to have finer control
+        over the forms of the shapes, and a thick stroke to make the shapes look
+        organic. I visually ‘cheated’ by making the length of the radius on the
+        rim of the cup the same as the base of the cup, to create predictable
+        forms which could clearly still be identified as a cup or a mug.
+      </p>
+      <iframe
+        width="400px"
+        height="400px"
+        src="https://editor.p5js.org/burnedsap/embed/TZyFQviug"
+      ></iframe>
+      <small><i>Move your mouse from left to right to see basic shape making in relation to size</i></small>
+      <p>
+        I cleaned up the sketch, and created a simple interface through which
+        the user can define the volume of coffee they wish to drink, and simply
+        click the mouse to generate a new form. I restricted creating new forms
+        to a mouse click so that it is possible to explore all the options
+        before deciding on something they’d like, like a menu. I added an option
+        of taking a screenshot on pressing the ‘s’ key so that they can download
+        their favourite forms along with the coffee preparation style and the
+        amount of coffee needed.
+      </p>
+      <p>
+        Perhaps in a coffee shop sometime in the future, visitors will walk in,
+        use this interface to place an order, and subsequently be presented with
+        a unique 3D printed mug created out of terracotta with the coffee of
+        their choice!
+      </p>
+      <h2>
+        Reflections
+      </h2>
+      <p>
+        When I first thought of creating generative coffee cups, I had
+        envisioned making wheel pottery esq complex forms, which would adapt to
+        the volume of the coffee. Although I wasn’t able to create something as
+        complicated, I’m happier with the forms that are currently being
+        generated. The forms are simpler, but they look like they could be made,
+        and are comfortable to hold as well. This is especially true for the
+        smaller forms, as the complications lead to very interesting forms, of
+        which some look particularly appealing to drink out of. The different
+        kinds of forms also question the way we currently hold our cups. I’ve
+        never found handles to be easy to hold on to, with mugs always being
+        easier and more intuitive to grasp. Some mugs are to be held from the
+        bottom, and some from the top, which could be a function of the
+        temperature of the liquid it holds. It’s also interesting to note how
+        the size of the rim affects which sort of liquids the cup is used for.
+        Cups with smaller rims are preferred for liquids which need to be
+        consumed slowly, in sips, whereas cups with wider rims are better for
+        liquids which can be consumed quickly, such as water, or to be used for
+        pouring.
+      </p>
+      <div class="image-four-grid">
+        <img
+          src="glitch-assets/ccg3.png"
+          alt="Result 1"
+          width="100%"
+        />
+        <img
+          src="glitch-assets/ccg5.png"
+          alt="Result 2"
+          width="100%"
+        />
+
+        <img
+          src="glitch-assets/ccg2.png"
+          alt="Result 3"
+          width="100%"
+        />
+        <img
+          src="glitch-assets/ccg4.png"
+          alt="Result 4"
+          width="100%"
+        />
+      </div>
+      <small><i>Some interesting forms from the generator</i></small>
+      <p>
+        Forms with more fidelity, or points to play around with would lead to
+        greater control over the final result, and possibly generate a larger
+        variation of cups. I started out with trying to create more variations
+        of cup designs, but I didn’t quite anticipate the range of outcomes from
+        a very small set of points to play around with. Some of the forms evoked
+        questions of the function of the cup, which I never anticipated!
+      </p>
+    </div>
+  </body>
+</html>

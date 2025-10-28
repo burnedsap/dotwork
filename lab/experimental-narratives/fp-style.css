@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+@font-face {
+  font-family: "Erode";
+  src: url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FErode-Variable.woff2")
+      format("woff2"),
+    url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FErode-Variable.woff")
+      format("woff"),
+    url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FErode-Variable.ttf")
+      format("truetype");
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tanker";
+  src: url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FTanker-Regular.woff2")
+      format("woff2"),
+    url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FTanker-Regular.woff")
+      format("woff"),
+    url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FTanker-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FClashDisplay-Variable.woff2")
+      format("woff2"),
+    url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FClashDisplay-Variable.woff")
+      format("woff"),
+    url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FClashDisplay-Variable.ttf")
+      format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FCabinetGrotesk-Variable.woff2")
+      format("woff2"),
+    url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FCabinetGrotesk-Variable.woff")
+      format("woff"),
+    url("https://cdn.glitch.me/2f4514ad-399e-4c22-b1d3-de68c0a3a179%2FCabinetGrotesk-Variable.ttf")
+      format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --c0: rgb(251, 251, 251); /* grey */
+  --c1: rgb(10, 10, 10); /* black */
+  --c2: rgb(255, 106, 0); /* orange */
+  --c3: rgb(157, 60, 214); /* purple */
+  --bodyFont: "Erode";
+  --headerFont: "ClashDisplay";
+  --asideFont: "CabinetGrotesk";
+  --codeFont: "Space Mono", monospace;
+}
+
+body {
+  max-width: 70rem;
+  padding-left: 2rem;
+  background: var(--c0);
+}
+main {
+  width: 100%;
+  margin-bottom:10rem;
+  font-family: var(--bodyFont);
+  /*   background:red; */
+}
+
+section {
+  display: flex;
+  width: 100%;
+}
+h1 {
+  font-family: var(--headerFont);
+  font-size: 40pt;
+  /*   letter-spacing:0.5pt; */
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--c2);
+}
+
+h2 {
+  font-family: var(--headerFont);
+  font-weight: 500;
+  color: black;
+}
+h3 {
+  font-family: var(--headerFont);
+  font-weight: 450;
+  color: black;
+  margin-bottom: 0;
+}
+
+section p {
+  font-family: var(--bodyFont);
+  line-height: 1.4;
+  font-size: 14pt;
+  color: var(--c1);
+}
+
+section img,
+p,
+code,
+h1,
+h2,
+h3,
+h4,
+em,
+blockquote,
+details{
+  width: 100%;
+  max-width: 60%;
+}
+
+code {
+  display: block;
+  white-space: pre;
+  border-radius: 3px;
+  background: white;
+  font-family: var(--codeFont);
+}
+
+aside {
+  display: none;
+  width: 100%;
+  max-width: 35%;
+  float: right;
+  margin: 0;
+  padding-right: 0.5rem;
+  border-right: 0.1px solid grey;
+}
+
+aside p {
+  font-family: var(--bodyFont);
+  font-size: 14pt;
+  font-weight: 500;
+  line-height: 1.3;
+  width: 100%;
+  text-align: right;
+  float: right;
+}
+
+section a {
+  text-decoration: none;
+  color: black;
+  font-size: 13pt;
+  font-family: var(--codeFont);
+}
+section a:hover {
+  text-decoration: underline;
+}
+
+.date {
+  font-size: 10pt;
+  font-family: var(--codeFont);
+}
+
+
+/* Set visibility of the aside (comments+date) */
+section p:hover + aside {
+  display: block;
+}
+section img:hover + aside {
+  display: block;
+}
+section code:hover + aside {
+  display: block;
+}
+section em:hover + aside {
+  display: block;
+}
+section blockquote:hover + aside {
+  display: block;
+}
+section details:hover + aside {
+  display: block;
+}
+
+aside p mark {
+  background: var(--c3);
+  color: white;
+}
+p mark {
+  background: var(--c2);
+  color: white;
+}
+
+span {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+span:hover:after {
+  font-size: 10pt;
+  content: attr(message);
+  width: 120px;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  word-break: break-word;
+}
+
+blockquote {
+  display: block;
+  font-size: 21pt;
+  font-family: "ClashDisplay";
+  font-weight: 500;
+  font-style: italic;
+  margin: 4rem 2rem;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: grey;
+  height: 1px;
+}
+
+em {
+  font-family: "Tanker";
+  font-size: 21pt;
+  margin: 3rem 0rem;
+  font-style: normal;
+}
+
+
+#words {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10rem;
+  z-index: 100;
+  padding: 0 0.5rem;
+  max-height:100vh;
+  overflow-y:auto;
+}
+
+#words p {
+  font-size:10pt;
+  font-family: "CabinetGrotesk";
+  color:rgb(100, 100, 100);
+  max-width:100%;
+  text-align: right;
+  float:right;
+  margin:0.3rem 0;
+}
+
+
+sp {
+  color: var(--c3);
+}
+
+details{
+/*   margin-top:2rem; */
+  font-weight:400;
+  font-family: var(--bodyFont);
+    line-height: 1.4;
+  font-size: 14pt;
+  color: var(--c1);
+}
+
+summary {
+  font-weight:500;
+  margin-bottom:1rem;
+}
+
+main ul li {
+  margin-bottom: 5px;
+}
+
+
+main ul li a {
+  color:black;
+}
+
+.text-grid {
+  font-family: var(--bodyFont);
+  line-height:1.5;
+}
+
+wrapper {
+  max-width:40rem;
+}

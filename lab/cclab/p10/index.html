@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sky Globe | Salil Parekh</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1><a href="index.html">Salil Parekh</a></h1>
+      <ul class="nav-link">
+        <li><a href="p1.html">Nixon Watch</a></li>
+        <li><a href="p2.html">Coffee Cup Generator</a></li>
+        <li><a href="p3.html">The Context Clock</a></li>
+        <li><a href="p4.html">The Performance</a></li>
+        <li><a href="p5.html">Pixelcryption</a></li>
+        <li><a href="p6.html">The Questioning Camera</a></li>
+        <li><a href="p7.html">Museum of Salil</a></li>
+        <li><a href="p8.html">Consentful Interface</a></li>
+        <li><a href="p9.html">My Door</a></li>
+        <li><a href="p10.html">Sky Globe</a></li>
+      </ul>
+      <a href="about.html">About</a>
+    </div>
+
+    <!--   main content -->
+    <div class="content">
+      <h1>Sky Globe</h1>
+
+      <p>
+        When I look up at the sky, I might see an airplane or two, but apart
+        from a few rare sightings, the sky seems relatively empty. However, a
+        quick glance at a (pre-COVID) flight schedule says anything but. Our
+        skies are quite literally filled with airplanes, especially in a city
+        with an airport. However, this data is quite difficult to visualise, let
+        alone see even. Taking data from
+        <a href="https://opensky-network.org/apidoc/index.html" target="_blank"
+          >open-sky.org</a
+        >, I created a Sky Globe which allows you to see the airplanes in the
+        skies above your location.
+      </p>
+      <div class="bSketch">
+        <iframe
+          width="600px"
+          height="600px"
+          src="https://editor.p5js.org/burnedsap/embed/dwKiou8RD"
+        ></iframe>
+        <small>
+          <i>Sky Globe </i
+          ><a
+            href="https://editor.p5js.org/burnedsap/sketches/dwKiou8RD"
+            target="_blank"
+          >
+            See the code →</a
+          ></small
+        >
+      </div>
+      <p>
+        Sky Globe takes your location, and visualises the aircraft flying above
+        you in real time. It shows all aircraft within an area of 295km around
+        your location. Airplanes do fly awfully quickly, and a wider catchment
+        area allows us to see aircraft that might be passing on the periphery of
+        your location. The sketch also shows the visualisation of the altitude
+        and traces the path of the aircraft as it passes through the sky. The
+        position of the aircraft updates every 5.5 seconds. Each aircraft is
+        marked with it's callsign and the country of origin. The information on
+        display has been kept to a minimum to allows viewers to have a clear and
+        unimpeded view of the visualisation.
+      </p>
+      <p>
+        The sketch uses the
+        <a href="https://opensky-network.org/apidoc/index.html" target="_blank"
+          >open-sky</a
+        >
+        API to pull in aircraft coordinates and metadata. I have attemped to
+        inculcate the values of data feminism from
+        <a
+          href="https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/3"
+          target="_blank"
+          >Chapter 1</a
+        >,
+        <a
+          href="https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/2"
+          target="_blank"
+          >Chapter 4</a
+        >,
+        <a
+          href="https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/2"
+          target="_blank"
+          >Chapter 5</a
+        >, and
+        <a
+          href="https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2"
+          target="_blank"
+          >Chapter 6</a
+        >. My intent with this sketch was to visualise and unveil the often
+        hidden activities in the skies above us. Not all aircraft flying are
+        commercial, cargo, private, or military. Some aircraft have hidden
+        agendas, often hidden behind false callsigns. This
+        <a
+          href="https://thewire.in/political-economy/the-unfinished-india-story-of-a-ukraine-plane-and-a-bribery-investigation"
+          target="_blank"
+          >article</a
+        >
+        elucidates one such incident. Websites such as
+        <a href="http://flightaware.com" target="_blank">FlightAware</a> and
+        <a href="https://www.flightradar24.com" target="_blank"
+          >FlightRadar24</a
+        >
+        do show the aircraft in our vicinity, but it's difficult to visualise
+        the data with a 2D visual. The source of the data is not clear with
+        these commercial websites. The data on
+        <a href="https://opensky-network.org/apidoc/index.html" target="_blank"
+          >open-sky</a
+        >
+        is crowd-sourced, and hence aircraft cannot be hidden unless they switch
+        off their ADS-B transponders (highly unlikely as they won't show up on
+        ATC radar, which has major safety implications).
+      </p>
+
+      <p>
+        Before creating the 3D version, I initially tried using a standard 2D
+        version of the sketch which would reveal aircraft information on mouse
+        hover.
+      </p>
+      <div class="image-single">
+        <img
+          src="glitch-assets/Screenshot 2020-12-10 at 8.18.43 PM.png"
+          alt="2D Sketch"
+          width="100%"
+        />
+      </div>
+      <p>
+        However, this variation wasn't very useful in displaying information as
+        it didn't illustrate the position of the aircraft in relation to the
+        viewer. The 3D view was important in conveying relative position of the
+        aircraft in the sky.
+      </p>
+      <h2>
+        Development
+      </h2>
+
+      <p>
+        Developing this sketch was far more complicated than I initially
+        imagined. There were a lot of moving parts, although mostly to do with
+        the visualisation rather than navigating the API itself. One of the
+        biggest challenges was creating the trails in the sky, as well has
+        having <i>background refresh</i>. I used the same trick from the
+        <a href="p9.html" target="_blank">Data Portrait</a> assignment. However,
+        this meant that I had to develop a system to identify individual
+        aircraft and update their locations without creating a new array of
+        aircraft everytime. This was solved with a system of comparing two
+        different arrays, and using <code>filter</code> to either remove or add
+        aircraft as was required.
+      </p>
+      <p>
+        Having figured out the data structures of the aircraft lists, I had to
+        figure out how to create the trails for each aircraft, which would
+        extend from the coordinates. I used a slightly complicated solution of
+        creating two PVectors which would extend from the 3D coordinates to
+        create each edge of the trail. This was needed as it would adapt to the
+        rotation of the aircraft (another maths challenge to solve!) as it
+        turned. Along the journey, I even made a case for, and advocated a
+        <a
+          href="https://github.com/processing/p5.js/issues/4767"
+          target="_blank"
+          >contribution</a
+        >
+        to p5.js!
+      </p>
+      <div class="image-single">
+        <img
+          src="glitch-assets/Screenshot 2020-12-11 at 11.44.27 PM.png"
+          alt="Vector driven Trails"
+          width="100%"
+        />
+        <small><i>Vector driven trails</i></small>
+      </div>
+      <p>
+        There are still unresolved issues with the sketch, which I haven't yet
+        figured out how to solve. There appears to be a bizarre issue, where I
+        can't seem to add (+) two variables. I'm utterly perplexed by this, and
+        so I've used a hacky workaround to get around this issue. The other
+        issue is that sometimes on manually entering coordinates, the API
+        returns a null value. I can't figure out whether this means that there
+        aren't any aircraft in the given area, or that there's something wrong
+        with the API call itself. There appears to be no error message, so I'm
+        assuming the 'null' refers to the lack of aircraft in the area.
+      </p>
+      <h2>
+        Reflections
+      </h2>
+      <p>
+        This is perhaps the first sketch where the output genuinely surprised
+        me. I wasn't expecting to see the visuals that I designed, perhaps
+        because I didn't have any control over the data stream or the
+        information displayed on the screen. I merely defined the rules, and the
+        data stream does the rest. I do have a casual interest in aircraft and
+        the aerospace industry, and so it was intersting to see the behaviours
+        and patterns of aircraft around an airport. I could see the approach and
+        departure patterns quite clearly from the visualisation!
+      </p>
+      <div class="image-single">
+        <img
+          src="glitch-assets/Screenshot 2020-12-15 at 5.04.49 PM.png"
+          alt="Airport patterns"
+          width="100%"
+        />
+        <small><i>Approach Patterns</i></small>
+      </div>
+      <p>
+        The process of visualisation of an open, yet difficult to visualise data
+        source was satisfying. I realised that perhaps it wasn't so difficult to
+        'see' the often hidden and unseen parts of our world. The data is
+        available, I just need to put some effort into making it work for me!
+      </p>
+    </div>
+  </body>
+</html>

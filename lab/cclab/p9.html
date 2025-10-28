@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Door | Salil Parekh</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1><a href="index.html">Salil Parekh</a></h1>
+      <ul class="nav-link">
+        <li><a href="p1.html">Nixon Watch</a></li>
+        <li><a href="p2.html">Coffee Cup Generator</a></li>
+        <li><a href="p3.html">The Context Clock</a></li>
+        <li><a href="p4.html">The Performance</a></li>
+        <li><a href="p5.html">Pixelcryption</a></li>
+        <li><a href="p6.html">The Questioning Camera</a></li>
+        <li><a href="p7.html">Museum of Salil</a></li>
+        <li><a href="p8.html">Consentful Interface</a></li>
+        <li><a href="p9.html">My Door</a></li>
+        <li><a href="p10.html">Sky Globe</a></li>
+      </ul>
+      <a href="about.html">About</a>
+    </div>
+
+    <!--   main content -->
+    <div class="content">
+      <h1>My Door</h1>
+      <h2>
+        Data Visualisation
+      </h2>
+      <p>
+        Watch a week in my pandemic life told through the opening and closing of
+        the door to my room. Hover over the doors to read more! (If possible, please see the sketch within the p5js editor, it runs a tad slow on this website)
+      </p>
+      <div class="bSketchW">
+        <iframe
+          width="1000"
+          height="800"
+          src="https://editor.p5js.org/burnedsap/embed/1CiUVNVuU"
+        ></iframe>
+        <small>
+          <i>Doors. </i
+          ><a
+            href="https://editor.p5js.org/burnedsap/sketches/1CiUVNVuU"
+            target="_blank"
+          >
+            See the code (preferably) →</a
+          >
+        </small>
+        <small>If it looks messy, I explain why below! ↓</small>
+      </div>
+      <p>
+        Data visualisation has always seemed quite straightforward to me.
+        Telling stories with the help of data is easy enough. There's plenty of
+        ways to do so, for example using bar graphs, pie charts, alluvial
+        diagrams, waffle grids, amongst
+        <a href="https://datavizproject.com" target="_blank">others</a>. However
+        I've never given much thought to embedding stories and narratives within
+        the data visualisation. Telling a personal story through a period of
+        time with data is new for me.
+      </p>
+      <p>
+        I wanted to track a data point which is unique to my context and
+        surroundings. I initially thought of tracking my digital behaviours, but
+        it wasn't an accurate reflection of me, in this moment. I narrowed in on
+        either tracking the number of times I would bite my nails, or the number
+        of times the door to my room would open. However I quickly realised that
+        the moment I would become aware of biting my nails, I would stop doing
+        it. Although it's a great way to perhaps stop biting my nails, I'd
+        probably end up with no data, or inaccurate data. And so I started
+        tracking the number of times I would open the door to my room.
+      </p>
+      <p>
+        Before I started tracking the data, I wanted to figure out what my
+        visualisation would look like. This would help define the parameters I
+        would need to collect.
+      </p>
+      <div class="image-single">
+        <img
+          src="glitch-assets/IMG_20201130_181055.jpg"
+          alt="Ideation sketches"
+          width="100%"
+        />
+      </div>
+      <div class="image-single">
+        <img
+          src="glitch-assets/IMG_20201130_181108.jpg"
+          alt="Ideation sketches"
+          width="100%"
+        />
+      </div>
+      <div class="image-single">
+        <img
+          src="glitch-assets/IMG_20201130_181105.jpg"
+          alt="Ideation sketches"
+          width="100%"
+        />
+        <small><i>Ideation sketches</i></small>
+      </div>
+      <p>
+        Although I initially got bogged down in trying to use traditional data
+        visualisation techniques, I realised that they didn't convey the essence
+        of the data. I wanted to convey the long gaps in between me opening my
+        door. I wanted to tell the story of my routine through the opening of
+        the door.
+      </p>
+      <p>
+        Finally, I figured out a simple solution to the problem. Just as I would
+        draw out my idea or the story I wanted to convey, the data visualisation
+        would do the same thing.
+      </p>
+      <div class="image-single">
+        <img
+          src="glitch-assets/IMG_20201130_181123.jpg"
+          alt="Final sketch"
+          width="100%"
+        />
+        <small><i>Final sketch</i></small>
+      </div>
+      <p>
+        Now that I knew what the visualisation would look like, I started
+        collecting the data in a
+        <a
+          href="https://docs.google.com/spreadsheets/d/1qEI2-nYiPNqbrbOi3mE01JUGIJMtGJbobaVPr1qoGro/edit?usp=sharing"
+          target="_blank"
+          >spreadsheet</a
+        >.
+      </p>
+      <div class="image-single">
+        <img
+          src="glitch-assets/Screenshot 2020-11-30 at 6.48.24 PM.png"
+          alt="Data collection"
+          width="100%"
+        />
+        <small><i>Data collection</i></small>
+      </div>
+      <h2>
+        Development
+      </h2>
+      <p>
+        As I collected the data, I started work on translating the drawn
+        sketches into an p5js sketch. As I started coding out the visualisation,
+        I realised I had two big challenges.
+      </p>
+      <p>
+        The first challenge was simply animating a line as it went from one end
+        of the screen to the other end. I figured out that I would have to store
+        the location of a point as it goes across the screen, and then draw a
+        line using <code>vertex()</code>. I didn't want to simply turn off
+        background refresh, as I needed the background to refresh for the
+        visuals. Although in theory, all was well, and the logic worked
+        perfectly in Processing (Java), for some unknown reason, it simply
+        refused to work in javascript. I was trying to use
+        <code>PVector()</code> to store the location values of the point as it
+        went across the screen. I was stuck at this point, but luckily
+        <a href="https://mfadt-cc-olivierbrcknr.glitch.me/" target="_blank"
+          >Olivier</a
+        >
+        came to the rescue with a
+        <a
+          href="https://editor.p5js.org/olivierbrcknr/sketches/JFp6zUqll"
+          target="_blank"
+          >system</a
+        >
+        that used an <code>Object</code> to store location values. This worked
+        as I had envisioned, and now I had a system which would draw lines
+        across the screen! A lot of work for a very simple visual element, but
+        definitely worth the effort. Having successfully figured out how to draw
+        <i>a</i> line, I got stuck in another quagmire which was drawing
+        multiple lines across the screen, all while coordinating with another
+        system which would sequentially create the doors.
+      </p>
+      <p>
+        The second issue I ran into was the use of <code>setTimeout()</code>,
+        and the way it would delay the drawing of the doors if there were any
+        slowdowns in running the sketch. As it needs a time based value, I had
+        to calculate the timing according to the speed at which the line would
+        travel across the sketch. After some optimisation, the speed of the
+        sketch changed, which affected the way the doors would be drawn. The
+        speed is also dependent on speed of the computer upon which it runs.
+        Hence, the sketch may or may not run well depending on the hardware of
+        the computer. This is worrying as I couldn't find a fix for the issue.
+      </p>
+      <h2>
+        Reflection
+      </h2>
+      <p>
+        Of the many realisations I had while creating this sketch, the most
+        profound one was during the process of creating my own data. Not only
+        was it very empowering, but it helped me see myself through a different
+        lens. It's strange to objectify myself with numbers, especially ones
+        that I have consciously generated myself. I had to make an effort in not
+        changing the way I went about my day. I also explored new ways of
+        narration through data analysis and visualisation. There's a great story
+        to be told through data, and the story becomes even better with some
+        effort and thinking. Sometimes, it pays to keep it simple.
+      </p>
+    </div>
+  </body>
+</html>

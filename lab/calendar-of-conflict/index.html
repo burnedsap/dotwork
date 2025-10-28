@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Calendar of Conflict</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <!--     <div class="nav-section">
+      <div class="header-description">
+        <a href="#"><span>Calendar of Conflict</span></a>
+
+        <div class="header-links">
+          <a href="#projects">Project</a>
+          <a href="#exhibition">Process</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+      <hr />
+    </div> -->
+    <div class="intro-section">
+      <div class="intro-image"></div>
+      <div class="intro-content">
+        <h1>
+          Calendar of Conflict
+        </h1>
+        <p>
+          The Calendar of Conflict is a data-driven inquiry into the year of
+          2019 to uncover the hidden points of conflict by analysing the news. A
+          continuously evolving project, it aims to map the important events and
+          trends by filtering through the noise of the news. Using semantic
+          analysis, and keyword tagging, events of conflict have been pulled out
+          from the corpus of news data, which can be accessed via an interactive
+          experience. The intent is to show that news isn’t all that it seems to
+          be, and that we should be aware of the conflicts that happen everyday
+          unseen.
+        </p>
+      </div>
+    </div>
+    <div class="preface-section">
+      <div class="preface-header">
+        <h2>
+          Preface
+        </h2>
+      </div>
+      <div class="preface-grid">
+        <div>
+          <p>
+            The ways in which we consume news and understand the happenings of
+            our environment have changed with the advent of smartphones and
+            mobile connectivity. The onslaught of news and information is mind
+            numbing, and fatiguing. It is often difficult to process how the
+            world around us really is, and put the things we read into context.
+            In this new paradigm driven by the attention economy, media sources
+            often resort to grabbing the reader’s attention using exaggerated
+            and misleading titles to get them to click and get more views.
+          </p>
+          <p>
+            The news media has also become increasingly political, and their
+            ability to hold the attention of their audience hasn’t escaped those
+            in power. News cycles are often used by governments and those in
+            power to draw attention away from the bigger issues to escape public
+            scrutiny. Some Indian news media outlets have been vital to the
+            Narendra Modi led government in keeping the public enthralled with
+            divisive issues while those in power get away with undemocratic
+            behaviour. In 2020, the death of a Bollywood actor Sushant Singh
+            Rajput was used to distract public attention away from India’s
+            shrinking economy and poor response to the COVID-19 Pandemic. Many
+            in India truly believe that India is free from any kind of crisis,
+            largely in part due to the lack of news coverage of the issues
+            plaguing India.
+          </p>
+        </div>
+        <div>
+          <p>
+            The <b>Calendar of Conflict</b> attempts to show the issues India
+            faces with an analytical study of news, highlighting certain events
+            and putting into context the news we read. This project uses a
+            year’s worth of news from 2019 from a largely neutral source, The
+            Hindu to study India from 2019.
+          </p>
+          <p>
+            The idea of a year’s worth of news is very interesting. Akin to an
+            ice core, it traps with it all the happenings and events from the
+            year. It encapsulates the language, movements, struggles, and the
+            mood of the nation within it. Just like an ice core, studying this
+            slice of history can be very useful in understanding the nation
+            itself.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sketch-cover-section">
+      <h2>
+        Please use a wider screen (min 1280px) to view the Calendar of Conflict!
+      </h2>
+    </div>
+    <div class="sketch-section" id="sketch-section">
+      <p>
+        Select a month and the type of conflict to visualise mentions of
+        conflict. Hover over the red sections to view the corresponding
+        headlines.
+      </p>
+      <div class="sketch-holder" id="sketch-holder"></div>
+      <div class="sketch-buttons" id="sketch-buttons"></div>
+    </div>
+    <div class="yearoverview-section">
+      <div class="yearoverview-header">
+        <h2>
+          Year in 2019
+        </h2>
+        <p>
+          A quick recap of the number of mentions of each keyword in 2019.
+        </p>
+      </div>
+      <div class="yearoverview-grid">
+        <table style="width:100%">
+          <tr>
+            <th>Keyword</th>
+            <th>Mentions</th>
+          </tr>
+          <tr>
+            <td>Pogrom</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Caste Killing</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Famine</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <td>Police Crackdown</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <td>Acid Attack</td>
+            <td>56</td>
+          </tr>
+          <tr>
+            <td>Police Brutality</td>
+            <td>71</td>
+          </tr>
+          <tr>
+            <td>Earthquake</td>
+            <td>156</td>
+          </tr>
+        </table>
+
+        <table style="width:100%">
+          <tr>
+            <th>Keyword</th>
+            <th>Mentions</th>
+          </tr>
+          <tr>
+            <td>Starve</td>
+            <td>197</td>
+          </tr>
+          <tr>
+            <td>Lynch</td>
+            <td>323</td>
+          </tr>
+          <tr>
+            <td>Dharna</td>
+            <td>813</td>
+          </tr>
+          <tr>
+            <td>Bandh</td>
+            <td>924</td>
+          </tr>
+          <tr>
+            <td>Cyclone</td>
+            <td>1031</td>
+          </tr>
+          <tr>
+            <td>Theft</td>
+            <td>1101</td>
+          </tr>
+          <tr>
+            <td>Fraud</td>
+            <td>1232</td>
+          </tr>
+        </table>
+
+        <table style="width:100%">
+          <tr>
+            <th>Keyword</th>
+            <th>Mentions</th>
+          </tr>
+          <tr>
+            <td>Riot</td>
+            <td>1379</td>
+          </tr>
+
+          <tr>
+            <td>Drought</td>
+            <td>1443</td>
+          </tr>
+          <tr>
+            <td>Clash</td>
+            <td>1732</td>
+          </tr>
+          <tr>
+            <td>Steal</td>
+            <td>1752</td>
+          </tr>
+          <tr>
+            <td>Abuse</td>
+            <td>1818</td>
+          </tr>
+          <tr>
+            <td>Rape</td>
+            <td>2456</td>
+          </tr>
+          <tr>
+            <td>Violence</td>
+            <td>2517</td>
+          </tr>
+        </table>
+
+        <table style="width:100%">
+          <tr>
+            <th>Keyword</th>
+            <th>Mentions</th>
+          </tr>
+          <tr>
+            <td>Pollution</td>
+            <td>3211</td>
+          </tr>
+
+          <tr>
+            <td>Strike</td>
+            <td>3942</td>
+          </tr>
+          <tr>
+            <td>Murder</td>
+            <td>4888</td>
+          </tr>
+          <tr>
+            <td>Flood</td>
+            <td>5015</td>
+          </tr>
+          <tr>
+            <td>Fight</td>
+            <td>6217</td>
+          </tr>
+          <tr>
+            <td>Protest</td>
+            <td>9655</td>
+          </tr>
+          <tr>
+            <td>Kill</td>
+            <td>10591</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="process-section">
+      <div class="process-header">
+        <h2>
+          Process
+        </h2>
+      </div>
+      <div class="process-grid">
+        <div>
+          <p>
+            In order to analyse the news, I first had to get my hands on a high
+            quality dataset.
+            <a href="http://thehindu.com" target="_blank">The Hindu</a> is
+            considered to be largely neutral/leaning left media house, and is
+            known to be of a good editorial standard. I wrote a custom Python
+            script to scrape the archival section of the website which gave me a
+            list links to every article published in 2019. I then wrote another
+            Python script to visit each of their links to scrape the Headline,
+            Location, Date, and the News Article itself. This process took about
+            13 hours, and the resultant dataset (CSV format) contained around
+            <b>167700 lines</b> of data, about <b>245.7MB</b> in size. This was
+            a sizable dataset, and was relatively clean. However it is difficult
+            to work with a dataset of this size, especially when using a mobile
+            computer. Text data processing is a highly CPU intensive task, and
+            more the physical cores, the faster the computation.
+          </p>
+          <p>
+            I used <b>Orange3</b>, an open-source software to conduct Sentiment
+            Analysis using the Liu Hu process sourced from NLTK. This analysed
+            the main article itself and produced a score which reflects how
+            positive or negative the content is. The Sentiment Analysis is one
+            way to quickly see the ‘mood’ of the news, especially when
+            visualised with a heat map. I took this dataset and used Excel to
+            search for keywords which reflects conflict, such as “Protest”,
+            “Riots”, “Lynch”, “Clash”, and “Strike” amongst others. I also
+            looked up keywords such as “Starve”, “Abuse” and “Deforest” to find
+            other kinds of conflict. On detecting the presence of the particular
+            keyword within the main article, an Excel macro would insert the
+            specific keyword it finds in a new column. These keywords would be
+            the identifiers and tags for each row.
+          </p>
+        </div>
+        <div>
+          <p>
+            The processing and tagging of text took a fair bit of time due to
+            the size of the dataset. The size of the dataset was a consistent
+            barrier in trying to work with it, which reduced the scope of my
+            explorations with it. To make it easier to work with the dataset, I
+            deleted the main news article itself, which reduced the size of the
+            dataset from 245.7MB to 16.9MB. I used <b>d3js</b> and
+            <b>p5js</b> to read the data and visualise the sentiment analysis
+            and the conflict tagging. The resulting images show how many
+            instances of conflict there really are on any given day.
+          </p>
+          <p>
+            The various keywords of conflict have been grouped into larger types
+            of conflict, such as interpersonal, political, and environmental, to
+            facilitate easier navigation of the news. Some keywords such as
+            caste have been included, which show a lack of coverage on caste
+            based conflict within the country. This project will have keywords
+            and identifiers continuously added to it with time, to make it more
+            accurate and informative. The intent is to visualise the news to
+            observe patterns, and gain insight about the coverage of different
+            kinds of conflict.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="about-section">
+      <div class="about-header">
+        <h2>
+          About
+        </h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>
+            This project first started off with the intent to study the media
+            coverage around divisive events in the country, such as the protests
+            against the Citizen Amendment Act and the subsequent Delhi Pogroms.
+            However, a brief research into the topic raised many more questions
+            than it answered. The Modi-led government has deepened the
+            Right-Left divide in India and this divide has only deepened with
+            the proliferation of the internet and smartphones across India. The
+            advent of state controlled media, and media outlets sympathetic to
+            the cause of the Hindu nationalists have sowed the seeds of disunity
+            amongst communities and families. The rise in the unchecked spread
+            of fake news through social media has blurred the line between fact
+            and fiction. The BJP has spent an exorbitant amount of taxpayer
+            money on using propaganda to sway uninformed and illiterate voters.
+            One on occasion, a virtual rally with the help of 70,000 flat screen
+            TV’s was held in areas of West Bengal devastated by Cyclone Amphan
+            in the middle of global pandemic. The question of identifying what
+            is right and wrong is now more important than ever.
+          </p>
+        </div>
+        <div>
+          <p>
+            A year’s worth of news also serves as an annual report card, which
+            tells the story of how the country is performing. In a media
+            landscape devastated by biased media coverage and the lack of
+            neutral and analytical reporting, a data-driven look into India can
+            serve as a useful indicator of what happened during the year.
+          </p>
+          <p>
+            It’s important to point out that everyone is a victim of poor news
+            coverage and improper journalism. Those who have the time,
+            knowledge, and privilege to pay for good journalism and fact-check
+            their news are only slightly better off. The Calendar of Conflict is
+            a data-driven recap of the past that hopes to recontextualise news
+            and help us understand the state of the country.
+          </p>
+        </div>
+        <div>
+          <p>
+            <b>References</b>
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://www.eveningtribune.com/article/20140505/news/305059938"
+                target="_blank"
+                >https://www.eveningtribune.com/article/20140505/news/305059938</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.huffingtonpost.in/entry/violent-media-anxiety_n_6671732?ri18n=true"
+                target="_blank"
+                >https://www.huffingtonpost.in/entry/violent-media-anxiety_n_6671732?ri18n=true</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=NpMkT-RptK0"
+                target="_blank"
+                >https://www.youtube.com/watch?v=NpMkT-RptK0</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://thewire.in/health/covid-19-india-data-performance"
+                target="_blank"
+                >https://thewire.in/health/covid-19-india-data-performance</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.financialexpress.com/opinion/opinion-no-prime-minister-has-done-as-much-for-indias-development-as-pm-modi-in-his-6-years/2085034/"
+                target="_blank"
+                >https://www.financialexpress.com/opinion/opinion-no-prime-minister-has-done-as-much-for-indias-development-as-pm-modi-in-his-6-years/2085034/</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>
+            <b>Colophon</b>
+          </p>
+          <p>
+            This map was created by
+            <a href="http://salilparekh.work" target="_blank">Salil Parekh</a>.
+            The data source for this map was
+            <a href="http://thehindu.com" target="_blank">The Hindu</a>. Tools
+            used for this project were Python, Orange3, p5js, d3js, Microsoft
+            Excel. Typefaces used are
+            <a
+              href="https://fonts.google.com/specimen/Inter?query=inter"
+              target="_blank"
+              >Inter</a
+            >
+            and
+            <a
+              href="https://fonts.google.com/specimen/Rajdhani?query=rajdhani"
+              target="_blank"
+              >Rajdhani</a
+            >. This website is created and hosted on
+            <a href="http://glitch.com" target="_blank">Glitch</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
