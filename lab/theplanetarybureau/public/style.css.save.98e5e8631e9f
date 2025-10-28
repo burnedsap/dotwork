@@ -1,0 +1,30 @@
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono&display=swap');
+
+
+body {
+  background:grey;
+  font-family: -apple-system, system-ui, sans-serif;
+}
+
+.projects {
+      display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5%;
+}
+
+img {
+  width:100%;
+}
+
+main {
+/*   max-width:50rem;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+a {
+  text-decoration:none;
+  
+}
