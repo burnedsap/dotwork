@@ -4,12 +4,18 @@
   "language": "en",
   "home_page_url": "https://salilparekh.work",
   "feed_url": "https://example.com/feed/feed.json",
-  "description": "Salil Parekh is a design researcher and creative technologist. He is currently working on creating The Planetary Bureau at The New School, New York.",
+  "description": "Salil Parekh is a designer, artist, and futurist. He currently working as a Senior Design Strategist at EY wavespace in New York, solving complex challenges and accelerating innovation.",
   "author": {
     "name": "Salil Parekh",
     "url": "https://salilparekh.work"
   },
   "items": [{
+      "id": "https://salilparekh.work/posts/ey-wavespace/",
+      "url": "https://salilparekh.work/posts/ey-wavespace/",
+      "title": "EY wavespace",
+      "content_html": "<p class=\"nda\">NDA Project–Please get in touch to learn more!</p>\n",
+      "date_published": "2025-05-01T00:00:00Z"
+    },{
       "id": "https://salilparekh.work/posts/haboob/",
       "url": "https://salilparekh.work/posts/haboob/",
       "title": "Haboob",
@@ -133,13 +139,13 @@
       "id": "https://salilparekh.work/posts/air-pollution-landscape-of-india/",
       "url": "https://salilparekh.work/posts/air-pollution-landscape-of-india/",
       "title": "Air Pollution Landscape of India",
-      "content_html": "<p class=\"nda\">NDA Project–Please get in touch to learn more!</p>\n",
+      "content_html": "<p><img src=\"https://salilparekh.work/img/air-purifier-1.jpg\" alt=\"NDA\" /><br />\n<img src=\"https://salilparekh.work/img/air-purifier-2.jpg\" alt=\"NDA\" /></p>\n<p>NDA Project–Please get in touch to learn more!</p>\n",
       "date_published": "2020-05-01T00:00:00Z"
     },{
       "id": "https://salilparekh.work/posts/accessible-financial-planning/",
       "url": "https://salilparekh.work/posts/accessible-financial-planning/",
       "title": "Accessible Financial Planning",
-      "content_html": "<p class=\"nda\">NDA Project–Please get in touch to learn more!</p>\n",
+      "content_html": "<p><img src=\"https://salilparekh.work/img/accessible-financial-planning-1.jpg\" alt=\"NDA\" /></p>\n<p><img src=\"https://salilparekh.work/img/accessible-financial-planning-2.jpg\" alt=\"NDA\" /></p>\n<p>NDA Project–Please get in touch to learn more!</p>\n",
       "date_published": "2020-02-01T00:00:00Z"
     },{
       "id": "https://salilparekh.work/posts/speculative-sunday/",
@@ -186,7 +192,7 @@
     },{
       "id": "https://salilparekh.work/posts/upshift-social-innovation-curriculum/",
       "url": "https://salilparekh.work/posts/upshift-social-innovation-curriculum/",
-      "title": "UPSHIFT Social Innovation Curriculum",
+      "title": "UNICEF UPSHIFT Social Innovation",
       "content_html": "<p><img src=\"https://salilparekh.work/img/unicef-upshift-16.jpg\" alt=\"\" /></p>\n<h3 id=\"background\" tabindex=\"-1\">Background <a class=\"direct-link\" href=\"https://salilparekh.work/posts/upshift-social-innovation-curriculum/#background\" aria-hidden=\"true\"></a></h3>\n<p>UPSHIFT is a youth social innovation and social entrepreneurship programme, designed to build skills and opportunities for young people who are disadvantaged, due to (for example) poverty, gender, disability or ethnicity. The programme empowers young people with the skills and resources they need to identify problems in their own communities and design solutions for them.</p>\n<h3 id=\"upshift-workshop\" tabindex=\"-1\">UPSHIFT Workshop <a class=\"direct-link\" href=\"https://salilparekh.work/posts/upshift-social-innovation-curriculum/#upshift-workshop\" aria-hidden=\"true\"></a></h3>\n<p>The UPSHIFT programme was started by UNICEF Kosovo, and it was very successful. UNICEF in Tajikistan too wanted to start their own UPSHIFT programme, and Quicksand was called in to help design the programme and facilitate the bootcamps. In the two weeks that the Quicksand team was in Dushanbe, we helped refine the human centered design methodology and design a bootcamp agenda which could subsequently be used by the UNICEF team to conduct further workshops.</p>\n<p><img src=\"https://salilparekh.work/img/unicef-upshift-17.jpg\" alt=\"\" /><br />\n<em>Workshop to train mentors and trainers</em></p>\n<p>Quicksand conducted a week-long Training of Trainers bootcamp with selected mentors from around Tajikistan. These mentors would then go on to facilitate UPSHIFT programmes in their communities.</p>\n<p><img src=\"https://salilparekh.work/img/unicef-upshift-6.jpg\" alt=\"\" /><br />\n<em>Mentors prototyping new facilitation strategies</em></p>\n<h3 id=\"toolkit\" tabindex=\"-1\">Toolkit <a class=\"direct-link\" href=\"https://salilparekh.work/posts/upshift-social-innovation-curriculum/#toolkit\" aria-hidden=\"true\"></a></h3>\n<p>A comprehensive toolkit was created, which was used by the UNICEF team and the mentors to train more mentors and use the HCD (Human Centered Design) process to help guide the adolescents on their social entrepreneurship journey. The freshly minted UPSHIFT trainers then put the toolkit and their facilitation skills to the test with an UPSHIFT cohort in Dushanbe. Feedback from the trainers was then used to optimise the toolkit material.</p>\n<p>The facilitation guide and materials for the UPSHIFT Bootcamp are now available for download from <a href=\"https://www.unicef.org/innovation/UPSHIFTcurriculum\">UNICEF's website</a> ↗.</p>\n<p><img src=\"https://salilparekh.work/img/unicef-upshift-3.jpg\" alt=\"\" /><br />\n<em>Refining the curriculum with the UNICEF Tajikistan</em></p>\n<p><img src=\"https://salilparekh.work/img/unicef-upshift-1.jpg\" alt=\"\" /><br />\n<img src=\"https://salilparekh.work/img/unicef-upshift-13.jpg\" alt=\"\" /><br />\n<em>Getting comfortable with prototyping tools</em></p>\n<p><img src=\"https://salilparekh.work/img/unicef-upshift-9.jpg\" alt=\"\" /><br />\n<img src=\"https://salilparekh.work/img/unicef-upshift-8.jpg\" alt=\"\" /><br />\n<em>Mentors putting their skills to the test with the initial UPSHIFT cohort</em></p>\n<p><img src=\"https://salilparekh.work/img/unicef-upshift-4.jpg\" alt=\"\" /><br />\n<em>Hello from Dushanbe!</em></p>\n",
       "date_published": "2018-09-20T00:00:00Z"
     },{

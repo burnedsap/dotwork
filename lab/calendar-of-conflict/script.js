@@ -35,13 +35,13 @@ let rajdhaniBold;
 function preload() {
   //  light = loadFont("Inter-Light.ttf");
   rajdhaniMedium = loadFont(
-    "https://cdn.glitch.com/103b5608-5092-47c4-a370-56e217da399c%2FRajdhani-Medium.ttf?v=1602438666613"
+    "glitch-assets/Rajdhani-Medium.ttf"
   );
   rajdhaniBold = loadFont(
-    "https://cdn.glitch.com/103b5608-5092-47c4-a370-56e217da399c%2FRajdhani-Bold.ttf?v=1602438668608"
+    "glitch-assets/Rajdhani-Bold.ttf"
   );
   rajdhaniLight = loadFont(
-    "https://cdn.glitch.com/103b5608-5092-47c4-a370-56e217da399c%2FRajdhani-Light.ttf?v=1602438667759"
+    "glitch-assets/Rajdhani-Light.ttf"
   );
 }
 
