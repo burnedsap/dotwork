@@ -232,11 +232,6 @@
   </url>
   
   <url>
-    <loc>https://salilparekh.work/about/</loc>
-    <lastmod>2026-05-10</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salilparekh.work/posts/</loc>
     <lastmod>2026-05-10</lastmod>
   </url>
@@ -818,6 +813,11 @@
   
   <url>
     <loc>https://salilparekh.work/lab/theplanetarybureau/posts/creating-posts/</loc>
+    <lastmod>2026-05-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salilparekh.work/about/</loc>
     <lastmod>2026-05-10</lastmod>
   </url>
 </urlset>
