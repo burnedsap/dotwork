@@ -5,19 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gaming Youtube&#39;s Algorithms</title>
 <meta name="description" content="Unravelling the workings of the Youtube algorithm">
-<meta name="author" content="Gaming Youtube&#39;s Algorithms">
+<meta name="author" content="Salil Parekh">
 
 <meta property="og:description" content="Unravelling the workings of the Youtube algorithm">
 <meta property="og:image" content="https://salilparekh.work/img/salil-parekh.jpg">
 <meta property="og:title" content="Gaming Youtube&#39;s Algorithms">
-<meta name="twitter:title" content="Gaming Youtube&#39;s Algorithms"><link rel="preload" href="/css/fonts/PPNeueMontreal-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPNeueMontreal-Thin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPNeueMontreal-Light.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPNeueMontreal-Book.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPNeueMontreal-Medium.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPEiko-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<script async defer src="https://scripts.withcabin.com/hello.js"></script>
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "667454df3d3e435497c2aeb5927528fd"}'></script>
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gaming Youtube&#39;s Algorithms"><link rel="preload" href="/css/fonts/PPNeueMontreal-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Thin.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Light.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Book.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Medium.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPEiko-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+<script async="" defer="" src="https://scripts.withcabin.com/hello.js"></script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "667454df3d3e435497c2aeb5927528fd"}'></script>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Salil Parekh">
 <link rel="alternate" href="/feed/feed.json" type="application/json" title="Salil Parekh">
@@ -50,19 +52,22 @@
     </div>
 </div>
 <div class="post-main">
-  <p><img src="../../img/youtube-1.gif" alt="GIF of a browser rapidly loading and skipping youtube videos"></p>
+  <video autoplay="" loop="" muted="" playsinline="" preload="none" width="100%" aria-label="A browser rapidly loading and skipping YouTube videos">
+  <source src="../../img/youtube-1.webm" type="video/webm">
+  <source src="../../img/youtube-1.mp4" type="video/mp4">
+</video>
 <p>Youtube's recommendation algorithms have always fascinated me. I don't know how they work, and nor does anyone else except the folks at Youtube I assume. But it doesn't mean I can't try to comprehend them with some software.</p>
 <p>One of the ways through which I can understand how the Youtube recommendation engine works, is to poke it with a stick and see how it reacts to my inputs. By varying how I poke the algorithm, I can attempt to understand how the algorithm works.</p>
 <p>To play around with the algorithm, I created a Google Chrome extension, which would skip to the next video once the page loads. I also added functionality to the extension, which would try and emulate behaviours of a regular viewer, such as selecting a random link from the list of recommended videos and varying the watch time of the video before skipping to the next page. By playing with these parameters, I tried to understand how the algorithm works.</p>
 <p>The expectation was to see how Youtube can go from a regular family friendly video to a dark video with dark and negative undertones. We've all heard stories of how children have stumbled upon Nazi propaganda or sexual content as they watch innocuously watch videos on Youtube. The aim was to observe how these recommendations would work, and see the interesting video content in between.</p>
 <p>Although I never quite got to see how that worked out, I did stumble upon some very interesting paths during my research. I realised that having an account, disabling watch history, and using proxies to spoof my location would also have an effect on my results, and I attempted to choose the combination which would provide for the highest delta in from the first video to the last.</p>
-<iframe width="100%" height="415" src="https://www.youtube.com/embed/p1TyrNrtP6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/p1TyrNrtP6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <p>I did come across some very interesting content, which I have never seen before. Some of the more interesting content I came across were the children's videos I saw. Each of these videos consisted dancing animated 3D characters (from popular culture) in those videos dance to a generic soundtrack. Uploaded by a few creators, the bizarre creations had strange undertones, and Youtube would often direct me to these videos. Sometimes, I would also hit dead ends on Youtube. These were Youtube videos, with no further video recommendations. Those sections of the page would be completely greyed out! Or even more bizarre, those pages would have no content at all, except for the Youtube logo on top, and a blank, back frame in the middle.</p>
 <p>There is more investigation and exploring to be done, but this experiment led to some very interesting results!</p>
 
 </div>
 
-   </main>
+   </div></main>
 
     <footer>
   ← <a href="/">See other projects.</a>

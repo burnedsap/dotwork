@@ -6,29 +6,17 @@
   </head>
 
   <body style="margin : 0px; overflow: hidden;">
-    <audio id="song-1" preload class="songs">
-      <source
-        src="../glitch-assets/ranjan-music-1.mp3"
-        type="audio/mpeg"
-      />
+    <audio id="song-1" preload="" class="songs">
+      <source src="../glitch-assets/ranjan-music-1.mp3" type="audio/mpeg">
     </audio>
-    <audio id="song-2" preload class="songs">
-      <source
-        src="../glitch-assets/ranjan-music-2.mp3"
-        type="audio/mpeg"
-      />
+    <audio id="song-2" preload="" class="songs">
+      <source src="../glitch-assets/ranjan-music-2.mp3" type="audio/mpeg">
     </audio>
-    <audio id="song-3" preload class="songs">
-      <source
-        src="../glitch-assets/ranjan-spoken-1.mp3"
-        type="audio/mpeg"
-      />
+    <audio id="song-3" preload="" class="songs">
+      <source src="../glitch-assets/ranjan-spoken-1.mp3" type="audio/mpeg">
     </audio>
-    <audio id="song-4" preload class="songs">
-      <source
-        src="../glitch-assets/ranjan-spoken-2.mp3"
-        type="audio/mpeg"
-      />
+    <audio id="song-4" preload="" class="songs">
+      <source src="../glitch-assets/ranjan-spoken-2.mp3" type="audio/mpeg">
     </audio>
     <script>
       var audioArray = document.getElementsByClassName("songs");
@@ -85,20 +73,15 @@
         audioArray[i].play();
       }
     </script>
-    <a-scene
-      vr-mode-ui="enabled: false;"
-      renderer="logarithmicDepthBuffer: true;"
-      embedded
-      arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;"
-    >
+    <a-scene vr-mode-ui="enabled: false;" renderer="logarithmicDepthBuffer: true;" embedded="" arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
       <!--       <a-marker markerhandler preset="hiro"> -->
-      <a-marker markerhandler1 type="barcode" value="15"></a-marker>
-      <a-marker markerhandler2 type="barcode" value="16"></a-marker>
-      <a-marker markerhandler3 type="barcode" value="17"></a-marker>
-      <a-marker markerhandler4 type="barcode" value="18"></a-marker>
-      <a-marker markerhandler5 type="barcode" value="19"></a-marker>
-      <a-marker markerhandler6 type="barcode" value="20"></a-marker>
-      <a-entity camera></a-entity>
+      <a-marker markerhandler1="" type="barcode" value="15"></a-marker>
+      <a-marker markerhandler2="" type="barcode" value="16"></a-marker>
+      <a-marker markerhandler3="" type="barcode" value="17"></a-marker>
+      <a-marker markerhandler4="" type="barcode" value="18"></a-marker>
+      <a-marker markerhandler5="" type="barcode" value="19"></a-marker>
+      <a-marker markerhandler6="" type="barcode" value="20"></a-marker>
+      <a-entity camera=""></a-entity>
     </a-scene>
   </body>
 </html>

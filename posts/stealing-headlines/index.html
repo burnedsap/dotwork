@@ -5,19 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Stealing Headlines from the Internet</title>
 <meta name="description" content="Committing crimes of a digital variety">
-<meta name="author" content="Stealing Headlines from the Internet">
+<meta name="author" content="Salil Parekh">
 
 <meta property="og:description" content="Committing crimes of a digital variety">
 <meta property="og:image" content="https://salilparekh.work/img/salil-parekh.jpg">
 <meta property="og:title" content="Stealing Headlines from the Internet">
-<meta name="twitter:title" content="Stealing Headlines from the Internet"><link rel="preload" href="/css/fonts/PPNeueMontreal-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPNeueMontreal-Thin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPNeueMontreal-Light.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPNeueMontreal-Book.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPNeueMontreal-Medium.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/fonts/PPEiko-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<script async defer src="https://scripts.withcabin.com/hello.js"></script>
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "667454df3d3e435497c2aeb5927528fd"}'></script>
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stealing Headlines from the Internet"><link rel="preload" href="/css/fonts/PPNeueMontreal-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Thin.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Light.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Book.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPNeueMontreal-Medium.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/css/fonts/PPEiko-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+<script async="" defer="" src="https://scripts.withcabin.com/hello.js"></script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "667454df3d3e435497c2aeb5927528fd"}'></script>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Salil Parekh">
 <link rel="alternate" href="/feed/feed.json" type="application/json" title="Salil Parekh">
@@ -53,17 +55,17 @@
   <p>For the Conspiracy Creation Workshop, I created fake headlines from an openly available Tensorflow LSTM machine learning algorithm. But perhaps the most difficult part of this process was collecting a corpus of headlines for the machine learning algorithm to train on!</p>
 <p>News websites are now quite complex, with highly intricate content management systems to store all the news on the website. With my limited skills, I was looking for a simple html based news provider, which would be easy prey for my algorithm. There aren't too many credible news providers in India, but luckily The Hindu was the perfect source for me.</p>
 <p>I created a small python script, which would cycle through all the days in the year of 2018, and only remove and store the headlines from every page from the website of The Hindu. After a few rounds of trial and error, I uploaded the script to an Amazon web server, and let it run for a few hours. It worked well, and I now had ~46MB of headlines in a .txt file.</p>
-<p><img src="../../img/conspiracy-textedit.png" alt="List of real headlines printed on a TextEdit document"><br>
+<p><img src="../img/conspiracy-textedit.png" alt="List of real headlines printed on a TextEdit document"><br>
 <em>List of real headlines printed on a TextEdit document</em></p>
 <p>Now, to make my own headlines.</p>
 <p>I fired up the Tensorflow LSTM algorithm, and ran it on a GCP instance with some beefy GPU's to quicken the training process. LSTM doesn't perform really well on GPU's so it did take quite a bit of time, even on with a Tesla. Anyhow, I now had a well trained algorithm, which could spit out headlines on command! I downloaded the save files to my Mac, and used Tensorflow via Terminal to collect the newly generated headlines.</p>
-<p><img src="../../img/conspiracy-headlines.jpg" alt="List of generated headlines printed on an A4 sheet with a post-it on it with the the text, Conspiracy"><br>
+<p><img src="../img/conspiracy-headlines.jpg" alt="List of generated headlines printed on an A4 sheet with a post-it on it with the the text, Conspiracy"><br>
 <em>List of generated headlines from the Machine Learning algorithm</em></p>
 <p>This collection of fake headlines was valuable–especially for the Conspiracy Creation workshop–because it presented a wealth of possibilities. As a generative ideation exercise, this is about as good as it gets. These fake, machine learning generated headlines was also the basis of the Helf and Caree zine.</p>
 
 </div>
 
-   </main>
+   </div></main>
 
     <footer>
   ← <a href="/">See other projects.</a>
