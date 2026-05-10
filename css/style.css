@@ -41,14 +41,6 @@ header,
 main,
 section,
 figure,
-picture {
-  display: block;
-}
-
-img {
-  height: auto;
-}
-
 img,
 h1,
 h2,
@@ -527,6 +519,7 @@ input + label {
 
 .post-main img {
   width: 100%;
+  height: auto;
   margin-bottom: 0.1rem;
   margin-top: 0;
 }
@@ -641,6 +634,7 @@ input + label {
 
 .about-two-grid img {
   max-width: 100%;
+  height: auto;
 }
 
 .about-two-grid a {
@@ -860,6 +854,7 @@ address {
 
 .retrospective-text-image img {
   width: 100%;
+  height: auto;
 }
 
 /* Kyafir */
@@ -876,9 +871,11 @@ address {
 
 .kyafir-text-image-large img {
   width: 100%;
+  height: auto;
 }
 .kyafir-text-image-small img {
   width: 100%;
+  height: auto;
 }
 
 /* Shared Link Hover Effects */
