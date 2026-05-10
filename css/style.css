@@ -41,6 +41,14 @@ header,
 main,
 section,
 figure,
+picture {
+  display: block;
+}
+
+img {
+  height: auto;
+}
+
 img,
 h1,
 h2,
