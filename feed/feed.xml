@@ -84,7 +84,7 @@
 &lt;p&gt;&lt;strong&gt;1. Technology Leadership&lt;/strong&gt;&lt;br /&gt;
 &lt;em&gt;Low Risk | Short to Medium Term&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://img/ngp-3.jpeg&quot; alt=&quot;Diagram showing AutoX&#39;s strengths and capabilities&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;By leveraging existing technology, and tapping into an already established market, this is least risky strategy, but is best suited for short-term growth. There&#39;s two major components to this concept. The first of which is to use AutoX&#39;s advanced technology and manufacturing capability to create parts for other manufacturers and/or small business (independent repair shops, garages). Most cars on the road today, across price points use the same components or components created by the same supplier (tyres, brakes, suspensions, gearboxes and much more). &lt;a href=&quot;https://salilparekh.work/posts/new-growth-platforms-automotive/zf.com&quot;&gt;ZF&lt;/a&gt; creates transmissions for low priced cars (Jeep Compass) and a Rolls Royce (RR Ghost). Often you might find a car using the same ZF transmission as another car twice or even thrice its price.&lt;/p&gt;
+&lt;p&gt;By leveraging existing technology, and tapping into an already established market, this is least risky strategy, but is best suited for short-term growth. There&#39;s two major components to this concept. The first of which is to use AutoX&#39;s advanced technology and manufacturing capability to create parts for other manufacturers and/or small business (independent repair shops, garages). Most cars on the road today, across price points use the same components or components created by the same supplier (tyres, brakes, suspensions, gearboxes and much more). &lt;a href=&quot;https://www.zf.com/&quot;&gt;ZF&lt;/a&gt; creates transmissions for low priced cars (Jeep Compass) and a Rolls Royce (RR Ghost). Often you might find a car using the same ZF transmission as another car twice or even thrice its price.&lt;/p&gt;
 &lt;p&gt;Why?&lt;/p&gt;
 &lt;p&gt;ZF is great at making transmissions. They excel at it, so much so that other manufacturers would rather use transmissions created by ZF instead of trying to create something better in-house. This is also a neat segue to the second component of this strategy: Advanced Powertrain Development. A car company is often great at designing powertrains, so why not focus on that and create powertrains for other manufacturers? This will not only enable AutoX to use its existing resources, but also give it the opportunity to be at the forefront of powertrain innovation, perhaps even influence or predict the direction the industry will move toward. Car manufacturing is becoming far more digitised (think modular, not screens and IoT), even more so with the advent of electric vehicles. This makes it easier (definitely not simple) and lowers the barrier of entry to manufacture cars at scale. By creating the best or preferred powertrains/components in the automotive industry, AutoX can use new branding models to eventually increase sales of its own vehicles.&lt;/p&gt;
 &lt;p&gt;Imagine if Intel used &#39;Intel Inside&#39; to eventually drive sales to its own direct-to-consumer products, although we haven&#39;t seen much of this apart from the popular Intel NUC devices.&lt;/p&gt;
@@ -142,13 +142,12 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/curtain-3.jpg&quot; alt=&quot;close up of leds&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/curtain-7.jpg&quot; alt=&quot;curtains in my room&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Curtains shining away at night&lt;/em&gt;&lt;/p&gt;
-&lt;video controls=&quot;&quot; muted=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot;&gt;
+&lt;video controls=&quot;&quot; muted=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; poster=&quot;https://salilparekh.work/img/Curtain-proj-HD-1080p-poster.jpg&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/Curtain%20proj-HD%201080p.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            type=&quot;video/mp4&quot;&gt;
 &lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
 &lt;p&gt;&lt;em&gt;Short video showing the curtain dreaming at night&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/breakout%20used%20in%20curtain.jpg&quot; alt=&quot;soft breakout board&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/breakout-used-in-curtain.jpg&quot; alt=&quot;soft breakout board&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Custom soft breakout board with Teensy LC powering the curtain&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
@@ -169,7 +168,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-8.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 &lt;img src=&quot;https://salilparekh.work/img/my-house-is-ill-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;video muted=&quot;&quot; controls=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot;&gt;
+&lt;video muted=&quot;&quot; controls=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; poster=&quot;https://salilparekh.work/img/myhouseisill_web-poster.jpg&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/myhouseisill_web.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
@@ -193,9 +192,8 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-6.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Winners of FIG 2022!&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A small selection from the submissions:&lt;/p&gt;
-&lt;video controls=&quot;&quot; muted=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot;&gt;
+&lt;video controls=&quot;&quot; muted=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; poster=&quot;https://salilparekh.work/img/fig-website-video-record-poster.jpg&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/fig-website-video-record.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            type=&quot;video/mp4&quot;&gt;
 &lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
 &lt;p&gt;FIG will be back soon!&lt;/p&gt;
@@ -203,11 +201,11 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-5.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The FIG website&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;As a part of the EyeMyth Media Arts Festival, FIG was a showcase of GIF&#39;s from artists around the world on the theme: &lt;strong&gt;The Loss of Creativity.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-2.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-2.png&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;An open call for submissions was received with enthusiasm from the GIF community, with submissions on display on all digital screens at the Festival and online. The &lt;a href=&quot;https://burnedsap.github.io/fig/&quot;&gt;website&lt;/a&gt;, just like a GIF, loops infinitely!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-4.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-4.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The online gallery&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-3.png#fullwidth&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/fig-3.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;A submission from Anisha Thampy&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A small excerpt from a piece I wrote for the &lt;a href=&quot;https://thehardcopy.co/indian-gifs-time-to-take-centre-stage/&quot;&gt;HardCopy.co&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;&amp;quot;It is for this reason that a few of us within Quicksand, decided to create a space for Gif creators to showcase their work. The platform is called FIG, and was launched a few months ago. FIG’s mission is to celebrate the creation of Gifs by designers, illustrators, artists, writers and creators of all kinds. We opened up calls for submissions on the theme of ‘The Loss of Creativity’ and we received around forty amazing entries. This is just the beginning for the platform, and we hope to do a lot more for Gif creators. The team behind FIG are creators who love making Gifs using diverse digital and analogue techniques, and we wish to reach out to other creators who feel equally passionate about them.&amp;quot;&amp;quot;&lt;/span&gt;&lt;/p&gt;
@@ -219,7 +217,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<link href="https://salilparekh.work/posts/heliotropic-horology/"/>
 		<updated>2022-04-14T00:00:00Z</updated>
 		<id>https://salilparekh.work/posts/heliotropic-horology/</id>
-		<content type="html">&lt;video muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot;&gt;
+		<content type="html">&lt;video muted=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; loop=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; poster=&quot;https://salilparekh.work/img/sunflower-poster.jpg&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/sunflower.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
@@ -227,7 +225,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/heliotropic-horology-2.png&quot; alt=&quot;how the sunflower time works&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;In order to build out a timekeeping infrastructure, the people behind this idea, who call themselves &lt;strong&gt;The Heliotropes&lt;/strong&gt;, created a series of prototypes for a new standard called Sunflower Standard Time (SST).&lt;/p&gt;
 &lt;p&gt;Using simple computer vision methods, Prototype 3b.1 was the first successful working prototype which could accurately report SST. By tracking the position of the sunflower as it moved during the day, the prototype could tell the time of day, and night.&lt;/p&gt;
-&lt;video controls=&quot;&quot; muted=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot;&gt;
+&lt;video controls=&quot;&quot; muted=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; loop=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; poster=&quot;https://salilparekh.work/img/heliotropic-video-poster.jpg&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/heliotropic-video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
@@ -252,21 +250,20 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<link href="https://salilparekh.work/posts/responsive-muslin/"/>
 		<updated>2022-02-14T00:00:00Z</updated>
 		<id>https://salilparekh.work/posts/responsive-muslin/</id>
-		<content type="html">&lt;video controls=&quot;&quot; muted=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot;&gt;
+		<content type="html">&lt;video controls=&quot;&quot; muted=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; poster=&quot;https://salilparekh.work/img/Muslin-Touch-Video-poster.jpg&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/Muslin%20Touch%20Video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            type=&quot;video/mp4&quot;&gt;
 &lt;/video&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/_DSC3449%400.25.jpg&quot; alt=&quot;the final piece, a square piece of muslin with a laser engraved logo on it&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I wanted to create a piece which would respond to my touch. I love muslin and the way it feels. It&#39;s soft, yet has a rough tactile quality which makes it nice and warm to hold. I wonder what muslin feels like when it is touched. Does it like being held? Does it be held firmly or caressed softly?&lt;/p&gt;
 &lt;p&gt;In an attempt to answer this question, I created a piece made of muslin which actively responds to being interacted with.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/_DSC3467.jpg&quot; alt=&quot;the same image, but with a grid of 8 leds below the muslin lit up&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/_DSC3471.jpg&quot; alt=&quot;close up on the logo with leds lit up&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/Computational%20Craft%20Midterm%20Proposal%20Sketches-02.jpg&quot; alt=&quot;illustration of different layers of the sensor&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/computational-craft-midterm-sketches-02.jpg&quot; alt=&quot;illustration of different layers of the sensor&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The piece is split into individual layers–sensor, reactor, and the cover.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The sensor is a 6x6 pressure sensitive sensor, which uses a grid of copper thread and velostat to work. Heavily inspired (read: copied) from &lt;a href=&quot;https://www.kobakant.at/DIY/?p=7443&quot;&gt;Kobakant&lt;/a&gt;, it can detect where pressure is applied on a 2D X-Y area. The velostat can help detect the intensity of pressure as well. With a 6x6 sensor, it has 36 individual &#39;sensors&#39;.&lt;/p&gt;
 &lt;p&gt;I wanted to hand sew everything as it felt like the right thing to do with muslin. The material feels analogue and machine sewing wouldn&#39;t feel appropriate. However, I did want to sew well, which meant good spacing, and straight lines. The laser etched guides allowed me to do just that. I cut and etched three pieces of muslin, 2 for the sensor, and 1 for the SMD LEDs.&lt;/p&gt;
 &lt;p&gt;By detecting pressure applied to sensor, and how many points are being pressed, I can somewhat determine the way the piece is being touched or interacted with. If only a few points are being touched with lots of pressure, the piece is being poked. If many points are being touched softly, then I can determine that my palm is on the surface. With 36 individual sensor points, the sensor is of a fairly high fidelity and does a good job of determining the kind of touch being applied.&lt;/p&gt;
-&lt;video controls=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot;&gt;
+&lt;video controls=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; poster=&quot;https://salilparekh.work/img/CC-midterm-processing-poster.jpg&quot;&gt;
     &lt;source src=&quot;https://salilparekh.work/img/CC-midterm-processing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;p&gt;Sorry, your browser doesn&#39;t support embedded videos.&lt;/p&gt;
 &lt;/video&gt;
@@ -338,10 +335,12 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;em&gt;My first attempt at creating a &#39;pond&#39;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I tried to create a few variations, but never managed to figure out how to create intelligent agents capable of interacting with each other. My interest in creating an artificial ecosystem didn’t fade, and I finally decided to create one, but with a unique tweak. Most Artificial Life (AL) systems replicated reality, or at the very least, followed the same rules of predation, and natural selection. I wanted to explore alternative metrics of natural selection. Would being nice to each other help the species as a whole thrive? Or is the idea of the selfish gene far too efficient?&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;My intent with the AL system was to create an homeostatic system which would then be induced with behaviours such as sharing, community, and respect for the environment, with the hopes of comparing the tweaked systems with the baseline to observe if there were any changes, if at all.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/sl-2.png#fullwidth&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/sl-2.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The final version, which includes a control panel to change parameters&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/pondmovie.mp4&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;A short video of one of the experiments. Note: The colours indicate the maximum speed of one type of agent. With every subsequent generation they get faster on average as only the fastest ones end up surviving. (They change from red -&amp;gt; orange -&amp;gt; yellow -&amp;gt; green)&lt;/em&gt;&lt;/p&gt;
+&lt;video controls=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; poster=&quot;https://salilparekh.work/img/pondmovie-web-poster.jpg&quot;&gt;
+  &lt;source src=&quot;https://salilparekh.work/img/pondmovie-web.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+_A short video of one of the experiments. Note: The colours indicate the maximum speed of one type of agent. With every subsequent generation they get faster on average as only the fastest ones end up surviving. (They change from red -&gt; orange -&gt; yellow -&gt; green)_
 &lt;p&gt;The primary goal of this project, apart from creating a homeostatic system, is to explore alternate systems of survival as an alternative to the traditional predatory, survival of the fittest paradigm. The first step in doing so was to create a traditional ecosystem which would serve as a benchmark. The alternate systems of survival are phrased as questions, and the plan is continue asking questions of an ecosystem,&lt;/p&gt;
 &lt;p&gt;I took an iterative approach toward creating the AL ecosystem, adding features and behaviours to the system layer by layer. The first iteration consisted of two types of entities, an agent (square) and a food particle (circle).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/sl-3.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
@@ -377,22 +376,22 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;This project attempts to explore this speculative reality, and piece together what this world would look like. Although purely speculative, the intent of this project and the resulting visuals is to have the viewer reflect on their relationship with water, and perhaps build a stronger, and more meaningful bond with water.&lt;/p&gt;
 &lt;p&gt;The explorations were manifested in various forms, from speculative objects, to magazine spreads.&lt;/p&gt;
 &lt;p&gt;Guided by Anthony Dunne and Fiona Raby from &lt;a href=&quot;https://www.designedrealities.org/&quot;&gt;Designed Realities&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-20.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://salilparekh.work/img/wdww-21.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-20.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/wdww-21.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Notes of a product designer in this speculative reality&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-22.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://salilparekh.work/img/wdww-24.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://salilparekh.work/img/wdww-23.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-25.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://salilparekh.work/img/wdww-37.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://salilparekh.work/img/wdww-27.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://salilparekh.work/img/wdww-30.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://salilparekh.work/img/wdww-33.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://salilparekh.work/img/wdww-34.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://salilparekh.work/img/wdww-31.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-35.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-36.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-32.png#fullwidth#imageborder&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-22.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/wdww-24.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/wdww-23.png&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-25.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/wdww-37.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/wdww-27.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/wdww-30.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/wdww-33.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/wdww-34.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://salilparekh.work/img/wdww-31.png&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-35.png&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-36.png&quot; alt=&quot;DR&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/wdww-32.png&quot; alt=&quot;DR&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Spreads from a home improvement magazine&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
@@ -433,7 +432,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<content type="html">&lt;p&gt;India’s national digital biometric identity system, the Aadhaar was introduced in 2009 by the UIDAI (Unique Identification Authority of India). The Aadhaar is a 12-digit unique identity number, which contains demographic and biometric data of the holder. Manifested in the form of a printed card which contains the holder’s basic information, the Aadhaar number, and a QR code make it easily accessible to an electronic terminal. The intent of the Aadhaar was to create a single unique identifier which the holder could use to confirm their identity to avail of services, instead of having to rely on a bevy of identification documents such as birth certificates and utility bills, amongst others. It is required to access government welfare schemes, such as unemployment benefits, distribution of subsidised LPG (Liquefied petroleum gas), and the MNREGA (Mahatma Gandhi National Rural Employment Guarantee Act) which guarantees at least 100 days of wage employment in a financial year. Private companies started to use Aadhaar as proof of identity, since it was quicker to do so as compared to verifying multiple documents. The Aadhaar API enabled easy identification using a fingerprint scanner to match biometric data. State governments also started mandating the use of Aadhaar to avail of various government services.&lt;/p&gt;
 &lt;p&gt;The implementation of Aadhaar was not without its challenges. Many found it difficult to obtain an Aadhaar ID, either due to technical difficulties associated with the biometric scanners, or the lack of certain identification documents. There were widespread issues reported while registering for an Aadhaar ID, with many holders having incorrect information recorded, having to pay bribes to register, failure in authentication, amongst many others. In many cases, the lack of an Aadhaar ID led to the inability of many to access crucial government welfare schemes and rations. The exclusion of citizens from welfare schemes due to the lack of an Aadhaar ID led the Supreme Court to issue an interim order in 2013, which stipulated that the government cannot deny a service to a resident who does not possess Aadhaar, as it is voluntary and not mandatory. However, in 2016, the BJP majority led government passed the Aadhaar Bill, which mandated the use of Aadhaar to access government subsidies. Soon, the Aadhaar was mandatory for mobile connections, opening bank accounts, availing of LPG subsidies, scholarships and higher education fellowships, crop insurance, income tax returns, vehicle registrations, death certificates, post office deposits, rations, and for any transactions over Rs. 50,000. In a 2018 judgment, the Supreme Court stated that the Aadhaar is not mandatory for opening bank accounts, getting a mobile number, or being admitted to a school.&lt;/p&gt;
 &lt;p&gt;Aadhar continued to be plagued by issues, with a reporter from The Tribune having successfully bought credentials to access the &lt;a href=&quot;https://www.tribuneindia.com/news/archive/nation/rs-500-10-minutes-and-you-have-access-to-billion-aadhaar-details-523361&quot;&gt;Aadhaar database for ₹ 500&lt;/a&gt;. However, the UIDAI dismissed the report, and insisted on the security of the database and the system, and even filed an FIR (First Information Report) against &lt;a href=&quot;https://www.deccanherald.com/content/652335/fir-filed-against-tribune-over.html&quot;&gt;The Tribune&lt;/a&gt;. A Twitter user with the handle, @fs0c131y investigated the official Aadhaar app called mAadhaar, on Android and found a security flaw which could allow malicious entities to &lt;a href=&quot;https://www.deccanherald.com/content/653312/twitter-user-chips-away-maadhaar.html&quot;&gt;steal the users Aadhaar data&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The Supreme Court judgement from 2018 is particularly interesting, as it stated that the right to privacy cannot be impinged without a just, fair and reasonable law. For starters, the ruling disallowed the use of Aadhaar by private entities for establishing the identity of the individual. The ruling also clarified a proportionality test, which was required in order for the mandatory linking of Aadhaar to any services. The proportionality test has four conditions. There must be a &lt;u&gt;Legitimate Goal&lt;/u&gt;, a &lt;u&gt;Rational Connection&lt;/u&gt; (suitable means of furthering the goal), a &lt;u&gt;Necessity&lt;/u&gt; (There must not be any less but equally effective alternative), and a &lt;u&gt;Balancing&lt;/u&gt; (It must not have a disproportionate impact on the right holder). This was a landmark ruling, which was important in checking the rampant use of Aadhaar.&lt;/p&gt;
+&lt;p&gt;The Supreme Court judgement from 2018 is particularly interesting, as it stated that the right to privacy cannot be impinged without a just, fair and reasonable law. For starters, the ruling disallowed the use of Aadhaar by private entities for establishing the identity of the individual. The ruling also clarified a proportionality test, which was required in order for the mandatory linking of Aadhaar to any services. The proportionality test has four conditions. There must be a &lt;strong&gt;Legitimate Goal&lt;/strong&gt;, a &lt;strong&gt;Rational Connection&lt;/strong&gt; (suitable means of furthering the goal), a &lt;strong&gt;Necessity&lt;/strong&gt; (There must not be any less but equally effective alternative), and a &lt;strong&gt;Balancing&lt;/strong&gt; (It must not have a disproportionate impact on the right holder). This was a landmark ruling, which was important in checking the rampant use of Aadhaar.&lt;/p&gt;
 &lt;p&gt;The intention with Aadhaar was to create a single identification system, in order to simplify the distribution of government welfare and subsidies. An explicit aim of Aadhar was to make the PDS (Public Distribution System)-the mainstay of India&#39;s food programs-more efficient and easily accessible to beneficiaries. In 2011, the United Progressive Alliance led government conducted India’s first caste-based census since 1931. Called the Socio-Economic Caste Census (SECC-2011), it was a study of socio-economic status of rural and urban households which collected data on caste and income of every Indian citizen and was coordinated by the Ministry of Rural Development of India. The study was conducted in order to get a more nuanced understanding of poverty and identification of beneficiaries of social welfare schemes. In 2017, the Central Government used the findings of the SECC as the main instrument of identifying beneficiaries, instead of the poverty line. This helped the government rollout schemes which focussed on indicators other than family income, such as assistance for building houses, pensions, skill training, providing business loans, amongst others.&lt;/p&gt;
 &lt;p&gt;In 2015, The Ministry of Rural Development (MoRD) of India proposed the creation of a continuously updating social registry to augment the existing SECC-2011 data with the intention of identifying beneficiaries eligible for government welfare schemes. Detailed in an investigative report by &lt;a href=&quot;https://www.huffpost.com/archive/in/entry/aadhaar-national-social-registry-database-modi_in_5e6f4d3cc5b6dda30fcd3462&quot;&gt;Huffpost India in 2020&lt;/a&gt;, this would allow the government to identify eligible citizens far quicker as compared to waiting for another census to update their registry. Additionally, this would also identify citizens no longer eligible, thus making the welfare distribution system far more efficient. The benefits of such a system would especially be noticeable in the event of a crisis, such as a natural disaster, or a pandemic. A continuously updating registry would also enable the tracking of beneficiaries across rural and urban areas, and disburse the corresponding welfare as applicable. The proposal suggested the creation of a centralised database, which relied on Aadhaar linked data to track the eligibility status of every citizen. Subsequently, this proposal has undergone years of development, with various organizations, including the UIDAI, MoRD, and the World Bank working on it. Tentatively called the National Social Registry, it is also known as the Social Registry Information System, and the SECC Social Registry.&lt;/p&gt;
 &lt;p&gt;The National Social Registry (NSR) will be created using multiple datasets linked by the Aadhaar ID. This will enable the NSR to collect any kind of data attached to an Aadhaar number. This would include information on banking, mobile SIM cards, higher education, scholarships, property, income, employment, and much more. The Huffpost report states that the government intends to have the database operational by 2021. In order to access the Aadhaar linked data without running afoul of the Supreme Court judgement of 2018, UIDAI has suggested amendments to the 2016 Aadhaar Authentication Act, which would bypass the 2018 judgement. In particular, the proposed changes would amend specific regulation concerning using identity information only for the purpose specified during authentication, and the sharing of authentication logs with any other person other than the Aadhaar number holder.&lt;/p&gt;
@@ -517,7 +516,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;When thinking about craft, I usually tend to focus on creative crafts, often with outputs and tangible results. But there also exists crafts, which we don’t usually consider to be a craft. The craft of driving is one of them. One may drive for thousands, or even millions of hours, yet have nothing to show for it. Most of us aren’t even that good at driving, even after spending so much time performing the activity. Is driving even a craft? There are some parallels between driving and traditional crafts, such as painting or pottery. Both are usually learnt through apprenticeship, and take time to master. The masters of the craft usually go on to make a living from their craft (bus drivers, racing drivers, ceramic designers, potters). Whereas potters usually have something to show for their time and efforts, the activity of driving produces nothing, except perhaps for safer travel, and a lower likelihood of being involved in an incident. I often think about the skills one acquires over years of driving a car, and how it remains unrecognised. We don’t appreciate our own craft of driving since it isn’t considered to be a craft as such.&lt;/p&gt;
 &lt;p&gt;The rise of fan culture has given rise to many new kinds of mediums, one of them being fancams. Originating from the k-pop fan culture, this short, and fast paced video format usually focuses on a single character, using videos and images with filter overlays. Fancams help with the stanning of a single member from a group, and draws attention to their talents. This particular fancam of an EXID performance catapulted the group into fame, helping revive their flagging career. I’m fascinated by the fancam culture, and so I created a fancam of….driving. I used an old video game which has normal looking cars, and normal looking city maps to create the video, and used a few filters to enhance certain sections of the clip to create a fancam of driving. Fancam making is an entire craft unto itself, and it’s interesting to see different variations of the medium.&lt;/p&gt;
 &lt;p&gt;I’ve also been thinking about how certain crafts such as hand drawn artwork and animation are being fetishised and used as a tactic to communicate certain messaging to make it more believable or legitimate. This can be seen in the branding of certain activities of large corporations looking to get buy-in from the community, or push across a certain altered image of themselves. In a strange and twisted way, I see a fancam of driving around as a response to the exoticisation of certain mediums and forms of craft.&lt;/p&gt;
-&lt;video controls=&quot;true&quot; allowfullscreen=&quot;true&quot; preload=&quot;none&quot;&gt;
+&lt;video controls=&quot;true&quot; allowfullscreen=&quot;true&quot; preload=&quot;none&quot; poster=&quot;https://salilparekh.work/img/aesthetics-politics-2-poster.jpg&quot;&gt;
    &lt;source src=&quot;https://salilparekh.work/img/aesthetics-politics-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
  &lt;/video&gt;
 &lt;p&gt;(The video contains certain elements which are well known in the automotive world. The car is a Toyota AE86, which shot to stardom as the main character of the anime ‘Initial D’. The environment, or piece of road the car drives on is a replica of the Monaco Grand Prix, a popular Formula 1 race track. A commentary on the exoticisation of other crafts by using exoticised elements from the automotive world.)&lt;/p&gt;
@@ -614,11 +613,11 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;Helf and Caree is a zine co-created with Nirmal Ravisyam. I crafted fake headlines with the help of GPT-2 and LSTM machine learning algorithms, which were then used as writing prompts to paint a picture of an absurd, speculative reality inspired by our own. Nirmal created a variety of mixed-media illustrations that both complement and contradict the writing to create something halfway between a newspaper and a comic book.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/helf-and-caree-3.jpg&quot; alt=&quot;Zine cover&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Zine Cover&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/helf-and-caree-4.jpg#fullwidth&quot; alt=&quot;Spreads from the zine&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/helf-and-caree-5.jpg#fullwidth&quot; alt=&quot;Spreads from the zine&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/helf-and-caree-4.jpg&quot; alt=&quot;Spreads from the zine&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/helf-and-caree-5.jpg&quot; alt=&quot;Spreads from the zine&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Spreads from the zine&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This zine is meaningful and significant for the times we live in, where social media has become the generator of news, and sometimes and more importantly fake news. Prime Ministers and the powers that be are counting on it and citizens are taking it in without the much-needed pinch of salt. It is a poignant reflection of 2020 with our very own influencer marketing, social media journalism and vigilante justice.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/helf-and-caree-6.jpg#fullwidth&quot; alt=&quot;Spreads from the zine&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/helf-and-caree-6.jpg&quot; alt=&quot;Spreads from the zine&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;How far removed from reality is this? If at all...&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
@@ -651,7 +650,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<updated>2019-12-02T00:00:00Z</updated>
 		<id>https://salilparekh.work/posts/speculative-sunday/</id>
 		<content type="html">&lt;p&gt;EyeMyth is the only Media Arts Festival in India - unique in its intersection of Indian and Global art, culture and technology. A 3-day festival which took place from November 29th to December 1st 2019, the third day, called &lt;strong&gt;Speculative Sunday&lt;/strong&gt; was devoted to speculating the cultural futures of India.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/eyemyth-1.png#fullwidth&quot; alt=&quot;EyeMyth Poster&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/eyemyth-1.png&quot; alt=&quot;EyeMyth Poster&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/eyemyth-2.jpg&quot; alt=&quot;EyeMyth Poster&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Speculative Sunday is a day devoted to hands-on workshops that visualise radical cultural futures for India, while learning new skills in Speculative Design &amp;amp; Design Fiction. I was in charge of the entire day of the festival, which meant planning and designing everything from production, activities, people, to food, permissions and transport. With over a 100+ attendees, the day was a success and lots of learnings were gleaned from the day.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/eyemyth-4.jpg&quot; alt=&quot;EyeMyth Poster&quot; /&gt;&lt;br /&gt;
@@ -684,16 +683,16 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<updated>2019-08-20T00:00:00Z</updated>
 		<id>https://salilparekh.work/posts/the-speculative-design-workshop/</id>
 		<content type="html">&lt;p&gt;The Speculative Design Workshop was a day of co-creation, where the participants were introduced to frameworks, toolkits, and theories from the world of speculative design. It was a way of looking at Médecins Sans Frontières (MSF)’s practice and the crises they aim to respond to through a fresh perspective, and reveal opportunities to critique, reshape, and innovate.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/tsdw-12.jpg#fullwidth&quot; alt=&quot;Introducing speculative design to the participants at the Quicksand Studio&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/tsdw-12.jpg&quot; alt=&quot;Introducing speculative design to the participants at the Quicksand Studio&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Introducing speculative design to the participants at the Quicksand Studio&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/tsdw-2.jpg&quot; alt=&quot;Name tags for participants&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Name tags for participants&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/tsdw-3.jpg&quot; alt=&quot;Schedule of the workshop&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Schedule of the workshop&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Organised ahead of MSF Scientific Days in Delhi, 15 members of MSF from diverse backgrounds participated in a day-long workshop hosted at Quicksand Studio. The day began with participants playing fun games and opening up to thinking about the future. Through the day they spent time world-building and speculating how crises will evolve over the years, ending at present day: 2035. They detailed out their worlds through photo collaging and narrative writing exercises.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/tsdw-4.jpg#fullwidth&quot; alt=&quot;Speculating on the future of MSF&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/tsdw-4.jpg&quot; alt=&quot;Speculating on the future of MSF&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Speculating on the future of MSF by creating a timeline&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/tsdw-7.jpg#fullwidth&quot; alt=&quot;A complete, populated timeline speculating the near, and far future. (they predicted the pandemic)&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/tsdw-7.jpg&quot; alt=&quot;A complete, populated timeline speculating the near, and far future. (they predicted the pandemic)&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;A complete, populated timeline speculating the near, and far future. (they predicted the pandemic)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;They engaged further with Speculative Design through role playing and artefact modelling activities, immersing into the worlds they built. The workshop came to an end with a sharing session where both the participants and the facilitators shared their reflections and discussed further steps for collaboration and a future for the workshop.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/tsdw-5.jpg&quot; alt=&quot;&#39;Living&#39; the future through role-playing based on MSF&#39;s predictions&quot; /&gt;&lt;br /&gt;
@@ -755,7 +754,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;Generative art is any piece of artwork that is autonomously generated using a series of instructions or following a set of rules. Although more commonly associated with art created using computers, I believe generative art is more about the artistic approach and the process, and not just about the tool. Similar to parametric architectural design, or algorithmic art, it is a result of a set of instructions defined by the creator. In this article, I trace through the history of generative art practice, to show how it can be the dominant art movement of the future.&lt;/p&gt;
 &lt;h3 id=&quot;the-past&quot; tabindex=&quot;-1&quot;&gt;The Past &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/future-of-generative-art/#the-past&quot; aria-hidden=&quot;true&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;As computers became more and more accessible, artists started using computers to create art. This medium was appealing to artists as they could now create art that would have taken too long to create by hand. Artists could iterate their art, and accelerate their creative process. The computer also allowed for the exploration of visual styles that had never been seen before. The starkness and lack of human touch led to compositions that were completely unknown and alien. Computers became a tool for artists, like a paintbrush or a mechanical pencil, which allowed them to execute their ideas. Some of the first generative artists were researchers and scientists who used computers in their work, such as Michael Noll. Well-known pioneers in the Generative Art Movement are John Maeda, Vera Molnar, Manfred Mohr, Frieder Nake, Jared Tarbell amongst many others.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/future-of-generative-art-2.png#fullwidth&quot; alt=&quot;Composition inspired by Casey Reas&#39;s work&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/future-of-generative-art-2.png&quot; alt=&quot;Composition inspired by Casey Reas&#39;s work&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Composition inspired by Casey Reas&#39;s work&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&quot;the-present&quot; tabindex=&quot;-1&quot;&gt;The Present &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/future-of-generative-art/#the-present&quot; aria-hidden=&quot;true&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Today, it has become easier to find diverse tools to create generative art, causing a growth in the number of practicing generative artists. Artists like Casey Reas, Ben Fry, Daniel Shiffman, and Zach Lieberman have created both the tools and the art, to influence others to access and create generative works of their own.&lt;/p&gt;
@@ -773,7 +772,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<id>https://salilparekh.work/posts/data-of-a-third-kind/</id>
 		<content type="html">&lt;p&gt;Over the last few years, I’ve been trying to play with data, and extrapolate meaning from datasets. It’s all very functional, and the more complex the dataset, the more fun it’s been to find correlations and overlaps. It does get dull at times, and very frustrating when nothing seems to work out. There are many tools with which data can be handled with, be it the ever functional spreadsheet, the notepad file, or even the back of a tissue paper. My weapon of choice is an IDE called Processing. An IDE, or Integrated Development Environment is a platform that allows for the compilation of code, amongst other functions. Created by Ben Fry and Casey Raes, Processing uses an abstracted version of Java, which makes coding a lot more accessible to visual artists who have no prior experience with programming. What makes Processing different from other tools for working with data is that it can not only work with a lot more data, but also different kinds of data.&lt;/p&gt;
 &lt;p&gt;Sound is a very strange medium. I’ve always thought of sound as a very powerful tool, which can affect my emotional experiences deeply. We hear sound when our eardrums “feel” the vibrations of the air around us, and perceive that to be sound. A combination of sounds forms a musical composition. Many tend to hear music, or feel it. But I’ve started to see music in a different perspective. To show you what I mean, this is what music looks to me nowadays:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/data-of-a-third-kind-1.png#fullwidth&quot; alt=&quot;Data file of music split into FFT frequencies&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/data-of-a-third-kind-1.png&quot; alt=&quot;Data file of music split into FFT frequencies&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The numbers are a result of an FFT analysis of the sound. FFT, also known as Fast Fourier transform, breaks down the sound into its individual frequencies, which is what you see above. These numbers are the components of the music you hear, defining each vibration that enters your ear. The thought of music, which is so powerful and often indescribable, being broken down into numbers is so exciting and fascinating. Quantifying something which can’t be easily described.&lt;/p&gt;
 &lt;p&gt;Now that we have these values, what do we do with them? Using Processing, I started experimenting with printing music, and making sound visible. These values are the bridge between hearing something and visualising it. The frequencies described in this dataset are exactly what you hear, so it stands to reason that these values might also be equally useful when trying to “see” sounds.&lt;/p&gt;
 &lt;p&gt;So I started printing these values out, in simple shapes and forms to see what sounds looks like.&lt;/p&gt;
@@ -806,7 +805,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;The Financial Innovation Lab is a community of practice energised by its mission to achieve digital financial inclusion for the elimination of poverty worldwide. An initiative of the UN Capital Development Fund (UNCDF), the Lab aims to increase the accessibility of digital financial services and products for low- and middle-income people in Africa, Asia, and the Pacific by sharing knowledge and providing resources to develop impactful solutions.&lt;/p&gt;
 &lt;h3 id=&quot;bootcamp&quot; tabindex=&quot;-1&quot;&gt;Bootcamp &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/uncdf-finlab-toolkit/#bootcamp&quot; aria-hidden=&quot;true&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;18 fintech start-ups were selected to work with UNCDF to develop and refine innovative new solutions. They attended the UNCDF led Bootcamps to learn and apply the design thinking process, working with mentors and partners from Bank Negara and MDEC amongst other companies. Quicksand was brought in as facilitators for the first cohort, to conduct the bootcamp, and help the startups refine their offering to help serve the B40 population better. Read more about the bootcamp on &lt;a href=&quot;https://www.uncdf.org/article/4472/making-malaysian-fintech-fairer&quot;&gt;UNCDF&#39;s website&lt;/a&gt; ↗.&lt;/p&gt;
-&lt;p&gt;Across five days participating teams learnt about human centred design; a design methodology that aims to make systems usable and useful by focusing on the users, their needs and requirements, and by applying human factors, usability knowledge, and techniques1. For many of the start-ups this was their first experience of human centred design, and they expressed surprise at how quickly their assumptions were overturned. An initial exercise asked the teams to arrange themselves by how much they were already engaging with the B40 population.&lt;/p&gt;
+&lt;p&gt;Across five days participating teams learnt about human centred design; a design methodology that aims to make systems usable and useful by focusing on the users, their needs and requirements, and by applying human factors, usability knowledge, and techniques&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://salilparekh.work/posts/uncdf-finlab-toolkit/#fn1&quot; id=&quot;fnref1&quot; aria-label=&quot;Footnote 1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. For many of the start-ups this was their first experience of human centred design, and they expressed surprise at how quickly their assumptions were overturned. An initial exercise asked the teams to arrange themselves by how much they were already engaging with the B40 population.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/uncdf-finlab-toolkit-14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The start-ups then learnt and applied a series of tools which helped them to define the problem or opportunity they were addressing. These included the problem tree and 5 whys, which are designed to help define the causes and effects of different problems.&lt;/p&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; src=&quot;https://www.youtube-nocookie.com/embed/kHeMdB15M2w&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -826,6 +825,9 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;This micro-site was powered by a spreadsheet on Google Sheets, and was hence still collaborative and easy to update. The website created is easy to use and presents information in various blocks, as would be required by the bootcamp participants and workshop facilitators. The tools and facilitation slides can be downloaded as required, with additional reference links provided where needed.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/uncdf-finlab-toolkit-12.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Each tool is designed to be used by both facilitators and end users&lt;/em&gt;&lt;/p&gt;
+&lt;ol class=&quot;footnotes&quot;&gt;
+  &lt;li id=&quot;fn1&quot;&gt;Definition adapted from ISO 9241-210:2019, &lt;i&gt;Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems&lt;/i&gt;. &lt;a href=&quot;https://salilparekh.work/posts/uncdf-finlab-toolkit/#fnref1&quot; aria-label=&quot;Back to text&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </content>
 	</entry>
 	
@@ -938,9 +940,9 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<updated>2018-03-20T00:00:00Z</updated>
 		<id>https://salilparekh.work/posts/goa-heritage-project/</id>
 		<content type="html">&lt;p&gt;The Goa Heritage Project is a year long project funded by the British Council and the Prince Claus Fund to document and disseminate Goan heritage and culture through emergent art and technology platforms such as immersive media, video games and smartphone experiences. Our intention is to create and share a sustainable repository of digital heritage prototypes that are ripe for further development and incubation in partnership with the people and institutions of Goa.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-10.jpg#fullwidth&quot; alt=&quot;Muse de Goa, a mobile game on living in a village in Goa&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-10.jpg&quot; alt=&quot;Muse de Goa, a mobile game on living in a village in Goa&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Muse de Goa, a mobile game on living in a village in Goa&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-3.png#fullwidth&quot; alt=&quot;Virtual Reality film on the Narkasur Festival&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-3.png&quot; alt=&quot;Virtual Reality film on the Narkasur Festival&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Virtual Reality film on the Narkasur Festival&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Bringing the voices of people into the design of future heritage experiences is key to the sustainability of culture, and our project explores various routes to participation in the design process. The artistic outcomes of this project live a parallel life as potential frameworks for collaboration that can bring greater vibrance and sustainability of cultural heritage to the state of Goa.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/ghp-11.jpg&quot; alt=&quot;Interactive visual films on the history of Goa&quot; /&gt;&lt;br /&gt;
@@ -990,17 +992,17 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;First: Finding out intriguing narratives that people must have overlooked, oral folk narratives that are very peculiar to specific communities, visual references of these narratives and spaces occupied by the communities became the major step to get a better understanding of the city. This process got us in contact with a few communities of the city namely, Koli, Bhandaris Pathare Prabhus, Jains &amp;amp; Marwaris, Muslims, Parsis, Christians, Marathas, Mill workers, South Indians, Bene Israelis etc. All of these communities have contributed in their on ways to build the city as we see it today. The VR experience that would be created would be a collection of the various spaces that belong to them along with the oral narratives specific to these communities.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bvr-6.png&quot; alt=&quot;Chawls of Mumbai&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Chawls of Mumbai&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bvr-11.png#fullwidth&quot; alt=&quot;Kayani Cafe&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bvr-11.png&quot; alt=&quot;Kayani Cafe&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Kayani Cafe&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Building on the narrative, the three communities on which work was started are the Koli Community, the original inhabitants, who provided their land to build Mumbai Parsi Community, the immigrants, who provided their money and administrative skills to build the city of Mumbai Mill Worker Community, the labourers, who provided their skill and hard work in the various industries to build Mumbai.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bvr-13.png&quot; alt=&quot;Stories of the three different communities&quot; /&gt;&lt;br /&gt;
 &lt;img src=&quot;https://salilparekh.work/img/bvr-14.png&quot; alt=&quot;Stories of the three different communities&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Stories of the three different communities&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Bambaiyya VR has been touring India for the last year or so, so far being exhibited at the Godrej Cultural Lab (Mumbai 2018), The Irregulars Art Fair (Delhi 2019), Future Fiction (Bangalore and Mumbai 2019), Bhau Daji Lad Museum (Mumbai 2019), EyeMyth Media Arts Festival (Mumbai 2019), TIFA Cyberia (Pune 2019).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bvr-10.jpg#fullwidth&quot; alt=&quot;On display at Godrej Cultural Center, Mumbai&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bvr-10.jpg&quot; alt=&quot;On display at Godrej Cultural Center, Mumbai&quot; /&gt;&lt;br /&gt;
 &lt;img src=&quot;https://salilparekh.work/img/bvr-8.jpg&quot; alt=&quot;On display at Godrej Cultural Center, Mumbai&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;On display at Godrej Cultural Center, Mumbai&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bvr-16.jpg#fullwidth&quot; alt=&quot;On display at The Irregulars Art Fair, Delhi. Yes, the food is just as good in VR&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/bvr-16.jpg&quot; alt=&quot;On display at The Irregulars Art Fair, Delhi. Yes, the food is just as good in VR&quot; /&gt;&lt;br /&gt;
 &lt;img src=&quot;https://salilparekh.work/img/bvr-15.jpg&quot; alt=&quot;On display at The Irregulars Art Fair, Delhi. Yes, the food is just as good in VR&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;On display at The Irregulars Art Fair, Delhi. Yes, the food is just as good in VR&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&quot;press&quot; tabindex=&quot;-1&quot;&gt;Press &lt;a class=&quot;direct-link&quot; href=&quot;https://salilparekh.work/posts/bambaiyya-vr/#press&quot; aria-hidden=&quot;true&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -1016,7 +1018,7 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<link href="https://salilparekh.work/posts/gaming-youtube-algorithm/"/>
 		<updated>2018-01-02T00:00:00Z</updated>
 		<id>https://salilparekh.work/posts/gaming-youtube-algorithm/</id>
-		<content type="html">&lt;video autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; aria-label=&quot;A browser rapidly loading and skipping YouTube videos&quot;&gt;
+		<content type="html">&lt;video autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot; preload=&quot;none&quot; width=&quot;100%&quot; aria-label=&quot;A browser rapidly loading and skipping YouTube videos&quot; poster=&quot;https://salilparekh.work/img/youtube-1-poster.jpg&quot;&gt;
   &lt;source src=&quot;https://salilparekh.work/img/youtube-1.webm&quot; type=&quot;video/webm&quot; /&gt;
   &lt;source src=&quot;https://salilparekh.work/img/youtube-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
@@ -1110,12 +1112,12 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/holoplagiaristic-fatalism-12.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;To communicate this research and the finer details of the Holoplagiaristic Fatalism art movement, we created a scenographic installation. We created a backstory in the context of 2034, for the creation of this art movement. The protagonist of the story was the creator of the art movement, Henry Dietrich Wolf. The space was the set of Henry’s work desk. Through the desk and the items on it – notebooks, sketch books, letter, a computer (music, emails, documents etc.), a viewer can discover the story of the man and the movement. The sample artwork we created, was hung in the space to complete the set (the creator of which was meant to be Henry). The set was meant to be an interactive and immersive experience that communicated the core principles and story of the art movement.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/holoplagiaristic-fatalism-13.jpg#fullwidth&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/holoplagiaristic-fatalism-13.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The desk of Henry Dietrich, the fictional founder of Holoplagiaristic Fatalism.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/holoplagiaristic-fatalism-14.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The viewer learns about the art movement by exploring the items on the desk&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/holoplagiaristic-fatalism-15.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/holoplagiaristic-fatalism-17.jpg#fullwidth&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/holoplagiaristic-fatalism-17.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Notes explaining the workings behind recursion in art&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/holoplagiaristic-fatalism-16.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;/p&gt;
 </content>
@@ -1127,13 +1129,13 @@ Google Maps has enabled anyone to visit a new place and travel like a local, by 
 		<updated>2016-01-01T00:00:00Z</updated>
 		<id>https://salilparekh.work/posts/nid-bamboo-story/</id>
 		<content type="html">&lt;p&gt;My first ever exhibition opened right on time at the 2016 Convocation ceremony.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/nid-bamboo-story-1.jpg#fullwidth&quot; alt=&quot;Exhibition at The Panorama at NID&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/nid-bamboo-story-1.jpg&quot; alt=&quot;Exhibition at The Panorama at NID&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Exhibition at The Panorama at NID&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/nid-bamboo-story-2.jpg&quot; alt=&quot;Exhibition note&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Exhibition note&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/nid-bamboo-story-3.jpg&quot; alt=&quot;Bamboo objects from the archive&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;Bamboo objects from the archive&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/nid-bamboo-story-4.jpg#fullwidth&quot; alt=&quot;Bamboo objects from the archive&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/nid-bamboo-story-4.jpg&quot; alt=&quot;Bamboo objects from the archive&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://salilparekh.work/img/nid-bamboo-story-5.jpg&quot; alt=&quot;The inimitable M.P. Ranjan&quot; /&gt;&lt;br /&gt;
 &lt;em&gt;The inimitable M.P. Ranjan&lt;/em&gt;&lt;/p&gt;
 </content>
