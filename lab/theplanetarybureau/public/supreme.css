@@ -40,9 +40,9 @@
 
 @font-face {
   font-family: 'Supreme-Variable';
-  src: url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/Supreme-Variable.woff2') format('woff2'),
-       url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/Supreme-Variable.woff') format('woff'),
-       url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/Supreme-Variable.ttf') format('truetype');
+  src: url('/lab/theplanetarybureau/assets/Supreme-Variable.woff2') format('woff2'),
+       url('/lab/theplanetarybureau/assets/Supreme-Variable.woff') format('woff'),
+       url('/lab/theplanetarybureau/assets/Supreme-Variable.ttf') format('truetype');
        font-weight: 100 800;
        font-display: swap;
        font-style: normal;
@@ -62,9 +62,9 @@
 
 @font-face {
   font-family: 'Supreme-VariableItalic';
-  src: url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/Supreme-VariableItalic.woff2') format('woff2'),
-       url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/Supreme-VariableItalic.woff') format('woff'),
-       url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/Supreme-VariableItalic.ttf') format('truetype');
+  src: url('/lab/theplanetarybureau/assets/Supreme-VariableItalic.woff2') format('woff2'),
+       url('/lab/theplanetarybureau/assets/Supreme-VariableItalic.woff') format('woff'),
+       url('/lab/theplanetarybureau/assets/Supreme-VariableItalic.ttf') format('truetype');
        font-weight: 100 800;
        font-display: swap;
        font-style: italic;

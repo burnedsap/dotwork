@@ -34,24 +34,24 @@
 
 */
 
-https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/210%20CS%20R.ttf?v=1651547997692
+/lab/theplanetarybureau/assets/210%20CS%20R.ttf
 
 
 @font-face {
   font-family: '21CSL';
-  src: url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/210%20CS%20L.ttf') format('truetype');
+  src: url('/lab/theplanetarybureau/assets/210%20CS%20L.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: '21CSR';
-  src: url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/210%20CS%20R.ttf') format('truetype');
+  src: url('/lab/theplanetarybureau/assets/210%20CS%20R.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: '21CSB';
-  src: url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/210%20CS%20B.otf') format('opentype');
+  src: url('/lab/theplanetarybureau/assets/210%20CS%20B.otf') format('opentype');
   font-display: swap;
   font-style: normal;
 }
@@ -59,9 +59,9 @@ https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/210%20CS%20R.ttf?
 
 @font-face {
   font-family: 'GeneralSans-Variable';
-  src: url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/GeneralSans-Variable.woff2') format('woff2'),
-    url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/GeneralSans-Variable.woff') format('woff'),
-    url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/GeneralSans-Variable.ttf') format('truetype');
+  src: url('/lab/theplanetarybureau/assets/GeneralSans-Variable.woff2') format('woff2'),
+    url('/lab/theplanetarybureau/assets/GeneralSans-Variable.woff') format('woff'),
+    url('/lab/theplanetarybureau/assets/GeneralSans-Variable.ttf') format('truetype');
   font-weight: 200 700;
   font-display: swap;
   font-style: normal;
@@ -79,9 +79,9 @@ https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/210%20CS%20R.ttf?
 */
 @font-face {
   font-family: 'GeneralSans-VariableItalic';
-  src: url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/GeneralSans-VariableItalic.woff2') format('woff2'),
-    url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/GeneralSans-VariableItalic.woff') format('woff'),
-    url('https://cdn.glitch.global/493169cf-8eeb-4a9d-9717-fe43302f1f50/GeneralSans-VariableItalic.ttf') format('truetype');
+  src: url('/lab/theplanetarybureau/assets/GeneralSans-VariableItalic.woff2') format('woff2'),
+    url('/lab/theplanetarybureau/assets/GeneralSans-VariableItalic.woff') format('woff'),
+    url('/lab/theplanetarybureau/assets/GeneralSans-VariableItalic.ttf') format('truetype');
   font-weight: 200 700;
   font-display: swap;
   font-style: italic;
